@@ -1,0 +1,1 @@
+This project is a complete Attendance Registration System developed for Purple Optics, combining both a web platform and a facial recognition-based mobile app for seamless employee check-in.

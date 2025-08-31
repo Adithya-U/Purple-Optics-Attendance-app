@@ -1,0 +1,130 @@
+
+
+  .request-section {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 30px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  width: 100%;
+}
+.requests-page {
+  width: 100%;
+}
+  th:last-child,
+  td:last-child {
+    min-width: 220px; /* or any value you like */
+  }
+
+  .section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+  }
+
+  .section-header h2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+
+  .controls input[type="text"] {
+    padding: 10px 14px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    width: 250px;
+    font-size: 14px;
+    outline: none;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+  }
+
+  thead {
+    background-color: #f4f4f4;
+  }
+
+  th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #e2e2e2;
+  }
+
+  .late {
+    color: red;
+    font-weight: bold;
+  }
+
+  .status-accept {
+    color: green;
+    font-weight: bold;
+  }
+
+  .status-reject {
+    color: red;
+    font-weight: bold;
+  }
+
+  .reject-btn,
+  .accept-btn {
+    padding: 6px 12px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+  }
+
+  .reject-btn {
+    background-color: #ffe5e5;
+    color: red;
+  }
+
+  .accept-btn {
+    background-color: #e5ffe5;
+    color: green;
+  }
+  .time-accepted {
+    color: green;
+    font-weight: 600;
+  }
+
+  .time-rejected {
+    color: red;
+    font-weight: 600;
+  }
+
+  .time-pending {
+    color: #d4a300; /* yellowish */
+    font-weight: 600;
+  }
+
+  .confirm-box {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+  }
+  .confirm-box span {
+    font-size: 0.85rem;
+  }
+  .confirm-btn {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 2px 6px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .cancel-btn {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 2px 6px;
+    border-radius: 4px;
+    cursor: pointer;
+  }

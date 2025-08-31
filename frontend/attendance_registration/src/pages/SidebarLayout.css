@@ -1,0 +1,133 @@
+.dashboard-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #F6E9FE;
+}
+
+/* Header */
+.header {
+  background: white;
+  border-bottom: 1px solid #e5e7eb;
+  padding: 0 2rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.logo { display: flex; align-items: center; gap: 0.5rem; }
+.logo-image {
+  width: 40px; height: 40px;
+  border-radius: 8px;
+}
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.user-details {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.logout-btn {
+  background: none; border: none;
+  color: #6b7280;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 6px;
+  transition: all 0.2s;
+}
+.logout-btn:hover { background-color: #f3f4f6; color: #374151; }
+
+/* Main content */
+.main-content {
+  flex: 1;
+  display: flex;
+  max-width: 1800px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 2rem;
+  gap: 2rem;
+  background-color: #F6E9FE;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 320px;
+  flex-shrink: 0;
+}
+.sidebar-card {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  height: fit-content;
+}
+.sidebar-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: #111827;
+}
+.nav-menu { margin-bottom: 2rem; }
+.nav-item {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 12px 16px;
+  border: none;
+  background: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #6b7280;
+  transition: all 0.2s;
+  margin-bottom: 0.5rem;
+}
+.nav-item:hover { background-color: #f3f4f6; color: #374151; }
+.nav-item.active { background-color: #642784; color: white; }
+.nav-dot {
+  width: 8px; height: 8px; border-radius: 50%; background-color: currentColor;
+}
+
+/* Time Widget */
+.time-widget {
+  border-top: 1px solid #e5e7eb;
+  padding-top: 1.5rem;
+  text-align: center;
+}
+.time-display { margin-bottom: 1rem; }
+.current-time {
+  font-size: 24px;
+  font-weight: 600;
+  color: #111827;
+  margin-bottom: 0.5rem;
+}
+.time-label {
+  font-size: 12px;
+  color: #6b7280;
+  margin-bottom: 1rem;
+}
+.date-info p {
+  font-size: 12px;
+  color: #6b7280;
+  margin-bottom: 0.25rem;
+}
+
+/* Dashboard Content */
+.dashboard-content {
+  flex: 1;
+  min-width: 0;
+}

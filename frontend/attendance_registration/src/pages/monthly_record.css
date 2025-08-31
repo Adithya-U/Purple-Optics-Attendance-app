@@ -1,0 +1,136 @@
+
+
+/* Table container */
+.table-container {
+  background: #fff;         /* keep white */
+  border-radius: 20px;      /* your rounded corners */
+  padding: 20px;            /* keep spacing */
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+
+  height: auto;             /* 🔑 let it shrink to fit */
+  min-height: unset;        /* 🔑 remove any min-height */
+}
+
+
+/* Records table */
+.records-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Top row with title + search */
+.header-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
+}
+
+/* Search input inside table header */
+.search-input {
+  width: 220px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  outline: none;
+  font-size: 14px;
+  transition: 0.3s ease;
+}
+
+.search-input:focus {
+  border-color: #7a2eff;
+  box-shadow: 0 0 6px rgba(122, 46, 255, 0.3);
+}
+
+/* Column headers */
+.records-table thead tr:nth-child(2) {
+  background: #e5e5e5;
+  color: black;
+  text-align: center;
+}
+
+.records-table th,
+.records-table td {
+  padding: 12px 15px;
+  font-size: 14px;
+  border-bottom: 1px solid #f0f0f0;
+  text-align: center; /* all cells center aligned */
+}
+
+.records-table tr:hover {
+  background: #f9f5ff;
+  transition: 0.3s;
+}
+
+/* No data row */
+.no-data {
+  text-align: center;
+  padding: 20px;
+  color: #888;
+  font-style: italic;
+}
+
+
+.table-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
+  background-color: white;
+  margin-bottom: 8px; /* spacing before the table */
+}
+
+.table-header h2 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: black; /* text black */
+}
+
+.table-header input {
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  margin-left: auto; /* pushes it to far right */
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th {
+  background-color: #e5e5e5;
+  color: black;
+  padding: 10px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.table td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+/* Shrink ID column */
+.table th:first-child,
+.table td:first-child {
+  width: 1%; 
+  white-space: nowrap;
+}
+
+/* Shrink ID column */
+.records-table th:first-child,
+.records-table td:first-child {
+  width: 60px;   /* small fixed width */
+  white-space: nowrap;
+}
+
+/* Flexbox wrapper for title + search */
+.header-content {
+  display: flex;
+  justify-content: space-between; /* pushes title left, search right */
+  align-items: center;
+  width: 100%;  /* ensures it takes full width of the table */
+}
