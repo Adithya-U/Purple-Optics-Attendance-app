@@ -195,7 +195,7 @@ class _EmployeeIdInputState extends State<EmployeeIdInput> {
                   onPressed: _controller.text.trim().isEmpty
                       ? null
                       : _onSubmitted,
-                  width: 120,
+                  width: 172,
                 ),
               ],
             ),

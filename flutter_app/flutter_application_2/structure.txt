@@ -1,0 +1,3615 @@
+Folder PATH listing for volume Windows-SSD
+Volume serial number is 7635-73E1
+C:.
+³   .flutter-plugins-dependencies
+³   .gitignore
+³   .metadata
+³   analysis_options.yaml
+³   flutter_application_2.iml
+³   pubspec.lock
+³   pubspec.yaml
+³   README.md
+³   structure.txt
+³   
+ÃÄÄÄ.dart_tool
+³   ³   package_config.json
+³   ³   package_config_subset
+³   ³   package_graph.json
+³   ³   version
+³   ³   
+³   ÃÄÄÄdartpad
+³   ³       web_plugin_registrant.dart
+³   ³       
+³   ÃÄÄÄextension_discovery
+³   ³       vs_code.json
+³   ³       
+³   ÀÄÄÄflutter_build
+³       ³   dart_plugin_registrant.dart
+³       ³   
+³       ÃÄÄÄ55ace13bef923263364e60bc38546928
+³       ³       .filecache
+³       ³       app.dill
+³       ³       dart_build.d
+³       ³       dart_build.stamp
+³       ³       dart_build_result.json
+³       ³       debug_android_application.stamp
+³       ³       flutter_assets.d
+³       ³       gen_dart_plugin_registrant.stamp
+³       ³       gen_localizations.stamp
+³       ³       install_code_assets.d
+³       ³       install_code_assets.stamp
+³       ³       kernel_snapshot_program.d
+³       ³       kernel_snapshot_program.stamp
+³       ³       native_assets.json
+³       ³       outputs.json
+³       ³       
+³       ÀÄÄÄe54a815a797a05e31afeef5a96840efc
+³               .filecache
+³               app.dill
+³               dart_build.d
+³               dart_build.stamp
+³               dart_build_result.json
+³               debug_android_application.stamp
+³               flutter_assets.d
+³               gen_dart_plugin_registrant.stamp
+³               gen_localizations.stamp
+³               install_code_assets.d
+³               install_code_assets.stamp
+³               kernel_snapshot_program.d
+³               kernel_snapshot_program.stamp
+³               native_assets.json
+³               outputs.json
+³               
+ÃÄÄÄ.idea
+³   ³   modules.xml
+³   ³   workspace.xml
+³   ³   
+³   ÃÄÄÄlibraries
+³   ³       Dart_SDK.xml
+³   ³       KotlinJavaRuntime.xml
+³   ³       
+³   ÀÄÄÄrunConfigurations
+³           main_dart.xml
+³           
+ÃÄÄÄandroid
+³   ³   .gitignore
+³   ³   build.gradle.kts
+³   ³   flutter_application_2_android.iml
+³   ³   gradle.properties
+³   ³   gradlew
+³   ³   gradlew.bat
+³   ³   local.properties
+³   ³   settings.gradle.kts
+³   ³   
+³   ÃÄÄÄ.gradle
+³   ³   ³   file-system.probe
+³   ³   ³   
+³   ³   ÃÄÄÄ8.12
+³   ³   ³   ³   gc.properties
+³   ³   ³   ³   
+³   ³   ³   ÃÄÄÄchecksums
+³   ³   ³   ³       checksums.lock
+³   ³   ³   ³       md5-checksums.bin
+³   ³   ³   ³       sha1-checksums.bin
+³   ³   ³   ³       
+³   ³   ³   ÃÄÄÄexecutionHistory
+³   ³   ³   ³       executionHistory.bin
+³   ³   ³   ³       executionHistory.lock
+³   ³   ³   ³       
+³   ³   ³   ÃÄÄÄexpanded
+³   ³   ³   ÃÄÄÄfileChanges
+³   ³   ³   ³       last-build.bin
+³   ³   ³   ³       
+³   ³   ³   ÃÄÄÄfileHashes
+³   ³   ³   ³       fileHashes.bin
+³   ³   ³   ³       fileHashes.lock
+³   ³   ³   ³       resourceHashesCache.bin
+³   ³   ³   ³       
+³   ³   ³   ÀÄÄÄvcsMetadata
+³   ³   ÃÄÄÄbuildOutputCleanup
+³   ³   ³       buildOutputCleanup.lock
+³   ³   ³       cache.properties
+³   ³   ³       outputFiles.bin
+³   ³   ³       
+³   ³   ÃÄÄÄnoVersion
+³   ³   ³       buildLogic.lock
+³   ³   ³       
+³   ³   ÀÄÄÄvcs-1
+³   ³           gc.properties
+³   ³           
+³   ÃÄÄÄ.kotlin
+³   ³   ÀÄÄÄsessions
+³   ÃÄÄÄapp
+³   ³   ³   build.gradle.kts
+³   ³   ³   
+³   ³   ÀÄÄÄsrc
+³   ³       ÃÄÄÄdebug
+³   ³       ³       AndroidManifest.xml
+³   ³       ³       
+³   ³       ÃÄÄÄmain
+³   ³       ³   ³   AndroidManifest.xml
+³   ³       ³   ³   
+³   ³       ³   ÃÄÄÄjava
+³   ³       ³   ³   ÀÄÄÄio
+³   ³       ³   ³       ÀÄÄÄflutter
+³   ³       ³   ³           ÀÄÄÄplugins
+³   ³       ³   ³                   GeneratedPluginRegistrant.java
+³   ³       ³   ³                   
+³   ³       ³   ÃÄÄÄkotlin
+³   ³       ³   ³   ÀÄÄÄcom
+³   ³       ³   ³       ÀÄÄÄexample
+³   ³       ³   ³           ÀÄÄÄflutter_application_2
+³   ³       ³   ³                   MainActivity.kt
+³   ³       ³   ³                   
+³   ³       ³   ÀÄÄÄres
+³   ³       ³       ÃÄÄÄdrawable
+³   ³       ³       ³       launch_background.xml
+³   ³       ³       ³       
+³   ³       ³       ÃÄÄÄdrawable-v21
+³   ³       ³       ³       launch_background.xml
+³   ³       ³       ³       
+³   ³       ³       ÃÄÄÄmipmap-hdpi
+³   ³       ³       ³       ic_launcher.png
+³   ³       ³       ³       
+³   ³       ³       ÃÄÄÄmipmap-mdpi
+³   ³       ³       ³       ic_launcher.png
+³   ³       ³       ³       
+³   ³       ³       ÃÄÄÄmipmap-xhdpi
+³   ³       ³       ³       ic_launcher.png
+³   ³       ³       ³       
+³   ³       ³       ÃÄÄÄmipmap-xxhdpi
+³   ³       ³       ³       ic_launcher.png
+³   ³       ³       ³       
+³   ³       ³       ÃÄÄÄmipmap-xxxhdpi
+³   ³       ³       ³       ic_launcher.png
+³   ³       ³       ³       
+³   ³       ³       ÃÄÄÄvalues
+³   ³       ³       ³       styles.xml
+³   ³       ³       ³       
+³   ³       ³       ÀÄÄÄvalues-night
+³   ³       ³               styles.xml
+³   ³       ³               
+³   ³       ÀÄÄÄprofile
+³   ³               AndroidManifest.xml
+³   ³               
+³   ÀÄÄÄgradle
+³       ÀÄÄÄwrapper
+³               gradle-wrapper.jar
+³               gradle-wrapper.properties
+³               
+ÃÄÄÄbuild
+³   ³   b908bd3e048116115fd6fc7c9ea42fdd.cache.dill.track.dill
+³   ³   
+³   ÃÄÄÄ.cxx
+³   ³   ÀÄÄÄDebug
+³   ³       ÃÄÄÄ2o4d2n41
+³   ³       ³   ³   hash_key.txt
+³   ³       ³   ³   
+³   ³       ³   ÃÄÄÄarm64-v8a
+³   ³       ³   ³   ³   additional_project_files.txt
+³   ³       ³   ³   ³   android_gradle_build.json
+³   ³       ³   ³   ³   android_gradle_build_mini.json
+³   ³       ³   ³   ³   build.ninja
+³   ³       ³   ³   ³   build_file_index.txt
+³   ³       ³   ³   ³   CMakeCache.txt
+³   ³       ³   ³   ³   cmake_install.cmake
+³   ³       ³   ³   ³   configure_fingerprint.bin
+³   ³       ³   ³   ³   metadata_generation_command.txt
+³   ³       ³   ³   ³   prefab_config.json
+³   ³       ³   ³   ³   symbol_folder_index.txt
+³   ³       ³   ³   ³   
+³   ³       ³   ³   ÃÄÄÄ.cmake
+³   ³       ³   ³   ³   ÀÄÄÄapi
+³   ³       ³   ³   ³       ÀÄÄÄv1
+³   ³       ³   ³   ³           ÃÄÄÄquery
+³   ³       ³   ³   ³           ³   ÀÄÄÄclient-agp
+³   ³       ³   ³   ³           ³           cache-v2
+³   ³       ³   ³   ³           ³           cmakeFiles-v1
+³   ³       ³   ³   ³           ³           codemodel-v2
+³   ³       ³   ³   ³           ³           
+³   ³       ³   ³   ³           ÀÄÄÄreply
+³   ³       ³   ³   ³                   cache-v2-d3fa0819bc0b24a42820.json
+³   ³       ³   ³   ³                   cmakeFiles-v1-733bf4e5e8df7d3c46fa.json
+³   ³       ³   ³   ³                   codemodel-v2-9d72bede44535e158f80.json
+³   ³       ³   ³   ³                   directory-.-Debug-d0094a50bb2071803777.json
+³   ³       ³   ³   ³                   index-2025-07-01T16-04-34-0533.json
+³   ³       ³   ³   ³                   
+³   ³       ³   ³   ÀÄÄÄCMakeFiles
+³   ³       ³   ³       ³   cmake.check_cache
+³   ³       ³   ³       ³   CMakeOutput.log
+³   ³       ³   ³       ³   rules.ninja
+³   ³       ³   ³       ³   TargetDirectories.txt
+³   ³       ³   ³       ³   
+³   ³       ³   ³       ÃÄÄÄ3.22.1-g37088a8-dirty
+³   ³       ³   ³       ³   ³   CMakeCCompiler.cmake
+³   ³       ³   ³       ³   ³   CMakeCXXCompiler.cmake
+³   ³       ³   ³       ³   ³   CMakeDetermineCompilerABI_C.bin
+³   ³       ³   ³       ³   ³   CMakeDetermineCompilerABI_CXX.bin
+³   ³       ³   ³       ³   ³   CMakeSystem.cmake
+³   ³       ³   ³       ³   ³   
+³   ³       ³   ³       ³   ÃÄÄÄCompilerIdC
+³   ³       ³   ³       ³   ³   ³   CMakeCCompilerId.c
+³   ³       ³   ³       ³   ³   ³   CMakeCCompilerId.o
+³   ³       ³   ³       ³   ³   ³   
+³   ³       ³   ³       ³   ³   ÀÄÄÄtmp
+³   ³       ³   ³       ³   ÀÄÄÄCompilerIdCXX
+³   ³       ³   ³       ³       ³   CMakeCXXCompilerId.cpp
+³   ³       ³   ³       ³       ³   CMakeCXXCompilerId.o
+³   ³       ³   ³       ³       ³   
+³   ³       ³   ³       ³       ÀÄÄÄtmp
+³   ³       ³   ³       ÀÄÄÄCMakeTmp
+³   ³       ³   ÃÄÄÄarmeabi-v7a
+³   ³       ³   ³   ³   additional_project_files.txt
+³   ³       ³   ³   ³   android_gradle_build.json
+³   ³       ³   ³   ³   android_gradle_build_mini.json
+³   ³       ³   ³   ³   build.ninja
+³   ³       ³   ³   ³   build_file_index.txt
+³   ³       ³   ³   ³   CMakeCache.txt
+³   ³       ³   ³   ³   cmake_install.cmake
+³   ³       ³   ³   ³   configure_fingerprint.bin
+³   ³       ³   ³   ³   metadata_generation_command.txt
+³   ³       ³   ³   ³   prefab_config.json
+³   ³       ³   ³   ³   symbol_folder_index.txt
+³   ³       ³   ³   ³   
+³   ³       ³   ³   ÃÄÄÄ.cmake
+³   ³       ³   ³   ³   ÀÄÄÄapi
+³   ³       ³   ³   ³       ÀÄÄÄv1
+³   ³       ³   ³   ³           ÃÄÄÄquery
+³   ³       ³   ³   ³           ³   ÀÄÄÄclient-agp
+³   ³       ³   ³   ³           ³           cache-v2
+³   ³       ³   ³   ³           ³           cmakeFiles-v1
+³   ³       ³   ³   ³           ³           codemodel-v2
+³   ³       ³   ³   ³           ³           
+³   ³       ³   ³   ³           ÀÄÄÄreply
+³   ³       ³   ³   ³                   cache-v2-14722fd98d06ce035f5f.json
+³   ³       ³   ³   ³                   cmakeFiles-v1-b17d35f74879679c26eb.json
+³   ³       ³   ³   ³                   codemodel-v2-a983dca84cc9e3f36192.json
+³   ³       ³   ³   ³                   directory-.-Debug-d0094a50bb2071803777.json
+³   ³       ³   ³   ³                   index-2025-07-01T16-04-50-0675.json
+³   ³       ³   ³   ³                   
+³   ³       ³   ³   ÀÄÄÄCMakeFiles
+³   ³       ³   ³       ³   cmake.check_cache
+³   ³       ³   ³       ³   CMakeOutput.log
+³   ³       ³   ³       ³   rules.ninja
+³   ³       ³   ³       ³   TargetDirectories.txt
+³   ³       ³   ³       ³   
+³   ³       ³   ³       ÃÄÄÄ3.22.1-g37088a8-dirty
+³   ³       ³   ³       ³   ³   CMakeCCompiler.cmake
+³   ³       ³   ³       ³   ³   CMakeCXXCompiler.cmake
+³   ³       ³   ³       ³   ³   CMakeDetermineCompilerABI_C.bin
+³   ³       ³   ³       ³   ³   CMakeDetermineCompilerABI_CXX.bin
+³   ³       ³   ³       ³   ³   CMakeSystem.cmake
+³   ³       ³   ³       ³   ³   
+³   ³       ³   ³       ³   ÃÄÄÄCompilerIdC
+³   ³       ³   ³       ³   ³   ³   CMakeCCompilerId.c
+³   ³       ³   ³       ³   ³   ³   CMakeCCompilerId.o
+³   ³       ³   ³       ³   ³   ³   
+³   ³       ³   ³       ³   ³   ÀÄÄÄtmp
+³   ³       ³   ³       ³   ÀÄÄÄCompilerIdCXX
+³   ³       ³   ³       ³       ³   CMakeCXXCompilerId.cpp
+³   ³       ³   ³       ³       ³   CMakeCXXCompilerId.o
+³   ³       ³   ³       ³       ³   
+³   ³       ³   ³       ³       ÀÄÄÄtmp
+³   ³       ³   ³       ÀÄÄÄCMakeTmp
+³   ³       ³   ÃÄÄÄx86
+³   ³       ³   ³   ³   additional_project_files.txt
+³   ³       ³   ³   ³   android_gradle_build.json
+³   ³       ³   ³   ³   android_gradle_build_mini.json
+³   ³       ³   ³   ³   build.ninja
+³   ³       ³   ³   ³   build_file_index.txt
+³   ³       ³   ³   ³   CMakeCache.txt
+³   ³       ³   ³   ³   cmake_install.cmake
+³   ³       ³   ³   ³   configure_fingerprint.bin
+³   ³       ³   ³   ³   metadata_generation_command.txt
+³   ³       ³   ³   ³   prefab_config.json
+³   ³       ³   ³   ³   symbol_folder_index.txt
+³   ³       ³   ³   ³   
+³   ³       ³   ³   ÃÄÄÄ.cmake
+³   ³       ³   ³   ³   ÀÄÄÄapi
+³   ³       ³   ³   ³       ÀÄÄÄv1
+³   ³       ³   ³   ³           ÃÄÄÄquery
+³   ³       ³   ³   ³           ³   ÀÄÄÄclient-agp
+³   ³       ³   ³   ³           ³           cache-v2
+³   ³       ³   ³   ³           ³           cmakeFiles-v1
+³   ³       ³   ³   ³           ³           codemodel-v2
+³   ³       ³   ³   ³           ³           
+³   ³       ³   ³   ³           ÀÄÄÄreply
+³   ³       ³   ³   ³                   cache-v2-db4a5e22e4a5ca1ede81.json
+³   ³       ³   ³   ³                   cmakeFiles-v1-149e3a7d0cc5729a5f37.json
+³   ³       ³   ³   ³                   codemodel-v2-96d12eb2f74f0bb92e47.json
+³   ³       ³   ³   ³                   directory-.-Debug-d0094a50bb2071803777.json
+³   ³       ³   ³   ³                   index-2025-07-01T16-04-52-0055.json
+³   ³       ³   ³   ³                   
+³   ³       ³   ³   ÀÄÄÄCMakeFiles
+³   ³       ³   ³       ³   cmake.check_cache
+³   ³       ³   ³       ³   CMakeOutput.log
+³   ³       ³   ³       ³   rules.ninja
+³   ³       ³   ³       ³   TargetDirectories.txt
+³   ³       ³   ³       ³   
+³   ³       ³   ³       ÃÄÄÄ3.22.1-g37088a8-dirty
+³   ³       ³   ³       ³   ³   CMakeCCompiler.cmake
+³   ³       ³   ³       ³   ³   CMakeCXXCompiler.cmake
+³   ³       ³   ³       ³   ³   CMakeDetermineCompilerABI_C.bin
+³   ³       ³   ³       ³   ³   CMakeDetermineCompilerABI_CXX.bin
+³   ³       ³   ³       ³   ³   CMakeSystem.cmake
+³   ³       ³   ³       ³   ³   
+³   ³       ³   ³       ³   ÃÄÄÄCompilerIdC
+³   ³       ³   ³       ³   ³   ³   CMakeCCompilerId.c
+³   ³       ³   ³       ³   ³   ³   CMakeCCompilerId.o
+³   ³       ³   ³       ³   ³   ³   
+³   ³       ³   ³       ³   ³   ÀÄÄÄtmp
+³   ³       ³   ³       ³   ÀÄÄÄCompilerIdCXX
+³   ³       ³   ³       ³       ³   CMakeCXXCompilerId.cpp
+³   ³       ³   ³       ³       ³   CMakeCXXCompilerId.o
+³   ³       ³   ³       ³       ³   
+³   ³       ³   ³       ³       ÀÄÄÄtmp
+³   ³       ³   ³       ÀÄÄÄCMakeTmp
+³   ³       ³   ÀÄÄÄx86_64
+³   ³       ³       ³   additional_project_files.txt
+³   ³       ³       ³   android_gradle_build.json
+³   ³       ³       ³   android_gradle_build_mini.json
+³   ³       ³       ³   build.ninja
+³   ³       ³       ³   build_file_index.txt
+³   ³       ³       ³   CMakeCache.txt
+³   ³       ³       ³   cmake_install.cmake
+³   ³       ³       ³   configure_fingerprint.bin
+³   ³       ³       ³   metadata_generation_command.txt
+³   ³       ³       ³   prefab_config.json
+³   ³       ³       ³   symbol_folder_index.txt
+³   ³       ³       ³   
+³   ³       ³       ÃÄÄÄ.cmake
+³   ³       ³       ³   ÀÄÄÄapi
+³   ³       ³       ³       ÀÄÄÄv1
+³   ³       ³       ³           ÃÄÄÄquery
+³   ³       ³       ³           ³   ÀÄÄÄclient-agp
+³   ³       ³       ³           ³           cache-v2
+³   ³       ³       ³           ³           cmakeFiles-v1
+³   ³       ³       ³           ³           codemodel-v2
+³   ³       ³       ³           ³           
+³   ³       ³       ³           ÀÄÄÄreply
+³   ³       ³       ³                   cache-v2-eedfcde8b2161f832d79.json
+³   ³       ³       ³                   cmakeFiles-v1-0957b4da3bc67a8e4b0d.json
+³   ³       ³       ³                   codemodel-v2-4dcbd36c9b6406904a48.json
+³   ³       ³       ³                   directory-.-Debug-d0094a50bb2071803777.json
+³   ³       ³       ³                   index-2025-07-01T16-04-53-0570.json
+³   ³       ³       ³                   
+³   ³       ³       ÀÄÄÄCMakeFiles
+³   ³       ³           ³   cmake.check_cache
+³   ³       ³           ³   CMakeOutput.log
+³   ³       ³           ³   rules.ninja
+³   ³       ³           ³   TargetDirectories.txt
+³   ³       ³           ³   
+³   ³       ³           ÃÄÄÄ3.22.1-g37088a8-dirty
+³   ³       ³           ³   ³   CMakeCCompiler.cmake
+³   ³       ³           ³   ³   CMakeCXXCompiler.cmake
+³   ³       ³           ³   ³   CMakeDetermineCompilerABI_C.bin
+³   ³       ³           ³   ³   CMakeDetermineCompilerABI_CXX.bin
+³   ³       ³           ³   ³   CMakeSystem.cmake
+³   ³       ³           ³   ³   
+³   ³       ³           ³   ÃÄÄÄCompilerIdC
+³   ³       ³           ³   ³   ³   CMakeCCompilerId.c
+³   ³       ³           ³   ³   ³   CMakeCCompilerId.o
+³   ³       ³           ³   ³   ³   
+³   ³       ³           ³   ³   ÀÄÄÄtmp
+³   ³       ³           ³   ÀÄÄÄCompilerIdCXX
+³   ³       ³           ³       ³   CMakeCXXCompilerId.cpp
+³   ³       ³           ³       ³   CMakeCXXCompilerId.o
+³   ³       ³           ³       ³   
+³   ³       ³           ³       ÀÄÄÄtmp
+³   ³       ³           ÀÄÄÄCMakeTmp
+³   ³       ÀÄÄÄ3u1bp2mu
+³   ³           ³   hash_key.txt
+³   ³           ³   
+³   ³           ÃÄÄÄarm64-v8a
+³   ³           ³   ³   additional_project_files.txt
+³   ³           ³   ³   android_gradle_build.json
+³   ³           ³   ³   android_gradle_build_mini.json
+³   ³           ³   ³   build.ninja
+³   ³           ³   ³   build_file_index.txt
+³   ³           ³   ³   CMakeCache.txt
+³   ³           ³   ³   cmake_install.cmake
+³   ³           ³   ³   configure_fingerprint.bin
+³   ³           ³   ³   metadata_generation_command.txt
+³   ³           ³   ³   prefab_config.json
+³   ³           ³   ³   symbol_folder_index.txt
+³   ³           ³   ³   
+³   ³           ³   ÃÄÄÄ.cmake
+³   ³           ³   ³   ÀÄÄÄapi
+³   ³           ³   ³       ÀÄÄÄv1
+³   ³           ³   ³           ÃÄÄÄquery
+³   ³           ³   ³           ³   ÀÄÄÄclient-agp
+³   ³           ³   ³           ³           cache-v2
+³   ³           ³   ³           ³           cmakeFiles-v1
+³   ³           ³   ³           ³           codemodel-v2
+³   ³           ³   ³           ³           
+³   ³           ³   ³           ÀÄÄÄreply
+³   ³           ³   ³                   cache-v2-f71485e9be577a9af247.json
+³   ³           ³   ³                   cmakeFiles-v1-02b8d3a5065f31a325d6.json
+³   ³           ³   ³                   codemodel-v2-f002a6d177bf37c75d0e.json
+³   ³           ³   ³                   directory-.-Debug-d0094a50bb2071803777.json
+³   ³           ³   ³                   index-2025-08-01T15-24-57-0221.json
+³   ³           ³   ³                   
+³   ³           ³   ÀÄÄÄCMakeFiles
+³   ³           ³       ³   cmake.check_cache
+³   ³           ³       ³   CMakeOutput.log
+³   ³           ³       ³   rules.ninja
+³   ³           ³       ³   TargetDirectories.txt
+³   ³           ³       ³   
+³   ³           ³       ÃÄÄÄ3.22.1-g37088a8-dirty
+³   ³           ³       ³   ³   CMakeCCompiler.cmake
+³   ³           ³       ³   ³   CMakeCXXCompiler.cmake
+³   ³           ³       ³   ³   CMakeDetermineCompilerABI_C.bin
+³   ³           ³       ³   ³   CMakeDetermineCompilerABI_CXX.bin
+³   ³           ³       ³   ³   CMakeSystem.cmake
+³   ³           ³       ³   ³   
+³   ³           ³       ³   ÃÄÄÄCompilerIdC
+³   ³           ³       ³   ³   ³   CMakeCCompilerId.c
+³   ³           ³       ³   ³   ³   CMakeCCompilerId.o
+³   ³           ³       ³   ³   ³   
+³   ³           ³       ³   ³   ÀÄÄÄtmp
+³   ³           ³       ³   ÀÄÄÄCompilerIdCXX
+³   ³           ³       ³       ³   CMakeCXXCompilerId.cpp
+³   ³           ³       ³       ³   CMakeCXXCompilerId.o
+³   ³           ³       ³       ³   
+³   ³           ³       ³       ÀÄÄÄtmp
+³   ³           ³       ÀÄÄÄCMakeTmp
+³   ³           ÃÄÄÄarmeabi-v7a
+³   ³           ³   ³   additional_project_files.txt
+³   ³           ³   ³   android_gradle_build.json
+³   ³           ³   ³   android_gradle_build_mini.json
+³   ³           ³   ³   build.ninja
+³   ³           ³   ³   build_file_index.txt
+³   ³           ³   ³   CMakeCache.txt
+³   ³           ³   ³   cmake_install.cmake
+³   ³           ³   ³   configure_fingerprint.bin
+³   ³           ³   ³   metadata_generation_command.txt
+³   ³           ³   ³   prefab_config.json
+³   ³           ³   ³   symbol_folder_index.txt
+³   ³           ³   ³   
+³   ³           ³   ÃÄÄÄ.cmake
+³   ³           ³   ³   ÀÄÄÄapi
+³   ³           ³   ³       ÀÄÄÄv1
+³   ³           ³   ³           ÃÄÄÄquery
+³   ³           ³   ³           ³   ÀÄÄÄclient-agp
+³   ³           ³   ³           ³           cache-v2
+³   ³           ³   ³           ³           cmakeFiles-v1
+³   ³           ³   ³           ³           codemodel-v2
+³   ³           ³   ³           ³           
+³   ³           ³   ³           ÀÄÄÄreply
+³   ³           ³   ³                   cache-v2-acc6a5d4657978c22de8.json
+³   ³           ³   ³                   cmakeFiles-v1-f28775f0c89242e4ba19.json
+³   ³           ³   ³                   codemodel-v2-79d56746aa214e78ce9d.json
+³   ³           ³   ³                   directory-.-Debug-d0094a50bb2071803777.json
+³   ³           ³   ³                   index-2025-08-01T15-25-00-0845.json
+³   ³           ³   ³                   
+³   ³           ³   ÀÄÄÄCMakeFiles
+³   ³           ³       ³   cmake.check_cache
+³   ³           ³       ³   CMakeOutput.log
+³   ³           ³       ³   rules.ninja
+³   ³           ³       ³   TargetDirectories.txt
+³   ³           ³       ³   
+³   ³           ³       ÃÄÄÄ3.22.1-g37088a8-dirty
+³   ³           ³       ³   ³   CMakeCCompiler.cmake
+³   ³           ³       ³   ³   CMakeCXXCompiler.cmake
+³   ³           ³       ³   ³   CMakeDetermineCompilerABI_C.bin
+³   ³           ³       ³   ³   CMakeDetermineCompilerABI_CXX.bin
+³   ³           ³       ³   ³   CMakeSystem.cmake
+³   ³           ³       ³   ³   
+³   ³           ³       ³   ÃÄÄÄCompilerIdC
+³   ³           ³       ³   ³   ³   CMakeCCompilerId.c
+³   ³           ³       ³   ³   ³   CMakeCCompilerId.o
+³   ³           ³       ³   ³   ³   
+³   ³           ³       ³   ³   ÀÄÄÄtmp
+³   ³           ³       ³   ÀÄÄÄCompilerIdCXX
+³   ³           ³       ³       ³   CMakeCXXCompilerId.cpp
+³   ³           ³       ³       ³   CMakeCXXCompilerId.o
+³   ³           ³       ³       ³   
+³   ³           ³       ³       ÀÄÄÄtmp
+³   ³           ³       ÀÄÄÄCMakeTmp
+³   ³           ÃÄÄÄx86
+³   ³           ³   ³   additional_project_files.txt
+³   ³           ³   ³   android_gradle_build.json
+³   ³           ³   ³   android_gradle_build_mini.json
+³   ³           ³   ³   build.ninja
+³   ³           ³   ³   build_file_index.txt
+³   ³           ³   ³   CMakeCache.txt
+³   ³           ³   ³   cmake_install.cmake
+³   ³           ³   ³   configure_fingerprint.bin
+³   ³           ³   ³   metadata_generation_command.txt
+³   ³           ³   ³   prefab_config.json
+³   ³           ³   ³   symbol_folder_index.txt
+³   ³           ³   ³   
+³   ³           ³   ÃÄÄÄ.cmake
+³   ³           ³   ³   ÀÄÄÄapi
+³   ³           ³   ³       ÀÄÄÄv1
+³   ³           ³   ³           ÃÄÄÄquery
+³   ³           ³   ³           ³   ÀÄÄÄclient-agp
+³   ³           ³   ³           ³           cache-v2
+³   ³           ³   ³           ³           cmakeFiles-v1
+³   ³           ³   ³           ³           codemodel-v2
+³   ³           ³   ³           ³           
+³   ³           ³   ³           ÀÄÄÄreply
+³   ³           ³   ³                   cache-v2-14fc3e9e253755007cb7.json
+³   ³           ³   ³                   cmakeFiles-v1-1bf9de8ad74fa16ac608.json
+³   ³           ³   ³                   codemodel-v2-eb7cfa88ff8a67a77da8.json
+³   ³           ³   ³                   directory-.-Debug-d0094a50bb2071803777.json
+³   ³           ³   ³                   index-2025-08-01T15-25-02-0914.json
+³   ³           ³   ³                   
+³   ³           ³   ÀÄÄÄCMakeFiles
+³   ³           ³       ³   cmake.check_cache
+³   ³           ³       ³   CMakeOutput.log
+³   ³           ³       ³   rules.ninja
+³   ³           ³       ³   TargetDirectories.txt
+³   ³           ³       ³   
+³   ³           ³       ÃÄÄÄ3.22.1-g37088a8-dirty
+³   ³           ³       ³   ³   CMakeCCompiler.cmake
+³   ³           ³       ³   ³   CMakeCXXCompiler.cmake
+³   ³           ³       ³   ³   CMakeDetermineCompilerABI_C.bin
+³   ³           ³       ³   ³   CMakeDetermineCompilerABI_CXX.bin
+³   ³           ³       ³   ³   CMakeSystem.cmake
+³   ³           ³       ³   ³   
+³   ³           ³       ³   ÃÄÄÄCompilerIdC
+³   ³           ³       ³   ³   ³   CMakeCCompilerId.c
+³   ³           ³       ³   ³   ³   CMakeCCompilerId.o
+³   ³           ³       ³   ³   ³   
+³   ³           ³       ³   ³   ÀÄÄÄtmp
+³   ³           ³       ³   ÀÄÄÄCompilerIdCXX
+³   ³           ³       ³       ³   CMakeCXXCompilerId.cpp
+³   ³           ³       ³       ³   CMakeCXXCompilerId.o
+³   ³           ³       ³       ³   
+³   ³           ³       ³       ÀÄÄÄtmp
+³   ³           ³       ÀÄÄÄCMakeTmp
+³   ³           ÀÄÄÄx86_64
+³   ³               ³   additional_project_files.txt
+³   ³               ³   android_gradle_build.json
+³   ³               ³   android_gradle_build_mini.json
+³   ³               ³   build.ninja
+³   ³               ³   build_file_index.txt
+³   ³               ³   CMakeCache.txt
+³   ³               ³   cmake_install.cmake
+³   ³               ³   configure_fingerprint.bin
+³   ³               ³   metadata_generation_command.txt
+³   ³               ³   prefab_config.json
+³   ³               ³   symbol_folder_index.txt
+³   ³               ³   
+³   ³               ÃÄÄÄ.cmake
+³   ³               ³   ÀÄÄÄapi
+³   ³               ³       ÀÄÄÄv1
+³   ³               ³           ÃÄÄÄquery
+³   ³               ³           ³   ÀÄÄÄclient-agp
+³   ³               ³           ³           cache-v2
+³   ³               ³           ³           cmakeFiles-v1
+³   ³               ³           ³           codemodel-v2
+³   ³               ³           ³           
+³   ³               ³           ÀÄÄÄreply
+³   ³               ³                   cache-v2-a525c1cf41cfeca76238.json
+³   ³               ³                   cmakeFiles-v1-bc6d554a0c1232ea43b7.json
+³   ³               ³                   codemodel-v2-9c7772c3de0585b72bd4.json
+³   ³               ³                   directory-.-Debug-d0094a50bb2071803777.json
+³   ³               ³                   index-2025-08-01T15-25-04-0853.json
+³   ³               ³                   
+³   ³               ÀÄÄÄCMakeFiles
+³   ³                   ³   cmake.check_cache
+³   ³                   ³   CMakeOutput.log
+³   ³                   ³   rules.ninja
+³   ³                   ³   TargetDirectories.txt
+³   ³                   ³   
+³   ³                   ÃÄÄÄ3.22.1-g37088a8-dirty
+³   ³                   ³   ³   CMakeCCompiler.cmake
+³   ³                   ³   ³   CMakeCXXCompiler.cmake
+³   ³                   ³   ³   CMakeDetermineCompilerABI_C.bin
+³   ³                   ³   ³   CMakeDetermineCompilerABI_CXX.bin
+³   ³                   ³   ³   CMakeSystem.cmake
+³   ³                   ³   ³   
+³   ³                   ³   ÃÄÄÄCompilerIdC
+³   ³                   ³   ³   ³   CMakeCCompilerId.c
+³   ³                   ³   ³   ³   CMakeCCompilerId.o
+³   ³                   ³   ³   ³   
+³   ³                   ³   ³   ÀÄÄÄtmp
+³   ³                   ³   ÀÄÄÄCompilerIdCXX
+³   ³                   ³       ³   CMakeCXXCompilerId.cpp
+³   ³                   ³       ³   CMakeCXXCompilerId.o
+³   ³                   ³       ³   
+³   ³                   ³       ÀÄÄÄtmp
+³   ³                   ÀÄÄÄCMakeTmp
+³   ÃÄÄÄ7b34972be9cca307cd2308622803271b
+³   ³       gen_dart_plugin_registrant.stamp
+³   ³       gen_localizations.stamp
+³   ³       _composite.stamp
+³   ³       
+³   ÃÄÄÄapp
+³   ³   ÃÄÄÄgenerated
+³   ³   ³   ÃÄÄÄap_generated_sources
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄout
+³   ³   ³   ÀÄÄÄres
+³   ³   ³       ÃÄÄÄpngs
+³   ³   ³       ³   ÀÄÄÄdebug
+³   ³   ³       ÀÄÄÄresValues
+³   ³   ³           ÀÄÄÄdebug
+³   ³   ÃÄÄÄintermediates
+³   ³   ³   ÃÄÄÄaar_metadata_check
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄcheckDebugAarMetadata
+³   ³   ³   ÃÄÄÄannotation_processor_list
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄjavaPreCompileDebug
+³   ³   ³   ³               annotationProcessors.json
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄapk_ide_redirect_file
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄcreateDebugApkListingFileRedirect
+³   ³   ³   ³               redirect.txt
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄapp_metadata
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄwriteDebugAppMetadata
+³   ³   ³   ³               app-metadata.properties
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄassets
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄmergeDebugAssets
+³   ³   ³   ³           ÀÄÄÄflutter_assets
+³   ³   ³   ³               ³   AssetManifest.bin
+³   ³   ³   ³               ³   AssetManifest.json
+³   ³   ³   ³               ³   FontManifest.json
+³   ³   ³   ³               ³   isolate_snapshot_data
+³   ³   ³   ³               ³   kernel_blob.bin
+³   ³   ³   ³               ³   NativeAssetsManifest.json
+³   ³   ³   ³               ³   NOTICES.Z
+³   ³   ³   ³               ³   vm_snapshot_data
+³   ³   ³   ³               ³   
+³   ³   ³   ³               ÃÄÄÄfonts
+³   ³   ³   ³               ³       MaterialIcons-Regular.otf
+³   ³   ³   ³               ³       
+³   ³   ³   ³               ÀÄÄÄshaders
+³   ³   ³   ³                       ink_sparkle.frag
+³   ³   ³   ³                       
+³   ³   ³   ÃÄÄÄcompatible_screen_manifest
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄcreateDebugCompatibleScreenManifests
+³   ³   ³   ³               output-metadata.json
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄcompile_and_runtime_not_namespaced_r_class_jar
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄprocessDebugResources
+³   ³   ³   ³               R.jar
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄcompressed_assets
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄcompressDebugAssets
+³   ³   ³   ³           ÀÄÄÄout
+³   ³   ³   ³               ÀÄÄÄassets
+³   ³   ³   ³                   ÀÄÄÄflutter_assets
+³   ³   ³   ³                       ³   AssetManifest.bin.jar
+³   ³   ³   ³                       ³   AssetManifest.json.jar
+³   ³   ³   ³                       ³   FontManifest.json.jar
+³   ³   ³   ³                       ³   isolate_snapshot_data.jar
+³   ³   ³   ³                       ³   kernel_blob.bin.jar
+³   ³   ³   ³                       ³   NativeAssetsManifest.json.jar
+³   ³   ³   ³                       ³   NOTICES.Z.jar
+³   ³   ³   ³                       ³   vm_snapshot_data.jar
+³   ³   ³   ³                       ³   
+³   ³   ³   ³                       ÃÄÄÄfonts
+³   ³   ³   ³                       ³       MaterialIcons-Regular.otf.jar
+³   ³   ³   ³                       ³       
+³   ³   ³   ³                       ÀÄÄÄshaders
+³   ³   ³   ³                               ink_sparkle.frag.jar
+³   ³   ³   ³                               
+³   ³   ³   ÃÄÄÄcxx
+³   ³   ³   ³   ÀÄÄÄDebug
+³   ³   ³   ³       ÃÄÄÄ2o4d2n41
+³   ³   ³   ³       ³   ÃÄÄÄlogs
+³   ³   ³   ³       ³   ³   ÃÄÄÄarm64-v8a
+³   ³   ³   ³       ³   ³   ³       build_model.json
+³   ³   ³   ³       ³   ³   ³       configure_command.bat
+³   ³   ³   ³       ³   ³   ³       configure_stderr.txt
+³   ³   ³   ³       ³   ³   ³       configure_stdout.txt
+³   ³   ³   ³       ³   ³   ³       generate_cxx_metadata_106_timing.txt
+³   ³   ³   ³       ³   ³   ³       generate_cxx_metadata_1137_timing.txt
+³   ³   ³   ³       ³   ³   ³       generate_cxx_metadata_1311_timing.txt
+³   ³   ³   ³       ³   ³   ³       generate_cxx_metadata_1462_timing.txt
+³   ³   ³   ³       ³   ³   ³       generate_cxx_metadata_1628_timing.txt
+³   ³   ³   ³       ³   ³   ³       generate_cxx_metadata_881_timing.txt
+³   ³   ³   ³       ³   ³   ³       metadata_generation_record.json
+³   ³   ³   ³       ³   ³   ³       
+³   ³   ³   ³       ³   ³   ÃÄÄÄarmeabi-v7a
+³   ³   ³   ³       ³   ³   ³       build_model.json
+³   ³   ³   ³       ³   ³   ³       configure_command.bat
+³   ³   ³   ³       ³   ³   ³       configure_stderr.txt
+³   ³   ³   ³       ³   ³   ³       configure_stdout.txt
+³   ³   ³   ³       ³   ³   ³       generate_cxx_metadata_1034_timing.txt
+³   ³   ³   ³       ³   ³   ³       generate_cxx_metadata_1137_timing.txt
+³   ³   ³   ³       ³   ³   ³       generate_cxx_metadata_1311_timing.txt
+³   ³   ³   ³       ³   ³   ³       generate_cxx_metadata_1469_timing.txt
+³   ³   ³   ³       ³   ³   ³       generate_cxx_metadata_1628_timing.txt
+³   ³   ³   ³       ³   ³   ³       generate_cxx_metadata_97_timing.txt
+³   ³   ³   ³       ³   ³   ³       metadata_generation_record.json
+³   ³   ³   ³       ³   ³   ³       
+³   ³   ³   ³       ³   ³   ÃÄÄÄx86
+³   ³   ³   ³       ³   ³   ³       build_model.json
+³   ³   ³   ³       ³   ³   ³       configure_command.bat
+³   ³   ³   ³       ³   ³   ³       configure_stderr.txt
+³   ³   ³   ³       ³   ³   ³       configure_stdout.txt
+³   ³   ³   ³       ³   ³   ³       generate_cxx_metadata_1034_timing.txt
+³   ³   ³   ³       ³   ³   ³       generate_cxx_metadata_1137_timing.txt
+³   ³   ³   ³       ³   ³   ³       generate_cxx_metadata_1311_timing.txt
+³   ³   ³   ³       ³   ³   ³       generate_cxx_metadata_1469_timing.txt
+³   ³   ³   ³       ³   ³   ³       generate_cxx_metadata_1628_timing.txt
+³   ³   ³   ³       ³   ³   ³       generate_cxx_metadata_97_timing.txt
+³   ³   ³   ³       ³   ³   ³       metadata_generation_record.json
+³   ³   ³   ³       ³   ³   ³       
+³   ³   ³   ³       ³   ³   ÀÄÄÄx86_64
+³   ³   ³   ³       ³   ³           build_model.json
+³   ³   ³   ³       ³   ³           configure_command.bat
+³   ³   ³   ³       ³   ³           configure_stderr.txt
+³   ³   ³   ³       ³   ³           configure_stdout.txt
+³   ³   ³   ³       ³   ³           generate_cxx_metadata_106_timing.txt
+³   ³   ³   ³       ³   ³           generate_cxx_metadata_1137_timing.txt
+³   ³   ³   ³       ³   ³           generate_cxx_metadata_1311_timing.txt
+³   ³   ³   ³       ³   ³           generate_cxx_metadata_1469_timing.txt
+³   ³   ³   ³       ³   ³           generate_cxx_metadata_1628_timing.txt
+³   ³   ³   ³       ³   ³           generate_cxx_metadata_882_timing.txt
+³   ³   ³   ³       ³   ³           metadata_generation_record.json
+³   ³   ³   ³       ³   ³           
+³   ³   ³   ³       ³   ÀÄÄÄobj
+³   ³   ³   ³       ³       ÃÄÄÄarm64-v8a
+³   ³   ³   ³       ³       ÃÄÄÄarmeabi-v7a
+³   ³   ³   ³       ³       ÃÄÄÄx86
+³   ³   ³   ³       ³       ÀÄÄÄx86_64
+³   ³   ³   ³       ÀÄÄÄ3u1bp2mu
+³   ³   ³   ³           ÃÄÄÄlogs
+³   ³   ³   ³           ³   ÃÄÄÄarm64-v8a
+³   ³   ³   ³           ³   ³       build_model.json
+³   ³   ³   ³           ³   ³       configure_command.bat
+³   ³   ³   ³           ³   ³       configure_stderr.txt
+³   ³   ³   ³           ³   ³       configure_stdout.txt
+³   ³   ³   ³           ³   ³       generate_cxx_metadata_1102_timing.txt
+³   ³   ³   ³           ³   ³       generate_cxx_metadata_1256_timing.txt
+³   ³   ³   ³           ³   ³       generate_cxx_metadata_1414_timing.txt
+³   ³   ³   ³           ³   ³       generate_cxx_metadata_1574_timing.txt
+³   ³   ³   ³           ³   ³       generate_cxx_metadata_1732_timing.txt
+³   ³   ³   ³           ³   ³       generate_cxx_metadata_1889_timing.txt
+³   ³   ³   ³           ³   ³       generate_cxx_metadata_240_timing.txt
+³   ³   ³   ³           ³   ³       generate_cxx_metadata_248_timing.txt
+³   ³   ³   ³           ³   ³       generate_cxx_metadata_291_timing.txt
+³   ³   ³   ³           ³   ³       generate_cxx_metadata_302_timing.txt
+³   ³   ³   ³           ³   ³       generate_cxx_metadata_401_timing.txt
+³   ³   ³   ³           ³   ³       generate_cxx_metadata_469_timing.txt
+³   ³   ³   ³           ³   ³       generate_cxx_metadata_568_timing.txt
+³   ³   ³   ³           ³   ³       generate_cxx_metadata_623_timing.txt
+³   ³   ³   ³           ³   ³       generate_cxx_metadata_761_timing.txt
+³   ³   ³   ³           ³   ³       generate_cxx_metadata_76_timing.txt
+³   ³   ³   ³           ³   ³       generate_cxx_metadata_77_timing.txt
+³   ³   ³   ³           ³   ³       generate_cxx_metadata_794_timing.txt
+³   ³   ³   ³           ³   ³       generate_cxx_metadata_80_timing.txt
+³   ³   ³   ³           ³   ³       generate_cxx_metadata_81_timing.txt
+³   ³   ³   ³           ³   ³       generate_cxx_metadata_82_timing.txt
+³   ³   ³   ³           ³   ³       generate_cxx_metadata_83_timing.txt
+³   ³   ³   ³           ³   ³       generate_cxx_metadata_84_timing.txt
+³   ³   ³   ³           ³   ³       generate_cxx_metadata_947_timing.txt
+³   ³   ³   ³           ³   ³       generate_cxx_metadata_968_timing.txt
+³   ³   ³   ³           ³   ³       metadata_generation_record.json
+³   ³   ³   ³           ³   ³       
+³   ³   ³   ³           ³   ÃÄÄÄarmeabi-v7a
+³   ³   ³   ³           ³   ³       build_model.json
+³   ³   ³   ³           ³   ³       configure_command.bat
+³   ³   ³   ³           ³   ³       configure_stderr.txt
+³   ³   ³   ³           ³   ³       configure_stdout.txt
+³   ³   ³   ³           ³   ³       generate_cxx_metadata_1102_timing.txt
+³   ³   ³   ³           ³   ³       generate_cxx_metadata_1256_timing.txt
+³   ³   ³   ³           ³   ³       generate_cxx_metadata_1414_timing.txt
+³   ³   ³   ³           ³   ³       generate_cxx_metadata_1574_timing.txt
+³   ³   ³   ³           ³   ³       generate_cxx_metadata_1732_timing.txt
+³   ³   ³   ³           ³   ³       generate_cxx_metadata_1889_timing.txt
+³   ³   ³   ³           ³   ³       generate_cxx_metadata_240_timing.txt
+³   ³   ³   ³           ³   ³       generate_cxx_metadata_248_timing.txt
+³   ³   ³   ³           ³   ³       generate_cxx_metadata_291_timing.txt
+³   ³   ³   ³           ³   ³       generate_cxx_metadata_302_timing.txt
+³   ³   ³   ³           ³   ³       generate_cxx_metadata_401_timing.txt
+³   ³   ³   ³           ³   ³       generate_cxx_metadata_469_timing.txt
+³   ³   ³   ³           ³   ³       generate_cxx_metadata_568_timing.txt
+³   ³   ³   ³           ³   ³       generate_cxx_metadata_623_timing.txt
+³   ³   ³   ³           ³   ³       generate_cxx_metadata_75_timing.txt
+³   ³   ³   ³           ³   ³       generate_cxx_metadata_769_timing.txt
+³   ³   ³   ³           ³   ³       generate_cxx_metadata_76_timing.txt
+³   ³   ³   ³           ³   ³       generate_cxx_metadata_794_timing.txt
+³   ³   ³   ³           ³   ³       generate_cxx_metadata_80_timing.txt
+³   ³   ³   ³           ³   ³       generate_cxx_metadata_82_timing.txt
+³   ³   ³   ³           ³   ³       generate_cxx_metadata_83_timing.txt
+³   ³   ³   ³           ³   ³       generate_cxx_metadata_84_timing.txt
+³   ³   ³   ³           ³   ³       generate_cxx_metadata_947_timing.txt
+³   ³   ³   ³           ³   ³       generate_cxx_metadata_968_timing.txt
+³   ³   ³   ³           ³   ³       metadata_generation_record.json
+³   ³   ³   ³           ³   ³       
+³   ³   ³   ³           ³   ÃÄÄÄx86
+³   ³   ³   ³           ³   ³       build_model.json
+³   ³   ³   ³           ³   ³       configure_command.bat
+³   ³   ³   ³           ³   ³       configure_stderr.txt
+³   ³   ³   ³           ³   ³       configure_stdout.txt
+³   ³   ³   ³           ³   ³       generate_cxx_metadata_1102_timing.txt
+³   ³   ³   ³           ³   ³       generate_cxx_metadata_1256_timing.txt
+³   ³   ³   ³           ³   ³       generate_cxx_metadata_1414_timing.txt
+³   ³   ³   ³           ³   ³       generate_cxx_metadata_1574_timing.txt
+³   ³   ³   ³           ³   ³       generate_cxx_metadata_1732_timing.txt
+³   ³   ³   ³           ³   ³       generate_cxx_metadata_1889_timing.txt
+³   ³   ³   ³           ³   ³       generate_cxx_metadata_240_timing.txt
+³   ³   ³   ³           ³   ³       generate_cxx_metadata_248_timing.txt
+³   ³   ³   ³           ³   ³       generate_cxx_metadata_291_timing.txt
+³   ³   ³   ³           ³   ³       generate_cxx_metadata_302_timing.txt
+³   ³   ³   ³           ³   ³       generate_cxx_metadata_401_timing.txt
+³   ³   ³   ³           ³   ³       generate_cxx_metadata_469_timing.txt
+³   ³   ³   ³           ³   ³       generate_cxx_metadata_568_timing.txt
+³   ³   ³   ³           ³   ³       generate_cxx_metadata_623_timing.txt
+³   ³   ³   ³           ³   ³       generate_cxx_metadata_769_timing.txt
+³   ³   ³   ³           ³   ³       generate_cxx_metadata_76_timing.txt
+³   ³   ³   ³           ³   ³       generate_cxx_metadata_800_timing.txt
+³   ³   ³   ³           ³   ³       generate_cxx_metadata_80_timing.txt
+³   ³   ³   ³           ³   ³       generate_cxx_metadata_82_timing.txt
+³   ³   ³   ³           ³   ³       generate_cxx_metadata_83_timing.txt
+³   ³   ³   ³           ³   ³       generate_cxx_metadata_84_timing.txt
+³   ³   ³   ³           ³   ³       generate_cxx_metadata_947_timing.txt
+³   ³   ³   ³           ³   ³       generate_cxx_metadata_968_timing.txt
+³   ³   ³   ³           ³   ³       metadata_generation_record.json
+³   ³   ³   ³           ³   ³       
+³   ³   ³   ³           ³   ÀÄÄÄx86_64
+³   ³   ³   ³           ³           build_model.json
+³   ³   ³   ³           ³           configure_command.bat
+³   ³   ³   ³           ³           configure_stderr.txt
+³   ³   ³   ³           ³           configure_stdout.txt
+³   ³   ³   ³           ³           generate_cxx_metadata_1102_timing.txt
+³   ³   ³   ³           ³           generate_cxx_metadata_1259_timing.txt
+³   ³   ³   ³           ³           generate_cxx_metadata_1414_timing.txt
+³   ³   ³   ³           ³           generate_cxx_metadata_1574_timing.txt
+³   ³   ³   ³           ³           generate_cxx_metadata_1732_timing.txt
+³   ³   ³   ³           ³           generate_cxx_metadata_1889_timing.txt
+³   ³   ³   ³           ³           generate_cxx_metadata_240_timing.txt
+³   ³   ³   ³           ³           generate_cxx_metadata_248_timing.txt
+³   ³   ³   ³           ³           generate_cxx_metadata_291_timing.txt
+³   ³   ³   ³           ³           generate_cxx_metadata_302_timing.txt
+³   ³   ³   ³           ³           generate_cxx_metadata_401_timing.txt
+³   ³   ³   ³           ³           generate_cxx_metadata_469_timing.txt
+³   ³   ³   ³           ³           generate_cxx_metadata_568_timing.txt
+³   ³   ³   ³           ³           generate_cxx_metadata_623_timing.txt
+³   ³   ³   ³           ³           generate_cxx_metadata_769_timing.txt
+³   ³   ³   ³           ³           generate_cxx_metadata_76_timing.txt
+³   ³   ³   ³           ³           generate_cxx_metadata_79_timing.txt
+³   ³   ³   ³           ³           generate_cxx_metadata_800_timing.txt
+³   ³   ³   ³           ³           generate_cxx_metadata_80_timing.txt
+³   ³   ³   ³           ³           generate_cxx_metadata_82_timing.txt
+³   ³   ³   ³           ³           generate_cxx_metadata_83_timing.txt
+³   ³   ³   ³           ³           generate_cxx_metadata_84_timing.txt
+³   ³   ³   ³           ³           generate_cxx_metadata_947_timing.txt
+³   ³   ³   ³           ³           generate_cxx_metadata_968_timing.txt
+³   ³   ³   ³           ³           metadata_generation_record.json
+³   ³   ³   ³           ³           
+³   ³   ³   ³           ÀÄÄÄobj
+³   ³   ³   ³               ÃÄÄÄarm64-v8a
+³   ³   ³   ³               ÃÄÄÄarmeabi-v7a
+³   ³   ³   ³               ÃÄÄÄx86
+³   ³   ³   ³               ÀÄÄÄx86_64
+³   ³   ³   ÃÄÄÄdata_binding_layout_info_type_merge
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄmergeDebugResources
+³   ³   ³   ³           ÀÄÄÄout
+³   ³   ³   ÃÄÄÄdata_binding_layout_info_type_package
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄpackageDebugResources
+³   ³   ³   ³           ÀÄÄÄout
+³   ³   ³   ÃÄÄÄdesugar_graph
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄdexBuilderDebug
+³   ³   ³   ³           ÀÄÄÄout
+³   ³   ³   ³               ÃÄÄÄcurrentProject
+³   ³   ³   ³               ³   ÃÄÄÄdirs_bucket_0
+³   ³   ³   ³               ³   ³       graph.bin
+³   ³   ³   ³               ³   ³       
+³   ³   ³   ³               ³   ÃÄÄÄdirs_bucket_1
+³   ³   ³   ³               ³   ³       graph.bin
+³   ³   ³   ³               ³   ³       
+³   ³   ³   ³               ³   ÃÄÄÄdirs_bucket_2
+³   ³   ³   ³               ³   ³       graph.bin
+³   ³   ³   ³               ³   ³       
+³   ³   ³   ³               ³   ÃÄÄÄdirs_bucket_3
+³   ³   ³   ³               ³   ³       graph.bin
+³   ³   ³   ³               ³   ³       
+³   ³   ³   ³               ³   ÃÄÄÄdirs_bucket_4
+³   ³   ³   ³               ³   ³       graph.bin
+³   ³   ³   ³               ³   ³       
+³   ³   ³   ³               ³   ÃÄÄÄdirs_bucket_5
+³   ³   ³   ³               ³   ³       graph.bin
+³   ³   ³   ³               ³   ³       
+³   ³   ³   ³               ³   ÃÄÄÄjar_b493a1cd55178a17f9f2c1cb9aaba9f449ccf7fc91a5b5c944b7043842cafd54_bucket_0
+³   ³   ³   ³               ³   ³       graph.bin
+³   ³   ³   ³               ³   ³       
+³   ³   ³   ³               ³   ÃÄÄÄjar_b493a1cd55178a17f9f2c1cb9aaba9f449ccf7fc91a5b5c944b7043842cafd54_bucket_1
+³   ³   ³   ³               ³   ³       graph.bin
+³   ³   ³   ³               ³   ³       
+³   ³   ³   ³               ³   ÃÄÄÄjar_b493a1cd55178a17f9f2c1cb9aaba9f449ccf7fc91a5b5c944b7043842cafd54_bucket_2
+³   ³   ³   ³               ³   ³       graph.bin
+³   ³   ³   ³               ³   ³       
+³   ³   ³   ³               ³   ÃÄÄÄjar_b493a1cd55178a17f9f2c1cb9aaba9f449ccf7fc91a5b5c944b7043842cafd54_bucket_3
+³   ³   ³   ³               ³   ³       graph.bin
+³   ³   ³   ³               ³   ³       
+³   ³   ³   ³               ³   ÃÄÄÄjar_b493a1cd55178a17f9f2c1cb9aaba9f449ccf7fc91a5b5c944b7043842cafd54_bucket_4
+³   ³   ³   ³               ³   ³       graph.bin
+³   ³   ³   ³               ³   ³       
+³   ³   ³   ³               ³   ÀÄÄÄjar_b493a1cd55178a17f9f2c1cb9aaba9f449ccf7fc91a5b5c944b7043842cafd54_bucket_5
+³   ³   ³   ³               ³           graph.bin
+³   ³   ³   ³               ³           
+³   ³   ³   ³               ÃÄÄÄexternalLibs
+³   ³   ³   ³               ÃÄÄÄmixedScopes
+³   ³   ³   ³               ÀÄÄÄotherProjects
+³   ³   ³   ÃÄÄÄdex
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÃÄÄÄmergeExtDexDebug
+³   ³   ³   ³       ³       classes.dex
+³   ³   ³   ³       ³       
+³   ³   ³   ³       ÃÄÄÄmergeLibDexDebug
+³   ³   ³   ³       ³   ÃÄÄÄ0
+³   ³   ³   ³       ³   ³       classes.dex
+³   ³   ³   ³       ³   ³       
+³   ³   ³   ³       ³   ÃÄÄÄ1
+³   ³   ³   ³       ³   ÃÄÄÄ10
+³   ³   ³   ³       ³   ÃÄÄÄ11
+³   ³   ³   ³       ³   ÃÄÄÄ12
+³   ³   ³   ³       ³   ÃÄÄÄ13
+³   ³   ³   ³       ³   ÃÄÄÄ14
+³   ³   ³   ³       ³   ÃÄÄÄ15
+³   ³   ³   ³       ³   ÃÄÄÄ2
+³   ³   ³   ³       ³   ÃÄÄÄ3
+³   ³   ³   ³       ³   ÃÄÄÄ4
+³   ³   ³   ³       ³   ÃÄÄÄ5
+³   ³   ³   ³       ³   ÃÄÄÄ6
+³   ³   ³   ³       ³   ÃÄÄÄ7
+³   ³   ³   ³       ³   ÃÄÄÄ8
+³   ³   ³   ³       ³   ÀÄÄÄ9
+³   ³   ³   ³       ÀÄÄÄmergeProjectDexDebug
+³   ³   ³   ³           ÃÄÄÄ0
+³   ³   ³   ³           ³       classes.dex
+³   ³   ³   ³           ³       
+³   ³   ³   ³           ÃÄÄÄ1
+³   ³   ³   ³           ³       classes.dex
+³   ³   ³   ³           ³       
+³   ³   ³   ³           ÃÄÄÄ10
+³   ³   ³   ³           ÃÄÄÄ11
+³   ³   ³   ³           ÃÄÄÄ12
+³   ³   ³   ³           ÃÄÄÄ13
+³   ³   ³   ³           ÃÄÄÄ14
+³   ³   ³   ³           ÃÄÄÄ15
+³   ³   ³   ³           ÃÄÄÄ2
+³   ³   ³   ³           ÃÄÄÄ3
+³   ³   ³   ³           ÃÄÄÄ4
+³   ³   ³   ³           ÃÄÄÄ5
+³   ³   ³   ³           ÃÄÄÄ6
+³   ³   ³   ³           ÃÄÄÄ7
+³   ³   ³   ³           ÃÄÄÄ8
+³   ³   ³   ³           ÀÄÄÄ9
+³   ³   ³   ³                   classes.dex
+³   ³   ³   ³                   
+³   ³   ³   ÃÄÄÄdex_archive_input_jar_hashes
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄdexBuilderDebug
+³   ³   ³   ³               out
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄdex_number_of_buckets_file
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄdexBuilderDebug
+³   ³   ³   ³               out
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄduplicate_classes_check
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄcheckDebugDuplicateClasses
+³   ³   ³   ÃÄÄÄexternal_file_lib_dex_archives
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄdesugarDebugFileDependencies
+³   ³   ³   ÃÄÄÄexternal_libs_dex_archive
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄdexBuilderDebug
+³   ³   ³   ³           ÀÄÄÄout
+³   ³   ³   ÃÄÄÄexternal_libs_dex_archive_with_artifact_transforms
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄdexBuilderDebug
+³   ³   ³   ³           ÀÄÄÄout
+³   ³   ³   ÃÄÄÄflutter
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ³   .last_build_id
+³   ³   ³   ³       ³   flutter_build.d
+³   ³   ³   ³       ³   libs.jar
+³   ³   ³   ³       ³   
+³   ³   ³   ³       ÀÄÄÄflutter_assets
+³   ³   ³   ³           ³   AssetManifest.bin
+³   ³   ³   ³           ³   AssetManifest.json
+³   ³   ³   ³           ³   FontManifest.json
+³   ³   ³   ³           ³   isolate_snapshot_data
+³   ³   ³   ³           ³   kernel_blob.bin
+³   ³   ³   ³           ³   NativeAssetsManifest.json
+³   ³   ³   ³           ³   NOTICES.Z
+³   ³   ³   ³           ³   vm_snapshot_data
+³   ³   ³   ³           ³   
+³   ³   ³   ³           ÃÄÄÄfonts
+³   ³   ³   ³           ³       MaterialIcons-Regular.otf
+³   ³   ³   ³           ³       
+³   ³   ³   ³           ÀÄÄÄshaders
+³   ³   ³   ³                   ink_sparkle.frag
+³   ³   ³   ³                   
+³   ³   ³   ÃÄÄÄincremental
+³   ³   ³   ³   ÃÄÄÄdebug
+³   ³   ³   ³   ³   ÃÄÄÄmergeDebugResources
+³   ³   ³   ³   ³   ³   ³   compile-file-map.properties
+³   ³   ³   ³   ³   ³   ³   merger.xml
+³   ³   ³   ³   ³   ³   ³   
+³   ³   ³   ³   ³   ³   ÃÄÄÄmerged.dir
+³   ³   ³   ³   ³   ³   ³   ÃÄÄÄvalues
+³   ³   ³   ³   ³   ³   ³   ³       values.xml
+³   ³   ³   ³   ³   ³   ³   ³       
+³   ³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-af
+³   ³   ³   ³   ³   ³   ³   ³       values-af.xml
+³   ³   ³   ³   ³   ³   ³   ³       
+³   ³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-am
+³   ³   ³   ³   ³   ³   ³   ³       values-am.xml
+³   ³   ³   ³   ³   ³   ³   ³       
+³   ³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-ar
+³   ³   ³   ³   ³   ³   ³   ³       values-ar.xml
+³   ³   ³   ³   ³   ³   ³   ³       
+³   ³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-as
+³   ³   ³   ³   ³   ³   ³   ³       values-as.xml
+³   ³   ³   ³   ³   ³   ³   ³       
+³   ³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-az
+³   ³   ³   ³   ³   ³   ³   ³       values-az.xml
+³   ³   ³   ³   ³   ³   ³   ³       
+³   ³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-b+sr+Latn
+³   ³   ³   ³   ³   ³   ³   ³       values-b+sr+Latn.xml
+³   ³   ³   ³   ³   ³   ³   ³       
+³   ³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-be
+³   ³   ³   ³   ³   ³   ³   ³       values-be.xml
+³   ³   ³   ³   ³   ³   ³   ³       
+³   ³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-bg
+³   ³   ³   ³   ³   ³   ³   ³       values-bg.xml
+³   ³   ³   ³   ³   ³   ³   ³       
+³   ³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-bn
+³   ³   ³   ³   ³   ³   ³   ³       values-bn.xml
+³   ³   ³   ³   ³   ³   ³   ³       
+³   ³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-bs
+³   ³   ³   ³   ³   ³   ³   ³       values-bs.xml
+³   ³   ³   ³   ³   ³   ³   ³       
+³   ³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-ca
+³   ³   ³   ³   ³   ³   ³   ³       values-ca.xml
+³   ³   ³   ³   ³   ³   ³   ³       
+³   ³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-cs
+³   ³   ³   ³   ³   ³   ³   ³       values-cs.xml
+³   ³   ³   ³   ³   ³   ³   ³       
+³   ³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-da
+³   ³   ³   ³   ³   ³   ³   ³       values-da.xml
+³   ³   ³   ³   ³   ³   ³   ³       
+³   ³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-de
+³   ³   ³   ³   ³   ³   ³   ³       values-de.xml
+³   ³   ³   ³   ³   ³   ³   ³       
+³   ³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-el
+³   ³   ³   ³   ³   ³   ³   ³       values-el.xml
+³   ³   ³   ³   ³   ³   ³   ³       
+³   ³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-en-rAU
+³   ³   ³   ³   ³   ³   ³   ³       values-en-rAU.xml
+³   ³   ³   ³   ³   ³   ³   ³       
+³   ³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-en-rCA
+³   ³   ³   ³   ³   ³   ³   ³       values-en-rCA.xml
+³   ³   ³   ³   ³   ³   ³   ³       
+³   ³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-en-rGB
+³   ³   ³   ³   ³   ³   ³   ³       values-en-rGB.xml
+³   ³   ³   ³   ³   ³   ³   ³       
+³   ³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-en-rIN
+³   ³   ³   ³   ³   ³   ³   ³       values-en-rIN.xml
+³   ³   ³   ³   ³   ³   ³   ³       
+³   ³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-en-rXC
+³   ³   ³   ³   ³   ³   ³   ³       values-en-rXC.xml
+³   ³   ³   ³   ³   ³   ³   ³       
+³   ³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-es
+³   ³   ³   ³   ³   ³   ³   ³       values-es.xml
+³   ³   ³   ³   ³   ³   ³   ³       
+³   ³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-es-rUS
+³   ³   ³   ³   ³   ³   ³   ³       values-es-rUS.xml
+³   ³   ³   ³   ³   ³   ³   ³       
+³   ³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-et
+³   ³   ³   ³   ³   ³   ³   ³       values-et.xml
+³   ³   ³   ³   ³   ³   ³   ³       
+³   ³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-eu
+³   ³   ³   ³   ³   ³   ³   ³       values-eu.xml
+³   ³   ³   ³   ³   ³   ³   ³       
+³   ³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-fa
+³   ³   ³   ³   ³   ³   ³   ³       values-fa.xml
+³   ³   ³   ³   ³   ³   ³   ³       
+³   ³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-fi
+³   ³   ³   ³   ³   ³   ³   ³       values-fi.xml
+³   ³   ³   ³   ³   ³   ³   ³       
+³   ³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-fr
+³   ³   ³   ³   ³   ³   ³   ³       values-fr.xml
+³   ³   ³   ³   ³   ³   ³   ³       
+³   ³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-fr-rCA
+³   ³   ³   ³   ³   ³   ³   ³       values-fr-rCA.xml
+³   ³   ³   ³   ³   ³   ³   ³       
+³   ³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-gl
+³   ³   ³   ³   ³   ³   ³   ³       values-gl.xml
+³   ³   ³   ³   ³   ³   ³   ³       
+³   ³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-gu
+³   ³   ³   ³   ³   ³   ³   ³       values-gu.xml
+³   ³   ³   ³   ³   ³   ³   ³       
+³   ³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-hi
+³   ³   ³   ³   ³   ³   ³   ³       values-hi.xml
+³   ³   ³   ³   ³   ³   ³   ³       
+³   ³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-hr
+³   ³   ³   ³   ³   ³   ³   ³       values-hr.xml
+³   ³   ³   ³   ³   ³   ³   ³       
+³   ³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-hu
+³   ³   ³   ³   ³   ³   ³   ³       values-hu.xml
+³   ³   ³   ³   ³   ³   ³   ³       
+³   ³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-hy
+³   ³   ³   ³   ³   ³   ³   ³       values-hy.xml
+³   ³   ³   ³   ³   ³   ³   ³       
+³   ³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-in
+³   ³   ³   ³   ³   ³   ³   ³       values-in.xml
+³   ³   ³   ³   ³   ³   ³   ³       
+³   ³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-is
+³   ³   ³   ³   ³   ³   ³   ³       values-is.xml
+³   ³   ³   ³   ³   ³   ³   ³       
+³   ³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-it
+³   ³   ³   ³   ³   ³   ³   ³       values-it.xml
+³   ³   ³   ³   ³   ³   ³   ³       
+³   ³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-iw
+³   ³   ³   ³   ³   ³   ³   ³       values-iw.xml
+³   ³   ³   ³   ³   ³   ³   ³       
+³   ³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-ja
+³   ³   ³   ³   ³   ³   ³   ³       values-ja.xml
+³   ³   ³   ³   ³   ³   ³   ³       
+³   ³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-ka
+³   ³   ³   ³   ³   ³   ³   ³       values-ka.xml
+³   ³   ³   ³   ³   ³   ³   ³       
+³   ³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-kk
+³   ³   ³   ³   ³   ³   ³   ³       values-kk.xml
+³   ³   ³   ³   ³   ³   ³   ³       
+³   ³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-km
+³   ³   ³   ³   ³   ³   ³   ³       values-km.xml
+³   ³   ³   ³   ³   ³   ³   ³       
+³   ³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-kn
+³   ³   ³   ³   ³   ³   ³   ³       values-kn.xml
+³   ³   ³   ³   ³   ³   ³   ³       
+³   ³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-ko
+³   ³   ³   ³   ³   ³   ³   ³       values-ko.xml
+³   ³   ³   ³   ³   ³   ³   ³       
+³   ³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-ky
+³   ³   ³   ³   ³   ³   ³   ³       values-ky.xml
+³   ³   ³   ³   ³   ³   ³   ³       
+³   ³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-lo
+³   ³   ³   ³   ³   ³   ³   ³       values-lo.xml
+³   ³   ³   ³   ³   ³   ³   ³       
+³   ³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-lt
+³   ³   ³   ³   ³   ³   ³   ³       values-lt.xml
+³   ³   ³   ³   ³   ³   ³   ³       
+³   ³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-lv
+³   ³   ³   ³   ³   ³   ³   ³       values-lv.xml
+³   ³   ³   ³   ³   ³   ³   ³       
+³   ³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-mk
+³   ³   ³   ³   ³   ³   ³   ³       values-mk.xml
+³   ³   ³   ³   ³   ³   ³   ³       
+³   ³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-ml
+³   ³   ³   ³   ³   ³   ³   ³       values-ml.xml
+³   ³   ³   ³   ³   ³   ³   ³       
+³   ³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-mn
+³   ³   ³   ³   ³   ³   ³   ³       values-mn.xml
+³   ³   ³   ³   ³   ³   ³   ³       
+³   ³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-mr
+³   ³   ³   ³   ³   ³   ³   ³       values-mr.xml
+³   ³   ³   ³   ³   ³   ³   ³       
+³   ³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-ms
+³   ³   ³   ³   ³   ³   ³   ³       values-ms.xml
+³   ³   ³   ³   ³   ³   ³   ³       
+³   ³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-my
+³   ³   ³   ³   ³   ³   ³   ³       values-my.xml
+³   ³   ³   ³   ³   ³   ³   ³       
+³   ³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-nb
+³   ³   ³   ³   ³   ³   ³   ³       values-nb.xml
+³   ³   ³   ³   ³   ³   ³   ³       
+³   ³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-ne
+³   ³   ³   ³   ³   ³   ³   ³       values-ne.xml
+³   ³   ³   ³   ³   ³   ³   ³       
+³   ³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-night-v8
+³   ³   ³   ³   ³   ³   ³   ³       values-night-v8.xml
+³   ³   ³   ³   ³   ³   ³   ³       
+³   ³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-nl
+³   ³   ³   ³   ³   ³   ³   ³       values-nl.xml
+³   ³   ³   ³   ³   ³   ³   ³       
+³   ³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-or
+³   ³   ³   ³   ³   ³   ³   ³       values-or.xml
+³   ³   ³   ³   ³   ³   ³   ³       
+³   ³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-pa
+³   ³   ³   ³   ³   ³   ³   ³       values-pa.xml
+³   ³   ³   ³   ³   ³   ³   ³       
+³   ³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-pl
+³   ³   ³   ³   ³   ³   ³   ³       values-pl.xml
+³   ³   ³   ³   ³   ³   ³   ³       
+³   ³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-pt
+³   ³   ³   ³   ³   ³   ³   ³       values-pt.xml
+³   ³   ³   ³   ³   ³   ³   ³       
+³   ³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-pt-rBR
+³   ³   ³   ³   ³   ³   ³   ³       values-pt-rBR.xml
+³   ³   ³   ³   ³   ³   ³   ³       
+³   ³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-pt-rPT
+³   ³   ³   ³   ³   ³   ³   ³       values-pt-rPT.xml
+³   ³   ³   ³   ³   ³   ³   ³       
+³   ³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-ro
+³   ³   ³   ³   ³   ³   ³   ³       values-ro.xml
+³   ³   ³   ³   ³   ³   ³   ³       
+³   ³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-ru
+³   ³   ³   ³   ³   ³   ³   ³       values-ru.xml
+³   ³   ³   ³   ³   ³   ³   ³       
+³   ³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-si
+³   ³   ³   ³   ³   ³   ³   ³       values-si.xml
+³   ³   ³   ³   ³   ³   ³   ³       
+³   ³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-sk
+³   ³   ³   ³   ³   ³   ³   ³       values-sk.xml
+³   ³   ³   ³   ³   ³   ³   ³       
+³   ³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-sl
+³   ³   ³   ³   ³   ³   ³   ³       values-sl.xml
+³   ³   ³   ³   ³   ³   ³   ³       
+³   ³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-sq
+³   ³   ³   ³   ³   ³   ³   ³       values-sq.xml
+³   ³   ³   ³   ³   ³   ³   ³       
+³   ³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-sr
+³   ³   ³   ³   ³   ³   ³   ³       values-sr.xml
+³   ³   ³   ³   ³   ³   ³   ³       
+³   ³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-sv
+³   ³   ³   ³   ³   ³   ³   ³       values-sv.xml
+³   ³   ³   ³   ³   ³   ³   ³       
+³   ³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-sw
+³   ³   ³   ³   ³   ³   ³   ³       values-sw.xml
+³   ³   ³   ³   ³   ³   ³   ³       
+³   ³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-ta
+³   ³   ³   ³   ³   ³   ³   ³       values-ta.xml
+³   ³   ³   ³   ³   ³   ³   ³       
+³   ³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-te
+³   ³   ³   ³   ³   ³   ³   ³       values-te.xml
+³   ³   ³   ³   ³   ³   ³   ³       
+³   ³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-th
+³   ³   ³   ³   ³   ³   ³   ³       values-th.xml
+³   ³   ³   ³   ³   ³   ³   ³       
+³   ³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-tl
+³   ³   ³   ³   ³   ³   ³   ³       values-tl.xml
+³   ³   ³   ³   ³   ³   ³   ³       
+³   ³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-tr
+³   ³   ³   ³   ³   ³   ³   ³       values-tr.xml
+³   ³   ³   ³   ³   ³   ³   ³       
+³   ³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-uk
+³   ³   ³   ³   ³   ³   ³   ³       values-uk.xml
+³   ³   ³   ³   ³   ³   ³   ³       
+³   ³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-ur
+³   ³   ³   ³   ³   ³   ³   ³       values-ur.xml
+³   ³   ³   ³   ³   ³   ³   ³       
+³   ³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-uz
+³   ³   ³   ³   ³   ³   ³   ³       values-uz.xml
+³   ³   ³   ³   ³   ³   ³   ³       
+³   ³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-v21
+³   ³   ³   ³   ³   ³   ³   ³       values-v21.xml
+³   ³   ³   ³   ³   ³   ³   ³       
+³   ³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-vi
+³   ³   ³   ³   ³   ³   ³   ³       values-vi.xml
+³   ³   ³   ³   ³   ³   ³   ³       
+³   ³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-zh-rCN
+³   ³   ³   ³   ³   ³   ³   ³       values-zh-rCN.xml
+³   ³   ³   ³   ³   ³   ³   ³       
+³   ³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-zh-rHK
+³   ³   ³   ³   ³   ³   ³   ³       values-zh-rHK.xml
+³   ³   ³   ³   ³   ³   ³   ³       
+³   ³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-zh-rTW
+³   ³   ³   ³   ³   ³   ³   ³       values-zh-rTW.xml
+³   ³   ³   ³   ³   ³   ³   ³       
+³   ³   ³   ³   ³   ³   ³   ÀÄÄÄvalues-zu
+³   ³   ³   ³   ³   ³   ³           values-zu.xml
+³   ³   ³   ³   ³   ³   ³           
+³   ³   ³   ³   ³   ³   ÀÄÄÄstripped.dir
+³   ³   ³   ³   ³   ÀÄÄÄpackageDebugResources
+³   ³   ³   ³   ³       ³   compile-file-map.properties
+³   ³   ³   ³   ³       ³   merger.xml
+³   ³   ³   ³   ³       ³   
+³   ³   ³   ³   ³       ÃÄÄÄmerged.dir
+³   ³   ³   ³   ³       ³   ÃÄÄÄvalues
+³   ³   ³   ³   ³       ³   ³       values.xml
+³   ³   ³   ³   ³       ³   ³       
+³   ³   ³   ³   ³       ³   ÀÄÄÄvalues-night-v8
+³   ³   ³   ³   ³       ³           values-night-v8.xml
+³   ³   ³   ³   ³       ³           
+³   ³   ³   ³   ³       ÀÄÄÄstripped.dir
+³   ³   ³   ³   ÃÄÄÄdebug-mergeJavaRes
+³   ³   ³   ³   ³   ³   merge-state
+³   ³   ³   ³   ³   ³   
+³   ³   ³   ³   ³   ÀÄÄÄzip-cache
+³   ³   ³   ³   ³           0eVC0pAROJo_btsMUl6g1t_CvWc=
+³   ³   ³   ³   ³           2Cpfm7EbXhGrAQfa1a49obILGPk=
+³   ³   ³   ³   ³           3kIm33WIvstsxUA0MmPDiN4p8GU=
+³   ³   ³   ³   ³           5Pks+fgU5O5MLQQ+sUF5faWBXyk=
+³   ³   ³   ³   ³           6Ea6vCpBn_ytU8fTCXOWBGRZG_I=
+³   ³   ³   ³   ³           8ayrrR1qvN2TwbTcJtfYL1TaEQ8=
+³   ³   ³   ³   ³           Al4V6rIRsPoq5mPcs6uXxVmdscc=
+³   ³   ³   ³   ³           BSr8teVCzW1umTwQWWiNN765iUo=
+³   ³   ³   ³   ³           CIHLV1dPX0HwZ5PYyUlNfO96ejA=
+³   ³   ³   ³   ³           CWrQwSgKEdk+uUMABcGIGOkd8RY=
+³   ³   ³   ³   ³           D4Zx+g8yyk1WNh3MKrLXtJ26deI=
+³   ³   ³   ³   ³           d9VkezgQVNhp4rwAsR5wILIaMSk=
+³   ³   ³   ³   ³           EFQTJFVDLB_3uAF436SSB+5KhfY=
+³   ³   ³   ³   ³           eizoGClvmtVJIYoamhCRHR1yF4Y=
+³   ³   ³   ³   ³           EU4LBIV7llMY65Zayqyv0kn2I4I=
+³   ³   ³   ³   ³           gwC8m3+xchil0A7l2sL7JhJUDiQ=
+³   ³   ³   ³   ³           h5biZS+J8BDO4hP0tmJ5hwbu_zo=
+³   ³   ³   ³   ³           jCEeVHPFBmPGY9a+yweS16S16jY=
+³   ³   ³   ³   ³           kbYl9ik5srIZIUKsHxNftjKQfSA=
+³   ³   ³   ³   ³           KesVELI26I3c1p9SqWQgRQB+MpE=
+³   ³   ³   ³   ³           ncBnJSuJMK2uUOY+Kqx9H6rqYSw=
+³   ³   ³   ³   ³           o6c8KAmL4qhrz0mnzS57pl0Iqok=
+³   ³   ³   ³   ³           o9lvhxKmXUJwMxwEY0kqn8WC_ww=
+³   ³   ³   ³   ³           oKJuuNh3m2gkY9byvjYfR2JdoVE=
+³   ³   ³   ³   ³           pdgVxFX7d4NBOrU6AXIDA_dTypU=
+³   ³   ³   ³   ³           Ph4luZZxSGYtXqh8X5QY7SswK24=
+³   ³   ³   ³   ³           Qgt6uzkKZiiR4IdVvBxEwk_yr6c=
+³   ³   ³   ³   ³           QpNe_eWiOgdt_vO94N3JIaeqCAk=
+³   ³   ³   ³   ³           qSgcLPyfrtbTXy1TCDND38mV_Hc=
+³   ³   ³   ³   ³           qWfQVY0BvCy5GvI0pUYPcbWEtFc=
+³   ³   ³   ³   ³           qWmGnI4EEJgU9zPM3WB1Waxp6Vw=
+³   ³   ³   ³   ³           rLV2M9US+9gBFJUDk5GVMPRQIyk=
+³   ³   ³   ³   ³           rRagM2s5OzBg42D9PfkFVBXnZu0=
+³   ³   ³   ³   ³           sl5DDEurj9UQFoFmQGn10TfqC+A=
+³   ³   ³   ³   ³           T5mLzi14j1YxhlYeYdJXammNKUY=
+³   ³   ³   ³   ³           T_4bQa3+QffA3MlgyEOEZy2kBFo=
+³   ³   ³   ³   ³           u3hm2FKsUTyd6uEA_GqL7m9xJwc=
+³   ³   ³   ³   ³           U9am2pE9mVH8A6RQvAlFEOn0g0Q=
+³   ³   ³   ³   ³           umKgNhOWJqNdDt+t+sBUozuZajc=
+³   ³   ³   ³   ³           uNdOYgRMdAvGzR9jTRAodCvTo+c=
+³   ³   ³   ³   ³           UOP4VUqzz8x_jK8HNh1W8dC9o_E=
+³   ³   ³   ³   ³           VEGU0zYjAI4qbq4Dkc+1k1udgXw=
+³   ³   ³   ³   ³           wa+U1+ybkt0t+OeqFzMfqyYn1tE=
+³   ³   ³   ³   ³           wmrYT6X26GoDQYS0166hYxuunD4=
+³   ³   ³   ³   ³           X01PQ8VPqux1gDEEbDhppU_MNyQ=
+³   ³   ³   ³   ³           XEiC6oWsdG8qGfJizxaDy2M9RxQ=
+³   ³   ³   ³   ³           YEltk9qcr2Bc2W6C_BUfILiOyGE=
+³   ³   ³   ³   ³           yg8BV0ElHALo8Ws_aNBBGP4CnwA=
+³   ³   ³   ³   ³           ysRxkzssErLhwTVqcPj+_+fiO8k=
+³   ³   ³   ³   ³           ZEPjsyusjvJxM6exWT0l2xpblug=
+³   ³   ³   ³   ³           zZAVNdItb3x4f1LAqdzAzaPFiEM=
+³   ³   ³   ³   ³           _ME_zJ95ba0pvjadLtOWB50Fde4=
+³   ³   ³   ³   ³           
+³   ³   ³   ³   ÃÄÄÄmergeDebugAssets
+³   ³   ³   ³   ³       merger.xml
+³   ³   ³   ³   ³       
+³   ³   ³   ³   ÃÄÄÄmergeDebugJniLibFolders
+³   ³   ³   ³   ³       merger.xml
+³   ³   ³   ³   ³       
+³   ³   ³   ³   ÃÄÄÄmergeDebugShaders
+³   ³   ³   ³   ³       merger.xml
+³   ³   ³   ³   ³       
+³   ³   ³   ³   ÀÄÄÄpackageDebug
+³   ³   ³   ³       ÀÄÄÄtmp
+³   ³   ³   ³           ÀÄÄÄdebug
+³   ³   ³   ³               ³   dex-renamer-state.txt
+³   ³   ³   ³               ³   
+³   ³   ³   ³               ÀÄÄÄzip-cache
+³   ³   ³   ³                       androidResources
+³   ³   ³   ³                       javaResources0
+³   ³   ³   ³                       
+³   ³   ³   ÃÄÄÄjavac
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄcompileDebugJavaWithJavac
+³   ³   ³   ³           ÀÄÄÄclasses
+³   ³   ³   ³               ÀÄÄÄio
+³   ³   ³   ³                   ÀÄÄÄflutter
+³   ³   ³   ³                       ÀÄÄÄplugins
+³   ³   ³   ³                               GeneratedPluginRegistrant.class
+³   ³   ³   ³                               
+³   ³   ³   ÃÄÄÄjava_res
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄprocessDebugJavaRes
+³   ³   ³   ³           ÀÄÄÄout
+³   ³   ³   ³               ÃÄÄÄcom
+³   ³   ³   ³               ³   ÀÄÄÄexample
+³   ³   ³   ³               ³       ÀÄÄÄflutter_application_2
+³   ³   ³   ³               ÀÄÄÄMETA-INF
+³   ³   ³   ³                       app_debug.kotlin_module
+³   ³   ³   ³                       
+³   ³   ³   ÃÄÄÄlinked_resources_binary_format
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄprocessDebugResources
+³   ³   ³   ³               linked-resources-binary-format-debug.ap_
+³   ³   ³   ³               output-metadata.json
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄlocal_only_symbol_list
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄparseDebugLocalResources
+³   ³   ³   ³               R-def.txt
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄmanifest_merge_blame_file
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄprocessDebugMainManifest
+³   ³   ³   ³               manifest-merger-blame-debug-report.txt
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄmerged_java_res
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄmergeDebugJavaResource
+³   ³   ³   ³               base.jar
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄmerged_jni_libs
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄmergeDebugJniLibFolders
+³   ³   ³   ³           ÀÄÄÄout
+³   ³   ³   ÃÄÄÄmerged_manifest
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄprocessDebugMainManifest
+³   ³   ³   ³               AndroidManifest.xml
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄmerged_manifests
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄprocessDebugManifest
+³   ³   ³   ³               AndroidManifest.xml
+³   ³   ³   ³               output-metadata.json
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄmerged_native_libs
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄmergeDebugNativeLibs
+³   ³   ³   ³           ÀÄÄÄout
+³   ³   ³   ³               ÀÄÄÄlib
+³   ³   ³   ³                   ÀÄÄÄarm64-v8a
+³   ³   ³   ³                           libflutter.so
+³   ³   ³   ³                           libVkLayer_khronos_validation.so
+³   ³   ³   ³                           
+³   ³   ³   ÃÄÄÄmerged_res
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄmergeDebugResources
+³   ³   ³   ³               drawable-v21_launch_background.xml.flat
+³   ³   ³   ³               mipmap-hdpi_ic_launcher.png.flat
+³   ³   ³   ³               mipmap-mdpi_ic_launcher.png.flat
+³   ³   ³   ³               mipmap-xhdpi_ic_launcher.png.flat
+³   ³   ³   ³               mipmap-xxhdpi_ic_launcher.png.flat
+³   ³   ³   ³               mipmap-xxxhdpi_ic_launcher.png.flat
+³   ³   ³   ³               values-af_values-af.arsc.flat
+³   ³   ³   ³               values-am_values-am.arsc.flat
+³   ³   ³   ³               values-ar_values-ar.arsc.flat
+³   ³   ³   ³               values-as_values-as.arsc.flat
+³   ³   ³   ³               values-az_values-az.arsc.flat
+³   ³   ³   ³               values-b+sr+Latn_values-b+sr+Latn.arsc.flat
+³   ³   ³   ³               values-be_values-be.arsc.flat
+³   ³   ³   ³               values-bg_values-bg.arsc.flat
+³   ³   ³   ³               values-bn_values-bn.arsc.flat
+³   ³   ³   ³               values-bs_values-bs.arsc.flat
+³   ³   ³   ³               values-ca_values-ca.arsc.flat
+³   ³   ³   ³               values-cs_values-cs.arsc.flat
+³   ³   ³   ³               values-da_values-da.arsc.flat
+³   ³   ³   ³               values-de_values-de.arsc.flat
+³   ³   ³   ³               values-el_values-el.arsc.flat
+³   ³   ³   ³               values-en-rAU_values-en-rAU.arsc.flat
+³   ³   ³   ³               values-en-rCA_values-en-rCA.arsc.flat
+³   ³   ³   ³               values-en-rGB_values-en-rGB.arsc.flat
+³   ³   ³   ³               values-en-rIN_values-en-rIN.arsc.flat
+³   ³   ³   ³               values-en-rXC_values-en-rXC.arsc.flat
+³   ³   ³   ³               values-es-rUS_values-es-rUS.arsc.flat
+³   ³   ³   ³               values-es_values-es.arsc.flat
+³   ³   ³   ³               values-et_values-et.arsc.flat
+³   ³   ³   ³               values-eu_values-eu.arsc.flat
+³   ³   ³   ³               values-fa_values-fa.arsc.flat
+³   ³   ³   ³               values-fi_values-fi.arsc.flat
+³   ³   ³   ³               values-fr-rCA_values-fr-rCA.arsc.flat
+³   ³   ³   ³               values-fr_values-fr.arsc.flat
+³   ³   ³   ³               values-gl_values-gl.arsc.flat
+³   ³   ³   ³               values-gu_values-gu.arsc.flat
+³   ³   ³   ³               values-hi_values-hi.arsc.flat
+³   ³   ³   ³               values-hr_values-hr.arsc.flat
+³   ³   ³   ³               values-hu_values-hu.arsc.flat
+³   ³   ³   ³               values-hy_values-hy.arsc.flat
+³   ³   ³   ³               values-in_values-in.arsc.flat
+³   ³   ³   ³               values-is_values-is.arsc.flat
+³   ³   ³   ³               values-it_values-it.arsc.flat
+³   ³   ³   ³               values-iw_values-iw.arsc.flat
+³   ³   ³   ³               values-ja_values-ja.arsc.flat
+³   ³   ³   ³               values-ka_values-ka.arsc.flat
+³   ³   ³   ³               values-kk_values-kk.arsc.flat
+³   ³   ³   ³               values-km_values-km.arsc.flat
+³   ³   ³   ³               values-kn_values-kn.arsc.flat
+³   ³   ³   ³               values-ko_values-ko.arsc.flat
+³   ³   ³   ³               values-ky_values-ky.arsc.flat
+³   ³   ³   ³               values-lo_values-lo.arsc.flat
+³   ³   ³   ³               values-lt_values-lt.arsc.flat
+³   ³   ³   ³               values-lv_values-lv.arsc.flat
+³   ³   ³   ³               values-mk_values-mk.arsc.flat
+³   ³   ³   ³               values-ml_values-ml.arsc.flat
+³   ³   ³   ³               values-mn_values-mn.arsc.flat
+³   ³   ³   ³               values-mr_values-mr.arsc.flat
+³   ³   ³   ³               values-ms_values-ms.arsc.flat
+³   ³   ³   ³               values-my_values-my.arsc.flat
+³   ³   ³   ³               values-nb_values-nb.arsc.flat
+³   ³   ³   ³               values-ne_values-ne.arsc.flat
+³   ³   ³   ³               values-night-v8_values-night-v8.arsc.flat
+³   ³   ³   ³               values-nl_values-nl.arsc.flat
+³   ³   ³   ³               values-or_values-or.arsc.flat
+³   ³   ³   ³               values-pa_values-pa.arsc.flat
+³   ³   ³   ³               values-pl_values-pl.arsc.flat
+³   ³   ³   ³               values-pt-rBR_values-pt-rBR.arsc.flat
+³   ³   ³   ³               values-pt-rPT_values-pt-rPT.arsc.flat
+³   ³   ³   ³               values-pt_values-pt.arsc.flat
+³   ³   ³   ³               values-ro_values-ro.arsc.flat
+³   ³   ³   ³               values-ru_values-ru.arsc.flat
+³   ³   ³   ³               values-si_values-si.arsc.flat
+³   ³   ³   ³               values-sk_values-sk.arsc.flat
+³   ³   ³   ³               values-sl_values-sl.arsc.flat
+³   ³   ³   ³               values-sq_values-sq.arsc.flat
+³   ³   ³   ³               values-sr_values-sr.arsc.flat
+³   ³   ³   ³               values-sv_values-sv.arsc.flat
+³   ³   ³   ³               values-sw_values-sw.arsc.flat
+³   ³   ³   ³               values-ta_values-ta.arsc.flat
+³   ³   ³   ³               values-te_values-te.arsc.flat
+³   ³   ³   ³               values-th_values-th.arsc.flat
+³   ³   ³   ³               values-tl_values-tl.arsc.flat
+³   ³   ³   ³               values-tr_values-tr.arsc.flat
+³   ³   ³   ³               values-uk_values-uk.arsc.flat
+³   ³   ³   ³               values-ur_values-ur.arsc.flat
+³   ³   ³   ³               values-uz_values-uz.arsc.flat
+³   ³   ³   ³               values-v21_values-v21.arsc.flat
+³   ³   ³   ³               values-vi_values-vi.arsc.flat
+³   ³   ³   ³               values-zh-rCN_values-zh-rCN.arsc.flat
+³   ³   ³   ³               values-zh-rHK_values-zh-rHK.arsc.flat
+³   ³   ³   ³               values-zh-rTW_values-zh-rTW.arsc.flat
+³   ³   ³   ³               values-zu_values-zu.arsc.flat
+³   ³   ³   ³               values_values.arsc.flat
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄmerged_res_blame_folder
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄmergeDebugResources
+³   ³   ³   ³           ÀÄÄÄout
+³   ³   ³   ³               ÃÄÄÄmulti-v2
+³   ³   ³   ³               ³       mergeDebugResources.json
+³   ³   ³   ³               ³       values-af.json
+³   ³   ³   ³               ³       values-am.json
+³   ³   ³   ³               ³       values-ar.json
+³   ³   ³   ³               ³       values-as.json
+³   ³   ³   ³               ³       values-az.json
+³   ³   ³   ³               ³       values-b+sr+Latn.json
+³   ³   ³   ³               ³       values-be.json
+³   ³   ³   ³               ³       values-bg.json
+³   ³   ³   ³               ³       values-bn.json
+³   ³   ³   ³               ³       values-bs.json
+³   ³   ³   ³               ³       values-ca.json
+³   ³   ³   ³               ³       values-cs.json
+³   ³   ³   ³               ³       values-da.json
+³   ³   ³   ³               ³       values-de.json
+³   ³   ³   ³               ³       values-el.json
+³   ³   ³   ³               ³       values-en-rAU.json
+³   ³   ³   ³               ³       values-en-rCA.json
+³   ³   ³   ³               ³       values-en-rGB.json
+³   ³   ³   ³               ³       values-en-rIN.json
+³   ³   ³   ³               ³       values-en-rXC.json
+³   ³   ³   ³               ³       values-es-rUS.json
+³   ³   ³   ³               ³       values-es.json
+³   ³   ³   ³               ³       values-et.json
+³   ³   ³   ³               ³       values-eu.json
+³   ³   ³   ³               ³       values-fa.json
+³   ³   ³   ³               ³       values-fi.json
+³   ³   ³   ³               ³       values-fr-rCA.json
+³   ³   ³   ³               ³       values-fr.json
+³   ³   ³   ³               ³       values-gl.json
+³   ³   ³   ³               ³       values-gu.json
+³   ³   ³   ³               ³       values-hi.json
+³   ³   ³   ³               ³       values-hr.json
+³   ³   ³   ³               ³       values-hu.json
+³   ³   ³   ³               ³       values-hy.json
+³   ³   ³   ³               ³       values-in.json
+³   ³   ³   ³               ³       values-is.json
+³   ³   ³   ³               ³       values-it.json
+³   ³   ³   ³               ³       values-iw.json
+³   ³   ³   ³               ³       values-ja.json
+³   ³   ³   ³               ³       values-ka.json
+³   ³   ³   ³               ³       values-kk.json
+³   ³   ³   ³               ³       values-km.json
+³   ³   ³   ³               ³       values-kn.json
+³   ³   ³   ³               ³       values-ko.json
+³   ³   ³   ³               ³       values-ky.json
+³   ³   ³   ³               ³       values-lo.json
+³   ³   ³   ³               ³       values-lt.json
+³   ³   ³   ³               ³       values-lv.json
+³   ³   ³   ³               ³       values-mk.json
+³   ³   ³   ³               ³       values-ml.json
+³   ³   ³   ³               ³       values-mn.json
+³   ³   ³   ³               ³       values-mr.json
+³   ³   ³   ³               ³       values-ms.json
+³   ³   ³   ³               ³       values-my.json
+³   ³   ³   ³               ³       values-nb.json
+³   ³   ³   ³               ³       values-ne.json
+³   ³   ³   ³               ³       values-night-v8.json
+³   ³   ³   ³               ³       values-nl.json
+³   ³   ³   ³               ³       values-or.json
+³   ³   ³   ³               ³       values-pa.json
+³   ³   ³   ³               ³       values-pl.json
+³   ³   ³   ³               ³       values-pt-rBR.json
+³   ³   ³   ³               ³       values-pt-rPT.json
+³   ³   ³   ³               ³       values-pt.json
+³   ³   ³   ³               ³       values-ro.json
+³   ³   ³   ³               ³       values-ru.json
+³   ³   ³   ³               ³       values-si.json
+³   ³   ³   ³               ³       values-sk.json
+³   ³   ³   ³               ³       values-sl.json
+³   ³   ³   ³               ³       values-sq.json
+³   ³   ³   ³               ³       values-sr.json
+³   ³   ³   ³               ³       values-sv.json
+³   ³   ³   ³               ³       values-sw.json
+³   ³   ³   ³               ³       values-ta.json
+³   ³   ³   ³               ³       values-te.json
+³   ³   ³   ³               ³       values-th.json
+³   ³   ³   ³               ³       values-tl.json
+³   ³   ³   ³               ³       values-tr.json
+³   ³   ³   ³               ³       values-uk.json
+³   ³   ³   ³               ³       values-ur.json
+³   ³   ³   ³               ³       values-uz.json
+³   ³   ³   ³               ³       values-v21.json
+³   ³   ³   ³               ³       values-vi.json
+³   ³   ³   ³               ³       values-zh-rCN.json
+³   ³   ³   ³               ³       values-zh-rHK.json
+³   ³   ³   ³               ³       values-zh-rTW.json
+³   ³   ³   ³               ³       values-zu.json
+³   ³   ³   ³               ³       values.json
+³   ³   ³   ³               ³       
+³   ³   ³   ³               ÀÄÄÄsingle
+³   ³   ³   ³                       mergeDebugResources.json
+³   ³   ³   ³                       
+³   ³   ³   ÃÄÄÄmerged_shaders
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄmergeDebugShaders
+³   ³   ³   ³           ÀÄÄÄout
+³   ³   ³   ÃÄÄÄmerged_test_only_native_libs
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄmergeDebugNativeLibs
+³   ³   ³   ³           ÀÄÄÄout
+³   ³   ³   ÃÄÄÄmixed_scope_dex_archive
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄdexBuilderDebug
+³   ³   ³   ³           ÀÄÄÄout
+³   ³   ³   ÃÄÄÄnavigation_json
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄextractDeepLinksDebug
+³   ³   ³   ³               navigation.json
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄnested_resources_validation_report
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄgenerateDebugResources
+³   ³   ³   ³               nestedResourcesValidationReport.txt
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄpackaged_manifests
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄprocessDebugManifestForPackage
+³   ³   ³   ³               AndroidManifest.xml
+³   ³   ³   ³               output-metadata.json
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄpackaged_res
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄpackageDebugResources
+³   ³   ³   ³           ÃÄÄÄdrawable-v21
+³   ³   ³   ³           ³       launch_background.xml
+³   ³   ³   ³           ³       
+³   ³   ³   ³           ÃÄÄÄmipmap-hdpi-v4
+³   ³   ³   ³           ³       ic_launcher.png
+³   ³   ³   ³           ³       
+³   ³   ³   ³           ÃÄÄÄmipmap-mdpi-v4
+³   ³   ³   ³           ³       ic_launcher.png
+³   ³   ³   ³           ³       
+³   ³   ³   ³           ÃÄÄÄmipmap-xhdpi-v4
+³   ³   ³   ³           ³       ic_launcher.png
+³   ³   ³   ³           ³       
+³   ³   ³   ³           ÃÄÄÄmipmap-xxhdpi-v4
+³   ³   ³   ³           ³       ic_launcher.png
+³   ³   ³   ³           ³       
+³   ³   ³   ³           ÃÄÄÄmipmap-xxxhdpi-v4
+³   ³   ³   ³           ³       ic_launcher.png
+³   ³   ³   ³           ³       
+³   ³   ³   ³           ÃÄÄÄvalues
+³   ³   ³   ³           ³       values.xml
+³   ³   ³   ³           ³       
+³   ³   ³   ³           ÀÄÄÄvalues-night-v8
+³   ³   ³   ³                   values-night-v8.xml
+³   ³   ³   ³                   
+³   ³   ³   ÃÄÄÄproject_dex_archive
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄdexBuilderDebug
+³   ³   ³   ³           ÀÄÄÄout
+³   ³   ³   ³               ³   60a86b779f7709aa4e5b2222847a71fbbf2ac24dd6f77124cea45a557f6e9bcf_0.jar
+³   ³   ³   ³               ³   60a86b779f7709aa4e5b2222847a71fbbf2ac24dd6f77124cea45a557f6e9bcf_1.jar
+³   ³   ³   ³               ³   60a86b779f7709aa4e5b2222847a71fbbf2ac24dd6f77124cea45a557f6e9bcf_2.jar
+³   ³   ³   ³               ³   60a86b779f7709aa4e5b2222847a71fbbf2ac24dd6f77124cea45a557f6e9bcf_3.jar
+³   ³   ³   ³               ³   60a86b779f7709aa4e5b2222847a71fbbf2ac24dd6f77124cea45a557f6e9bcf_4.jar
+³   ³   ³   ³               ³   60a86b779f7709aa4e5b2222847a71fbbf2ac24dd6f77124cea45a557f6e9bcf_5.jar
+³   ³   ³   ³               ³   
+³   ³   ³   ³               ÃÄÄÄcom
+³   ³   ³   ³               ³   ÀÄÄÄexample
+³   ³   ³   ³               ³       ÀÄÄÄflutter_application_2
+³   ³   ³   ³               ³               MainActivity.dex
+³   ³   ³   ³               ³               
+³   ³   ³   ³               ÀÄÄÄio
+³   ³   ³   ³                   ÀÄÄÄflutter
+³   ³   ³   ³                       ÀÄÄÄplugins
+³   ³   ³   ³                               GeneratedPluginRegistrant.dex
+³   ³   ³   ³                               
+³   ³   ³   ÃÄÄÄruntime_symbol_list
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄprocessDebugResources
+³   ³   ³   ³               R.txt
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄsigning_config_versions
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄwriteDebugSigningConfigVersions
+³   ³   ³   ³               signing-config-versions.json
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄsource_set_path_map
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄmapDebugSourceSetPaths
+³   ³   ³   ³               file-map.txt
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄstable_resource_ids_file
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄprocessDebugResources
+³   ³   ³   ³               stableIds.txt
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄstripped_native_libs
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄstripDebugDebugSymbols
+³   ³   ³   ³           ÀÄÄÄout
+³   ³   ³   ³               ÀÄÄÄlib
+³   ³   ³   ³                   ÀÄÄÄarm64-v8a
+³   ³   ³   ³                           libflutter.so
+³   ³   ³   ³                           libVkLayer_khronos_validation.so
+³   ³   ³   ³                           
+³   ³   ³   ÃÄÄÄsub_project_dex_archive
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄdexBuilderDebug
+³   ³   ³   ³           ÀÄÄÄout
+³   ³   ³   ÃÄÄÄsymbol_list_with_package_name
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄprocessDebugResources
+³   ³   ³   ³               package-aware-r.txt
+³   ³   ³   ³               
+³   ³   ³   ÀÄÄÄvalidate_signing_config
+³   ³   ³       ÀÄÄÄdebug
+³   ³   ³           ÀÄÄÄvalidateSigningDebug
+³   ³   ÃÄÄÄkotlin
+³   ³   ³   ÀÄÄÄcompileDebugKotlin
+³   ³   ³       ÃÄÄÄcacheable
+³   ³   ³       ³   ³   last-build.bin
+³   ³   ³       ³   ³   
+³   ³   ³       ³   ÀÄÄÄcaches-jvm
+³   ³   ³       ³       ÃÄÄÄinputs
+³   ³   ³       ³       ³       source-to-output.tab
+³   ³   ³       ³       ³       source-to-output.tab.keystream
+³   ³   ³       ³       ³       source-to-output.tab.keystream.len
+³   ³   ³       ³       ³       source-to-output.tab.len
+³   ³   ³       ³       ³       source-to-output.tab.values.at
+³   ³   ³       ³       ³       source-to-output.tab_i
+³   ³   ³       ³       ³       source-to-output.tab_i.len
+³   ³   ³       ³       ³       
+³   ³   ³       ³       ÃÄÄÄjvm
+³   ³   ³       ³       ³   ÀÄÄÄkotlin
+³   ³   ³       ³       ³           class-attributes.tab
+³   ³   ³       ³       ³           class-attributes.tab.keystream
+³   ³   ³       ³       ³           class-attributes.tab.keystream.len
+³   ³   ³       ³       ³           class-attributes.tab.len
+³   ³   ³       ³       ³           class-attributes.tab.values.at
+³   ³   ³       ³       ³           class-attributes.tab_i
+³   ³   ³       ³       ³           class-attributes.tab_i.len
+³   ³   ³       ³       ³           class-fq-name-to-source.tab
+³   ³   ³       ³       ³           class-fq-name-to-source.tab.keystream
+³   ³   ³       ³       ³           class-fq-name-to-source.tab.keystream.len
+³   ³   ³       ³       ³           class-fq-name-to-source.tab.len
+³   ³   ³       ³       ³           class-fq-name-to-source.tab.values.at
+³   ³   ³       ³       ³           class-fq-name-to-source.tab_i
+³   ³   ³       ³       ³           class-fq-name-to-source.tab_i.len
+³   ³   ³       ³       ³           internal-name-to-source.tab
+³   ³   ³       ³       ³           internal-name-to-source.tab.keystream
+³   ³   ³       ³       ³           internal-name-to-source.tab.keystream.len
+³   ³   ³       ³       ³           internal-name-to-source.tab.len
+³   ³   ³       ³       ³           internal-name-to-source.tab.values.at
+³   ³   ³       ³       ³           internal-name-to-source.tab_i
+³   ³   ³       ³       ³           internal-name-to-source.tab_i.len
+³   ³   ³       ³       ³           proto.tab
+³   ³   ³       ³       ³           proto.tab.keystream
+³   ³   ³       ³       ³           proto.tab.keystream.len
+³   ³   ³       ³       ³           proto.tab.len
+³   ³   ³       ³       ³           proto.tab.values.at
+³   ³   ³       ³       ³           proto.tab_i
+³   ³   ³       ³       ³           proto.tab_i.len
+³   ³   ³       ³       ³           source-to-classes.tab
+³   ³   ³       ³       ³           source-to-classes.tab.keystream
+³   ³   ³       ³       ³           source-to-classes.tab.keystream.len
+³   ³   ³       ³       ³           source-to-classes.tab.len
+³   ³   ³       ³       ³           source-to-classes.tab.values.at
+³   ³   ³       ³       ³           source-to-classes.tab_i
+³   ³   ³       ³       ³           source-to-classes.tab_i.len
+³   ³   ³       ³       ³           subtypes.tab
+³   ³   ³       ³       ³           subtypes.tab.keystream
+³   ³   ³       ³       ³           subtypes.tab.keystream.len
+³   ³   ³       ³       ³           subtypes.tab.len
+³   ³   ³       ³       ³           subtypes.tab.values.at
+³   ³   ³       ³       ³           subtypes.tab_i
+³   ³   ³       ³       ³           subtypes.tab_i.len
+³   ³   ³       ³       ³           supertypes.tab
+³   ³   ³       ³       ³           supertypes.tab.keystream
+³   ³   ³       ³       ³           supertypes.tab.keystream.len
+³   ³   ³       ³       ³           supertypes.tab.len
+³   ³   ³       ³       ³           supertypes.tab.values.at
+³   ³   ³       ³       ³           supertypes.tab_i
+³   ³   ³       ³       ³           supertypes.tab_i.len
+³   ³   ³       ³       ³           
+³   ³   ³       ³       ÀÄÄÄlookups
+³   ³   ³       ³               counters.tab
+³   ³   ³       ³               file-to-id.tab
+³   ³   ³       ³               file-to-id.tab.keystream
+³   ³   ³       ³               file-to-id.tab.keystream.len
+³   ³   ³       ³               file-to-id.tab.len
+³   ³   ³       ³               file-to-id.tab.values.at
+³   ³   ³       ³               file-to-id.tab_i
+³   ³   ³       ³               file-to-id.tab_i.len
+³   ³   ³       ³               id-to-file.tab
+³   ³   ³       ³               id-to-file.tab.keystream
+³   ³   ³       ³               id-to-file.tab.keystream.len
+³   ³   ³       ³               id-to-file.tab.len
+³   ³   ³       ³               id-to-file.tab.values.at
+³   ³   ³       ³               id-to-file.tab_i.len
+³   ³   ³       ³               lookups.tab
+³   ³   ³       ³               lookups.tab.keystream
+³   ³   ³       ³               lookups.tab.keystream.len
+³   ³   ³       ³               lookups.tab.len
+³   ³   ³       ³               lookups.tab.values.at
+³   ³   ³       ³               lookups.tab_i
+³   ³   ³       ³               lookups.tab_i.len
+³   ³   ³       ³               
+³   ³   ³       ÃÄÄÄclasspath-snapshot
+³   ³   ³       ³       shrunk-classpath-snapshot.bin
+³   ³   ³       ³       
+³   ³   ³       ÀÄÄÄlocal-state
+³   ³   ³               build-history.bin
+³   ³   ³               
+³   ³   ÃÄÄÄoutputs
+³   ³   ³   ÃÄÄÄapk
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³           app-debug.apk
+³   ³   ³   ³           output-metadata.json
+³   ³   ³   ³           
+³   ³   ³   ÃÄÄÄflutter-apk
+³   ³   ³   ³       app-debug.apk
+³   ³   ³   ³       app-debug.apk.sha1
+³   ³   ³   ³       
+³   ³   ³   ÀÄÄÄlogs
+³   ³   ³           manifest-merger-debug-report.txt
+³   ³   ³           
+³   ³   ÀÄÄÄtmp
+³   ³       ÃÄÄÄcompileDebugJavaWithJavac
+³   ³       ³   ³   previous-compilation-data.bin
+³   ³       ³   ³   
+³   ³       ³   ÀÄÄÄcompileTransaction
+³   ³       ³       ÃÄÄÄbackup-dir
+³   ³       ³       ÀÄÄÄstash-dir
+³   ³       ³               GeneratedPluginRegistrant.class.uniqueId0
+³   ³       ³               
+³   ³       ÃÄÄÄkotlin-classes
+³   ³       ³   ÀÄÄÄdebug
+³   ³       ³       ÃÄÄÄcom
+³   ³       ³       ³   ÀÄÄÄexample
+³   ³       ³       ³       ÀÄÄÄflutter_application_2
+³   ³       ³       ³               MainActivity.class
+³   ³       ³       ³               
+³   ³       ³       ÀÄÄÄMETA-INF
+³   ³       ³               app_debug.kotlin_module
+³   ³       ³               
+³   ³       ÀÄÄÄpackJniLibsflutterBuildDebug
+³   ³               MANIFEST.MF
+³   ³               
+³   ÃÄÄÄca72376adcf7062528d309e545b080b8
+³   ³       gen_dart_plugin_registrant.stamp
+³   ³       gen_localizations.stamp
+³   ³       _composite.stamp
+³   ³       
+³   ÃÄÄÄconnectivity_plus
+³   ³   ÃÄÄÄ.transforms
+³   ³   ³   ÀÄÄÄb5d6c3aeebd92974543b404aa09caa96
+³   ³   ³       ³   results.bin
+³   ³   ³       ³   
+³   ³   ³       ÀÄÄÄtransformed
+³   ³   ³           ÀÄÄÄclasses
+³   ³   ³                   classes.dex
+³   ³   ³                   
+³   ³   ÃÄÄÄgenerated
+³   ³   ³   ÃÄÄÄap_generated_sources
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄout
+³   ³   ³   ÀÄÄÄres
+³   ³   ³       ÃÄÄÄpngs
+³   ³   ³       ³   ÀÄÄÄdebug
+³   ³   ³       ÀÄÄÄresValues
+³   ³   ³           ÀÄÄÄdebug
+³   ³   ÃÄÄÄintermediates
+³   ³   ³   ÃÄÄÄaapt_friendly_merged_manifests
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄprocessDebugManifest
+³   ³   ³   ³           ÀÄÄÄaapt
+³   ³   ³   ³                   AndroidManifest.xml
+³   ³   ³   ³                   output-metadata.json
+³   ³   ³   ³                   
+³   ³   ³   ÃÄÄÄaar_libs_directory
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄsyncDebugLibJars
+³   ³   ³   ³           ÀÄÄÄlibs
+³   ³   ³   ÃÄÄÄaar_main_jar
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄsyncDebugLibJars
+³   ³   ³   ³               classes.jar
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄaar_metadata
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄwriteDebugAarMetadata
+³   ³   ³   ³               aar-metadata.properties
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄannotations_typedef_file
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄextractDebugAnnotations
+³   ³   ³   ³               typedefs.txt
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄannotations_zip
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄextractDebugAnnotations
+³   ³   ³   ÃÄÄÄannotation_processor_list
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄjavaPreCompileDebug
+³   ³   ³   ³               annotationProcessors.json
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄcompiled_local_resources
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄcompileDebugLibraryResources
+³   ³   ³   ³           ÀÄÄÄout
+³   ³   ³   ÃÄÄÄcompile_library_classes_jar
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄbundleLibCompileToJarDebug
+³   ³   ³   ³               classes.jar
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄcompile_r_class_jar
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄgenerateDebugRFile
+³   ³   ³   ³               R.jar
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄcompile_symbol_list
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄgenerateDebugRFile
+³   ³   ³   ³               R.txt
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄdata_binding_layout_info_type_package
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄpackageDebugResources
+³   ³   ³   ³           ÀÄÄÄout
+³   ³   ³   ÃÄÄÄgenerated_proguard_file
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄmergeDebugGeneratedProguardFiles
+³   ³   ³   ÃÄÄÄincremental
+³   ³   ³   ³   ÃÄÄÄdebug
+³   ³   ³   ³   ³   ÀÄÄÄpackageDebugResources
+³   ³   ³   ³   ³       ³   compile-file-map.properties
+³   ³   ³   ³   ³       ³   merger.xml
+³   ³   ³   ³   ³       ³   
+³   ³   ³   ³   ³       ÃÄÄÄmerged.dir
+³   ³   ³   ³   ³       ÀÄÄÄstripped.dir
+³   ³   ³   ³   ÃÄÄÄdebug-mergeJavaRes
+³   ³   ³   ³   ³   ³   merge-state
+³   ³   ³   ³   ³   ³   
+³   ³   ³   ³   ³   ÀÄÄÄzip-cache
+³   ³   ³   ³   ÃÄÄÄmergeDebugJniLibFolders
+³   ³   ³   ³   ³       merger.xml
+³   ³   ³   ³   ³       
+³   ³   ³   ³   ÃÄÄÄmergeDebugShaders
+³   ³   ³   ³   ³       merger.xml
+³   ³   ³   ³   ³       
+³   ³   ³   ³   ÀÄÄÄpackageDebugAssets
+³   ³   ³   ³           merger.xml
+³   ³   ³   ³           
+³   ³   ³   ÃÄÄÄjavac
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄcompileDebugJavaWithJavac
+³   ³   ³   ³           ÀÄÄÄclasses
+³   ³   ³   ³               ÀÄÄÄdev
+³   ³   ³   ³                   ÀÄÄÄfluttercommunity
+³   ³   ³   ³                       ÀÄÄÄplus
+³   ³   ³   ³                           ÀÄÄÄconnectivity
+³   ³   ³   ³                                   Connectivity.class
+³   ³   ³   ³                                   ConnectivityBroadcastReceiver$1.class
+³   ³   ³   ³                                   ConnectivityBroadcastReceiver.class
+³   ³   ³   ³                                   ConnectivityMethodChannelHandler.class
+³   ³   ³   ³                                   ConnectivityPlugin.class
+³   ³   ³   ³                                   
+³   ³   ³   ÃÄÄÄlibrary_and_local_jars_jni
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄcopyDebugJniLibsProjectAndLocalJars
+³   ³   ³   ³           ÀÄÄÄjni
+³   ³   ³   ÃÄÄÄlibrary_art_profile
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄprepareDebugArtProfile
+³   ³   ³   ÃÄÄÄlibrary_assets
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄpackageDebugAssets
+³   ³   ³   ³           ÀÄÄÄout
+³   ³   ³   ÃÄÄÄlibrary_jni
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄcopyDebugJniLibsProjectOnly
+³   ³   ³   ³           ÀÄÄÄjni
+³   ³   ³   ÃÄÄÄlint_publish_jar
+³   ³   ³   ³   ÀÄÄÄglobal
+³   ³   ³   ³       ÀÄÄÄprepareLintJarForPublish
+³   ³   ³   ÃÄÄÄlocal_only_symbol_list
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄparseDebugLocalResources
+³   ³   ³   ³               R-def.txt
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄmanifest_merge_blame_file
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄprocessDebugManifest
+³   ³   ³   ³               manifest-merger-blame-debug-report.txt
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄmerged_consumer_proguard_file
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄmergeDebugConsumerProguardFiles
+³   ³   ³   ÃÄÄÄmerged_java_res
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄmergeDebugJavaResource
+³   ³   ³   ³               feature-connectivity_plus.jar
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄmerged_jni_libs
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄmergeDebugJniLibFolders
+³   ³   ³   ³           ÀÄÄÄout
+³   ³   ³   ÃÄÄÄmerged_manifest
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄprocessDebugManifest
+³   ³   ³   ³               AndroidManifest.xml
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄmerged_shaders
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄmergeDebugShaders
+³   ³   ³   ³           ÀÄÄÄout
+³   ³   ³   ÃÄÄÄnavigation_json
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄextractDeepLinksDebug
+³   ³   ³   ³               navigation.json
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄnavigation_json_for_aar
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄextractDeepLinksForAarDebug
+³   ³   ³   ÃÄÄÄnested_resources_validation_report
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄgenerateDebugResources
+³   ³   ³   ³               nestedResourcesValidationReport.txt
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄpackaged_res
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄpackageDebugResources
+³   ³   ³   ÃÄÄÄpublic_res
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄpackageDebugResources
+³   ³   ³   ÃÄÄÄruntime_library_classes_jar
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄbundleLibRuntimeToJarDebug
+³   ³   ³   ³               classes.jar
+³   ³   ³   ³               
+³   ³   ³   ÀÄÄÄsymbol_list_with_package_name
+³   ³   ³       ÀÄÄÄdebug
+³   ³   ³           ÀÄÄÄgenerateDebugRFile
+³   ³   ³                   package-aware-r.txt
+³   ³   ³                   
+³   ³   ÃÄÄÄoutputs
+³   ³   ³   ÃÄÄÄaar
+³   ³   ³   ³       connectivity_plus-debug.aar
+³   ³   ³   ³       
+³   ³   ³   ÀÄÄÄlogs
+³   ³   ³           manifest-merger-debug-report.txt
+³   ³   ³           
+³   ³   ÀÄÄÄtmp
+³   ³       ÀÄÄÄcompileDebugJavaWithJavac
+³   ³               previous-compilation-data.bin
+³   ³               
+³   ÃÄÄÄfluttertoast
+³   ³   ÃÄÄÄ.transforms
+³   ³   ³   ÀÄÄÄ29d8a86cd058206b8bc7d68a04f6df36
+³   ³   ³       ³   results.bin
+³   ³   ³       ³   
+³   ³   ³       ÀÄÄÄtransformed
+³   ³   ³           ÀÄÄÄclasses
+³   ³   ³                   classes.dex
+³   ³   ³                   
+³   ³   ÃÄÄÄgenerated
+³   ³   ³   ÀÄÄÄres
+³   ³   ³       ÃÄÄÄpngs
+³   ³   ³       ³   ÀÄÄÄdebug
+³   ³   ³       ÀÄÄÄresValues
+³   ³   ³           ÀÄÄÄdebug
+³   ³   ÃÄÄÄintermediates
+³   ³   ³   ÃÄÄÄaapt_friendly_merged_manifests
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄprocessDebugManifest
+³   ³   ³   ³           ÀÄÄÄaapt
+³   ³   ³   ³                   AndroidManifest.xml
+³   ³   ³   ³                   output-metadata.json
+³   ³   ³   ³                   
+³   ³   ³   ÃÄÄÄaar_libs_directory
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄsyncDebugLibJars
+³   ³   ³   ³           ÀÄÄÄlibs
+³   ³   ³   ÃÄÄÄaar_main_jar
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄsyncDebugLibJars
+³   ³   ³   ³               classes.jar
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄaar_metadata
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄwriteDebugAarMetadata
+³   ³   ³   ³               aar-metadata.properties
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄannotations_typedef_file
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄextractDebugAnnotations
+³   ³   ³   ³               typedefs.txt
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄannotations_zip
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄextractDebugAnnotations
+³   ³   ³   ÃÄÄÄannotation_processor_list
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄjavaPreCompileDebug
+³   ³   ³   ³               annotationProcessors.json
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄcompiled_local_resources
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄcompileDebugLibraryResources
+³   ³   ³   ³           ÀÄÄÄout
+³   ³   ³   ³                   drawable_corner.xml.flat
+³   ³   ³   ³                   drawable_toast_bg.xml.flat
+³   ³   ³   ³                   layout_toast_custom.xml.flat
+³   ³   ³   ³                   
+³   ³   ³   ÃÄÄÄcompile_library_classes_jar
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄbundleLibCompileToJarDebug
+³   ³   ³   ³               classes.jar
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄcompile_r_class_jar
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄgenerateDebugRFile
+³   ³   ³   ³               R.jar
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄcompile_symbol_list
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄgenerateDebugRFile
+³   ³   ³   ³               R.txt
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄdata_binding_layout_info_type_package
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄpackageDebugResources
+³   ³   ³   ³           ÀÄÄÄout
+³   ³   ³   ÃÄÄÄgenerated_proguard_file
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄmergeDebugGeneratedProguardFiles
+³   ³   ³   ÃÄÄÄincremental
+³   ³   ³   ³   ÃÄÄÄdebug
+³   ³   ³   ³   ³   ÀÄÄÄpackageDebugResources
+³   ³   ³   ³   ³       ³   compile-file-map.properties
+³   ³   ³   ³   ³       ³   merger.xml
+³   ³   ³   ³   ³       ³   
+³   ³   ³   ³   ³       ÃÄÄÄmerged.dir
+³   ³   ³   ³   ³       ÀÄÄÄstripped.dir
+³   ³   ³   ³   ÃÄÄÄdebug-mergeJavaRes
+³   ³   ³   ³   ³   ³   merge-state
+³   ³   ³   ³   ³   ³   
+³   ³   ³   ³   ³   ÀÄÄÄzip-cache
+³   ³   ³   ³   ÃÄÄÄmergeDebugJniLibFolders
+³   ³   ³   ³   ³       merger.xml
+³   ³   ³   ³   ³       
+³   ³   ³   ³   ÃÄÄÄmergeDebugShaders
+³   ³   ³   ³   ³       merger.xml
+³   ³   ³   ³   ³       
+³   ³   ³   ³   ÀÄÄÄpackageDebugAssets
+³   ³   ³   ³           merger.xml
+³   ³   ³   ³           
+³   ³   ³   ÃÄÄÄjava_res
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄprocessDebugJavaRes
+³   ³   ³   ³           ÀÄÄÄout
+³   ³   ³   ³               ÃÄÄÄio
+³   ³   ³   ³               ³   ÀÄÄÄgithub
+³   ³   ³   ³               ³       ÀÄÄÄponnamkarthik
+³   ³   ³   ³               ³           ÀÄÄÄtoast
+³   ³   ³   ³               ³               ÀÄÄÄfluttertoast
+³   ³   ³   ³               ÀÄÄÄMETA-INF
+³   ³   ³   ³                       fluttertoast_debug.kotlin_module
+³   ³   ³   ³                       
+³   ³   ³   ÃÄÄÄlibrary_and_local_jars_jni
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄcopyDebugJniLibsProjectAndLocalJars
+³   ³   ³   ³           ÀÄÄÄjni
+³   ³   ³   ÃÄÄÄlibrary_art_profile
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄprepareDebugArtProfile
+³   ³   ³   ÃÄÄÄlibrary_assets
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄpackageDebugAssets
+³   ³   ³   ³           ÀÄÄÄout
+³   ³   ³   ÃÄÄÄlibrary_jni
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄcopyDebugJniLibsProjectOnly
+³   ³   ³   ³           ÀÄÄÄjni
+³   ³   ³   ÃÄÄÄlint_publish_jar
+³   ³   ³   ³   ÀÄÄÄglobal
+³   ³   ³   ³       ÀÄÄÄprepareLintJarForPublish
+³   ³   ³   ÃÄÄÄlocal_only_symbol_list
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄparseDebugLocalResources
+³   ³   ³   ³               R-def.txt
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄmanifest_merge_blame_file
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄprocessDebugManifest
+³   ³   ³   ³               manifest-merger-blame-debug-report.txt
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄmerged_consumer_proguard_file
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄmergeDebugConsumerProguardFiles
+³   ³   ³   ÃÄÄÄmerged_java_res
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄmergeDebugJavaResource
+³   ³   ³   ³               feature-fluttertoast.jar
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄmerged_jni_libs
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄmergeDebugJniLibFolders
+³   ³   ³   ³           ÀÄÄÄout
+³   ³   ³   ÃÄÄÄmerged_manifest
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄprocessDebugManifest
+³   ³   ³   ³               AndroidManifest.xml
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄmerged_shaders
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄmergeDebugShaders
+³   ³   ³   ³           ÀÄÄÄout
+³   ³   ³   ÃÄÄÄnavigation_json
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄextractDeepLinksDebug
+³   ³   ³   ³               navigation.json
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄnavigation_json_for_aar
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄextractDeepLinksForAarDebug
+³   ³   ³   ÃÄÄÄnested_resources_validation_report
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄgenerateDebugResources
+³   ³   ³   ³               nestedResourcesValidationReport.txt
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄpackaged_res
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄpackageDebugResources
+³   ³   ³   ³           ÃÄÄÄdrawable
+³   ³   ³   ³           ³       corner.xml
+³   ³   ³   ³           ³       toast_bg.xml
+³   ³   ³   ³           ³       
+³   ³   ³   ³           ÀÄÄÄlayout
+³   ³   ³   ³                   toast_custom.xml
+³   ³   ³   ³                   
+³   ³   ³   ÃÄÄÄpublic_res
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄpackageDebugResources
+³   ³   ³   ÃÄÄÄruntime_library_classes_jar
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄbundleLibRuntimeToJarDebug
+³   ³   ³   ³               classes.jar
+³   ³   ³   ³               
+³   ³   ³   ÀÄÄÄsymbol_list_with_package_name
+³   ³   ³       ÀÄÄÄdebug
+³   ³   ³           ÀÄÄÄgenerateDebugRFile
+³   ³   ³                   package-aware-r.txt
+³   ³   ³                   
+³   ³   ÃÄÄÄkotlin
+³   ³   ³   ÀÄÄÄcompileDebugKotlin
+³   ³   ³       ÃÄÄÄcacheable
+³   ³   ³       ³   ³   last-build.bin
+³   ³   ³       ³   ³   
+³   ³   ³       ³   ÀÄÄÄcaches-jvm
+³   ³   ³       ³       ÃÄÄÄinputs
+³   ³   ³       ³       ³       source-to-output.tab
+³   ³   ³       ³       ³       source-to-output.tab.keystream
+³   ³   ³       ³       ³       source-to-output.tab.keystream.len
+³   ³   ³       ³       ³       source-to-output.tab.len
+³   ³   ³       ³       ³       source-to-output.tab.values.at
+³   ³   ³       ³       ³       source-to-output.tab_i
+³   ³   ³       ³       ³       source-to-output.tab_i.len
+³   ³   ³       ³       ³       
+³   ³   ³       ³       ÃÄÄÄjvm
+³   ³   ³       ³       ³   ÀÄÄÄkotlin
+³   ³   ³       ³       ³           class-attributes.tab
+³   ³   ³       ³       ³           class-attributes.tab.keystream
+³   ³   ³       ³       ³           class-attributes.tab.keystream.len
+³   ³   ³       ³       ³           class-attributes.tab.len
+³   ³   ³       ³       ³           class-attributes.tab.values.at
+³   ³   ³       ³       ³           class-attributes.tab_i
+³   ³   ³       ³       ³           class-attributes.tab_i.len
+³   ³   ³       ³       ³           class-fq-name-to-source.tab
+³   ³   ³       ³       ³           class-fq-name-to-source.tab.keystream
+³   ³   ³       ³       ³           class-fq-name-to-source.tab.keystream.len
+³   ³   ³       ³       ³           class-fq-name-to-source.tab.len
+³   ³   ³       ³       ³           class-fq-name-to-source.tab.values.at
+³   ³   ³       ³       ³           class-fq-name-to-source.tab_i
+³   ³   ³       ³       ³           class-fq-name-to-source.tab_i.len
+³   ³   ³       ³       ³           internal-name-to-source.tab
+³   ³   ³       ³       ³           internal-name-to-source.tab.keystream
+³   ³   ³       ³       ³           internal-name-to-source.tab.keystream.len
+³   ³   ³       ³       ³           internal-name-to-source.tab.len
+³   ³   ³       ³       ³           internal-name-to-source.tab.values.at
+³   ³   ³       ³       ³           internal-name-to-source.tab_i
+³   ³   ³       ³       ³           internal-name-to-source.tab_i.len
+³   ³   ³       ³       ³           proto.tab
+³   ³   ³       ³       ³           proto.tab.keystream
+³   ³   ³       ³       ³           proto.tab.keystream.len
+³   ³   ³       ³       ³           proto.tab.len
+³   ³   ³       ³       ³           proto.tab.values.at
+³   ³   ³       ³       ³           proto.tab_i
+³   ³   ³       ³       ³           proto.tab_i.len
+³   ³   ³       ³       ³           source-to-classes.tab
+³   ³   ³       ³       ³           source-to-classes.tab.keystream
+³   ³   ³       ³       ³           source-to-classes.tab.keystream.len
+³   ³   ³       ³       ³           source-to-classes.tab.len
+³   ³   ³       ³       ³           source-to-classes.tab.values.at
+³   ³   ³       ³       ³           source-to-classes.tab_i
+³   ³   ³       ³       ³           source-to-classes.tab_i.len
+³   ³   ³       ³       ³           subtypes.tab
+³   ³   ³       ³       ³           subtypes.tab.keystream
+³   ³   ³       ³       ³           subtypes.tab.keystream.len
+³   ³   ³       ³       ³           subtypes.tab.len
+³   ³   ³       ³       ³           subtypes.tab.values.at
+³   ³   ³       ³       ³           subtypes.tab_i
+³   ³   ³       ³       ³           subtypes.tab_i.len
+³   ³   ³       ³       ³           supertypes.tab
+³   ³   ³       ³       ³           supertypes.tab.keystream
+³   ³   ³       ³       ³           supertypes.tab.keystream.len
+³   ³   ³       ³       ³           supertypes.tab.len
+³   ³   ³       ³       ³           supertypes.tab.values.at
+³   ³   ³       ³       ³           supertypes.tab_i
+³   ³   ³       ³       ³           supertypes.tab_i.len
+³   ³   ³       ³       ³           
+³   ³   ³       ³       ÀÄÄÄlookups
+³   ³   ³       ³               counters.tab
+³   ³   ³       ³               file-to-id.tab
+³   ³   ³       ³               file-to-id.tab.keystream
+³   ³   ³       ³               file-to-id.tab.keystream.len
+³   ³   ³       ³               file-to-id.tab.len
+³   ³   ³       ³               file-to-id.tab.values.at
+³   ³   ³       ³               file-to-id.tab_i
+³   ³   ³       ³               file-to-id.tab_i.len
+³   ³   ³       ³               id-to-file.tab
+³   ³   ³       ³               id-to-file.tab.keystream
+³   ³   ³       ³               id-to-file.tab.keystream.len
+³   ³   ³       ³               id-to-file.tab.len
+³   ³   ³       ³               id-to-file.tab.values.at
+³   ³   ³       ³               id-to-file.tab_i
+³   ³   ³       ³               id-to-file.tab_i.len
+³   ³   ³       ³               lookups.tab
+³   ³   ³       ³               lookups.tab.keystream
+³   ³   ³       ³               lookups.tab.keystream.len
+³   ³   ³       ³               lookups.tab.len
+³   ³   ³       ³               lookups.tab.values.at
+³   ³   ³       ³               lookups.tab_i
+³   ³   ³       ³               lookups.tab_i.len
+³   ³   ³       ³               
+³   ³   ³       ÃÄÄÄclasspath-snapshot
+³   ³   ³       ³       shrunk-classpath-snapshot.bin
+³   ³   ³       ³       
+³   ³   ³       ÀÄÄÄlocal-state
+³   ³   ³               build-history.bin
+³   ³   ³               
+³   ³   ÃÄÄÄoutputs
+³   ³   ³   ÃÄÄÄaar
+³   ³   ³   ³       fluttertoast-debug.aar
+³   ³   ³   ³       
+³   ³   ³   ÀÄÄÄlogs
+³   ³   ³           manifest-merger-debug-report.txt
+³   ³   ³           
+³   ³   ÀÄÄÄtmp
+³   ³       ÀÄÄÄkotlin-classes
+³   ³           ÀÄÄÄdebug
+³   ³               ÃÄÄÄio
+³   ³               ³   ÀÄÄÄgithub
+³   ³               ³       ÀÄÄÄponnamkarthik
+³   ³               ³           ÀÄÄÄtoast
+³   ³               ³               ÀÄÄÄfluttertoast
+³   ³               ³                       FlutterToastPlugin.class
+³   ³               ³                       MethodCallHandlerImpl$onMethodCall$2.class
+³   ³               ³                       MethodCallHandlerImpl.class
+³   ³               ³                       
+³   ³               ÀÄÄÄMETA-INF
+³   ³                       fluttertoast_debug.kotlin_module
+³   ³                       
+³   ÃÄÄÄflutter_plugin_android_lifecycle
+³   ³   ÃÄÄÄ.transforms
+³   ³   ³   ÃÄÄÄ3df404e430e7178683b6415a34fa85ab
+³   ³   ³   ³   ³   results.bin
+³   ³   ³   ³   ³   
+³   ³   ³   ³   ÀÄÄÄtransformed
+³   ³   ³   ³       ÀÄÄÄclasses
+³   ³   ³   ³               classes.dex
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄ4da2558936b57402e83f10fcb64aaa5c
+³   ³   ³   ³   ³   results.bin
+³   ³   ³   ³   ³   
+³   ³   ³   ³   ÀÄÄÄtransformed
+³   ³   ³   ³       ÀÄÄÄclasses
+³   ³   ³   ³               classes.dex
+³   ³   ³   ³               
+³   ³   ³   ÀÄÄÄfa22270cbf97cc5e5f37b372aa45c72e
+³   ³   ³       ³   results.bin
+³   ³   ³       ³   
+³   ³   ³       ÀÄÄÄtransformed
+³   ³   ³           ÀÄÄÄclasses
+³   ³   ³                   classes.dex
+³   ³   ³                   
+³   ³   ÃÄÄÄgenerated
+³   ³   ³   ÃÄÄÄap_generated_sources
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄout
+³   ³   ³   ÀÄÄÄres
+³   ³   ³       ÃÄÄÄpngs
+³   ³   ³       ³   ÀÄÄÄdebug
+³   ³   ³       ÀÄÄÄresValues
+³   ³   ³           ÀÄÄÄdebug
+³   ³   ÃÄÄÄintermediates
+³   ³   ³   ÃÄÄÄaapt_friendly_merged_manifests
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄprocessDebugManifest
+³   ³   ³   ³           ÀÄÄÄaapt
+³   ³   ³   ³                   AndroidManifest.xml
+³   ³   ³   ³                   output-metadata.json
+³   ³   ³   ³                   
+³   ³   ³   ÃÄÄÄaar_libs_directory
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄsyncDebugLibJars
+³   ³   ³   ³           ÀÄÄÄlibs
+³   ³   ³   ÃÄÄÄaar_main_jar
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄsyncDebugLibJars
+³   ³   ³   ³               classes.jar
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄaar_metadata
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄwriteDebugAarMetadata
+³   ³   ³   ³               aar-metadata.properties
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄannotations_typedef_file
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄextractDebugAnnotations
+³   ³   ³   ³               typedefs.txt
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄannotations_zip
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄextractDebugAnnotations
+³   ³   ³   ÃÄÄÄannotation_processor_list
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄjavaPreCompileDebug
+³   ³   ³   ³               annotationProcessors.json
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄcompiled_local_resources
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄcompileDebugLibraryResources
+³   ³   ³   ³           ÀÄÄÄout
+³   ³   ³   ÃÄÄÄcompile_library_classes_jar
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄbundleLibCompileToJarDebug
+³   ³   ³   ³               classes.jar
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄcompile_r_class_jar
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄgenerateDebugRFile
+³   ³   ³   ³               R.jar
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄcompile_symbol_list
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄgenerateDebugRFile
+³   ³   ³   ³               R.txt
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄdata_binding_layout_info_type_package
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄpackageDebugResources
+³   ³   ³   ³           ÀÄÄÄout
+³   ³   ³   ÃÄÄÄgenerated_proguard_file
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄmergeDebugGeneratedProguardFiles
+³   ³   ³   ÃÄÄÄincremental
+³   ³   ³   ³   ÃÄÄÄdebug
+³   ³   ³   ³   ³   ÀÄÄÄpackageDebugResources
+³   ³   ³   ³   ³       ³   compile-file-map.properties
+³   ³   ³   ³   ³       ³   merger.xml
+³   ³   ³   ³   ³       ³   
+³   ³   ³   ³   ³       ÃÄÄÄmerged.dir
+³   ³   ³   ³   ³       ÀÄÄÄstripped.dir
+³   ³   ³   ³   ÃÄÄÄdebug-mergeJavaRes
+³   ³   ³   ³   ³   ³   merge-state
+³   ³   ³   ³   ³   ³   
+³   ³   ³   ³   ³   ÀÄÄÄzip-cache
+³   ³   ³   ³   ÃÄÄÄmergeDebugJniLibFolders
+³   ³   ³   ³   ³       merger.xml
+³   ³   ³   ³   ³       
+³   ³   ³   ³   ÃÄÄÄmergeDebugShaders
+³   ³   ³   ³   ³       merger.xml
+³   ³   ³   ³   ³       
+³   ³   ³   ³   ÀÄÄÄpackageDebugAssets
+³   ³   ³   ³           merger.xml
+³   ³   ³   ³           
+³   ³   ³   ÃÄÄÄjavac
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄcompileDebugJavaWithJavac
+³   ³   ³   ³           ÀÄÄÄclasses
+³   ³   ³   ³               ÀÄÄÄio
+³   ³   ³   ³                   ÀÄÄÄflutter
+³   ³   ³   ³                       ÃÄÄÄembedding
+³   ³   ³   ³                       ³   ÀÄÄÄengine
+³   ³   ³   ³                       ³       ÀÄÄÄplugins
+³   ³   ³   ³                       ³           ÀÄÄÄlifecycle
+³   ³   ³   ³                       ³                   FlutterLifecycleAdapter.class
+³   ³   ³   ³                       ³                   
+³   ³   ³   ³                       ÀÄÄÄplugins
+³   ³   ³   ³                           ÀÄÄÄflutter_plugin_android_lifecycle
+³   ³   ³   ³                                   FlutterAndroidLifecyclePlugin.class
+³   ³   ³   ³                                   
+³   ³   ³   ÃÄÄÄlibrary_and_local_jars_jni
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄcopyDebugJniLibsProjectAndLocalJars
+³   ³   ³   ³           ÀÄÄÄjni
+³   ³   ³   ÃÄÄÄlibrary_art_profile
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄprepareDebugArtProfile
+³   ³   ³   ÃÄÄÄlibrary_assets
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄpackageDebugAssets
+³   ³   ³   ³           ÀÄÄÄout
+³   ³   ³   ÃÄÄÄlibrary_jni
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄcopyDebugJniLibsProjectOnly
+³   ³   ³   ³           ÀÄÄÄjni
+³   ³   ³   ÃÄÄÄlint_publish_jar
+³   ³   ³   ³   ÀÄÄÄglobal
+³   ³   ³   ³       ÀÄÄÄprepareLintJarForPublish
+³   ³   ³   ÃÄÄÄlocal_only_symbol_list
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄparseDebugLocalResources
+³   ³   ³   ³               R-def.txt
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄmanifest_merge_blame_file
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄprocessDebugManifest
+³   ³   ³   ³               manifest-merger-blame-debug-report.txt
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄmerged_consumer_proguard_file
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄmergeDebugConsumerProguardFiles
+³   ³   ³   ³               proguard.txt
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄmerged_java_res
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄmergeDebugJavaResource
+³   ³   ³   ³               feature-flutter_plugin_android_lifecycle.jar
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄmerged_jni_libs
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄmergeDebugJniLibFolders
+³   ³   ³   ³           ÀÄÄÄout
+³   ³   ³   ÃÄÄÄmerged_manifest
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄprocessDebugManifest
+³   ³   ³   ³               AndroidManifest.xml
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄmerged_shaders
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄmergeDebugShaders
+³   ³   ³   ³           ÀÄÄÄout
+³   ³   ³   ÃÄÄÄnavigation_json
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄextractDeepLinksDebug
+³   ³   ³   ³               navigation.json
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄnavigation_json_for_aar
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄextractDeepLinksForAarDebug
+³   ³   ³   ÃÄÄÄnested_resources_validation_report
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄgenerateDebugResources
+³   ³   ³   ³               nestedResourcesValidationReport.txt
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄpackaged_res
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄpackageDebugResources
+³   ³   ³   ÃÄÄÄpublic_res
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄpackageDebugResources
+³   ³   ³   ÃÄÄÄruntime_library_classes_jar
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄbundleLibRuntimeToJarDebug
+³   ³   ³   ³               classes.jar
+³   ³   ³   ³               
+³   ³   ³   ÀÄÄÄsymbol_list_with_package_name
+³   ³   ³       ÀÄÄÄdebug
+³   ³   ³           ÀÄÄÄgenerateDebugRFile
+³   ³   ³                   package-aware-r.txt
+³   ³   ³                   
+³   ³   ÃÄÄÄoutputs
+³   ³   ³   ÃÄÄÄaar
+³   ³   ³   ³       flutter_plugin_android_lifecycle-debug.aar
+³   ³   ³   ³       
+³   ³   ³   ÀÄÄÄlogs
+³   ³   ³           manifest-merger-debug-report.txt
+³   ³   ³           
+³   ³   ÀÄÄÄtmp
+³   ³       ÀÄÄÄcompileDebugJavaWithJavac
+³   ³               previous-compilation-data.bin
+³   ³               
+³   ÃÄÄÄgeolocator_android
+³   ³   ÃÄÄÄ.transforms
+³   ³   ³   ÀÄÄÄ19ee0ea5c8462ac59a08e38f46ae19c0
+³   ³   ³       ³   results.bin
+³   ³   ³       ³   
+³   ³   ³       ÀÄÄÄtransformed
+³   ³   ³           ÀÄÄÄclasses
+³   ³   ³                   classes.dex
+³   ³   ³                   
+³   ³   ÃÄÄÄgenerated
+³   ³   ³   ÃÄÄÄap_generated_sources
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄout
+³   ³   ³   ÀÄÄÄres
+³   ³   ³       ÃÄÄÄpngs
+³   ³   ³       ³   ÀÄÄÄdebug
+³   ³   ³       ÀÄÄÄresValues
+³   ³   ³           ÀÄÄÄdebug
+³   ³   ÃÄÄÄintermediates
+³   ³   ³   ÃÄÄÄaapt_friendly_merged_manifests
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄprocessDebugManifest
+³   ³   ³   ³           ÀÄÄÄaapt
+³   ³   ³   ³                   AndroidManifest.xml
+³   ³   ³   ³                   output-metadata.json
+³   ³   ³   ³                   
+³   ³   ³   ÃÄÄÄaar_libs_directory
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄsyncDebugLibJars
+³   ³   ³   ³           ÀÄÄÄlibs
+³   ³   ³   ÃÄÄÄaar_main_jar
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄsyncDebugLibJars
+³   ³   ³   ³               classes.jar
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄaar_metadata
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄwriteDebugAarMetadata
+³   ³   ³   ³               aar-metadata.properties
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄannotations_typedef_file
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄextractDebugAnnotations
+³   ³   ³   ³               typedefs.txt
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄannotations_zip
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄextractDebugAnnotations
+³   ³   ³   ÃÄÄÄannotation_processor_list
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄjavaPreCompileDebug
+³   ³   ³   ³               annotationProcessors.json
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄcompiled_local_resources
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄcompileDebugLibraryResources
+³   ³   ³   ³           ÀÄÄÄout
+³   ³   ³   ÃÄÄÄcompile_library_classes_jar
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄbundleLibCompileToJarDebug
+³   ³   ³   ³               classes.jar
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄcompile_r_class_jar
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄgenerateDebugRFile
+³   ³   ³   ³               R.jar
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄcompile_symbol_list
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄgenerateDebugRFile
+³   ³   ³   ³               R.txt
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄdata_binding_layout_info_type_package
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄpackageDebugResources
+³   ³   ³   ³           ÀÄÄÄout
+³   ³   ³   ÃÄÄÄgenerated_proguard_file
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄmergeDebugGeneratedProguardFiles
+³   ³   ³   ÃÄÄÄincremental
+³   ³   ³   ³   ÃÄÄÄdebug
+³   ³   ³   ³   ³   ÀÄÄÄpackageDebugResources
+³   ³   ³   ³   ³       ³   compile-file-map.properties
+³   ³   ³   ³   ³       ³   merger.xml
+³   ³   ³   ³   ³       ³   
+³   ³   ³   ³   ³       ÃÄÄÄmerged.dir
+³   ³   ³   ³   ³       ÀÄÄÄstripped.dir
+³   ³   ³   ³   ÃÄÄÄdebug-mergeJavaRes
+³   ³   ³   ³   ³   ³   merge-state
+³   ³   ³   ³   ³   ³   
+³   ³   ³   ³   ³   ÀÄÄÄzip-cache
+³   ³   ³   ³   ÃÄÄÄmergeDebugJniLibFolders
+³   ³   ³   ³   ³       merger.xml
+³   ³   ³   ³   ³       
+³   ³   ³   ³   ÃÄÄÄmergeDebugShaders
+³   ³   ³   ³   ³       merger.xml
+³   ³   ³   ³   ³       
+³   ³   ³   ³   ÀÄÄÄpackageDebugAssets
+³   ³   ³   ³           merger.xml
+³   ³   ³   ³           
+³   ³   ³   ÃÄÄÄjavac
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄcompileDebugJavaWithJavac
+³   ³   ³   ³           ÀÄÄÄclasses
+³   ³   ³   ³               ÀÄÄÄcom
+³   ³   ³   ³                   ÀÄÄÄbaseflow
+³   ³   ³   ³                       ÀÄÄÄgeolocator
+³   ³   ³   ³                           ³   GeolocatorLocationService$LocalBinder.class
+³   ³   ³   ³                           ³   GeolocatorLocationService.class
+³   ³   ³   ³                           ³   GeolocatorPlugin$1.class
+³   ³   ³   ³                           ³   GeolocatorPlugin.class
+³   ³   ³   ³                           ³   LocationServiceHandlerImpl.class
+³   ³   ³   ³                           ³   MethodCallHandlerImpl.class
+³   ³   ³   ³                           ³   StreamHandlerImpl.class
+³   ³   ³   ³                           ³   
+³   ³   ³   ³                           ÃÄÄÄerrors
+³   ³   ³   ³                           ³       ErrorCallback.class
+³   ³   ³   ³                           ³       ErrorCodes$1.class
+³   ³   ³   ³                           ³       ErrorCodes.class
+³   ³   ³   ³                           ³       PermissionUndefinedException.class
+³   ³   ³   ³                           ³       
+³   ³   ³   ³                           ÃÄÄÄlocation
+³   ³   ³   ³                           ³       AndroidIconResource.class
+³   ³   ³   ³                           ³       BackgroundNotification.class
+³   ³   ³   ³                           ³       FlutterLocationServiceListener.class
+³   ³   ³   ³                           ³       ForegroundNotificationOptions.class
+³   ³   ³   ³                           ³       FusedLocationClient$1.class
+³   ³   ³   ³                           ³       FusedLocationClient$2.class
+³   ³   ³   ³                           ³       FusedLocationClient.class
+³   ³   ³   ³                           ³       GeolocationManager.class
+³   ³   ³   ³                           ³       LocationAccuracy.class
+³   ³   ³   ³                           ³       LocationAccuracyManager.class
+³   ³   ³   ³                           ³       LocationAccuracyStatus.class
+³   ³   ³   ³                           ³       LocationClient.class
+³   ³   ³   ³                           ³       LocationManagerClient$1.class
+³   ³   ³   ³                           ³       LocationManagerClient.class
+³   ³   ³   ³                           ³       LocationMapper.class
+³   ³   ³   ³                           ³       LocationOptions.class
+³   ³   ³   ³                           ³       LocationServiceListener.class
+³   ³   ³   ³                           ³       LocationServiceStatusReceiver.class
+³   ³   ³   ³                           ³       NmeaClient$1.class
+³   ³   ³   ³                           ³       NmeaClient.class
+³   ³   ³   ³                           ³       PositionChangedCallback.class
+³   ³   ³   ³                           ³       ServiceStatus.class
+³   ³   ³   ³                           ³       
+³   ³   ³   ³                           ÃÄÄÄpermission
+³   ³   ³   ³                           ³       LocationPermission$1.class
+³   ³   ³   ³                           ³       LocationPermission.class
+³   ³   ³   ³                           ³       PermissionManager.class
+³   ³   ³   ³                           ³       PermissionResultCallback.class
+³   ³   ³   ³                           ³       PermissionUtils.class
+³   ³   ³   ³                           ³       
+³   ³   ³   ³                           ÀÄÄÄutils
+³   ³   ³   ³                                   Utils.class
+³   ³   ³   ³                                   
+³   ³   ³   ÃÄÄÄlibrary_and_local_jars_jni
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄcopyDebugJniLibsProjectAndLocalJars
+³   ³   ³   ³           ÀÄÄÄjni
+³   ³   ³   ÃÄÄÄlibrary_art_profile
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄprepareDebugArtProfile
+³   ³   ³   ÃÄÄÄlibrary_assets
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄpackageDebugAssets
+³   ³   ³   ³           ÀÄÄÄout
+³   ³   ³   ÃÄÄÄlibrary_jni
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄcopyDebugJniLibsProjectOnly
+³   ³   ³   ³           ÀÄÄÄjni
+³   ³   ³   ÃÄÄÄlint_publish_jar
+³   ³   ³   ³   ÀÄÄÄglobal
+³   ³   ³   ³       ÀÄÄÄprepareLintJarForPublish
+³   ³   ³   ÃÄÄÄlocal_only_symbol_list
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄparseDebugLocalResources
+³   ³   ³   ³               R-def.txt
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄmanifest_merge_blame_file
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄprocessDebugManifest
+³   ³   ³   ³               manifest-merger-blame-debug-report.txt
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄmerged_consumer_proguard_file
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄmergeDebugConsumerProguardFiles
+³   ³   ³   ÃÄÄÄmerged_java_res
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄmergeDebugJavaResource
+³   ³   ³   ³               feature-geolocator_android.jar
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄmerged_jni_libs
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄmergeDebugJniLibFolders
+³   ³   ³   ³           ÀÄÄÄout
+³   ³   ³   ÃÄÄÄmerged_manifest
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄprocessDebugManifest
+³   ³   ³   ³               AndroidManifest.xml
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄmerged_shaders
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄmergeDebugShaders
+³   ³   ³   ³           ÀÄÄÄout
+³   ³   ³   ÃÄÄÄnavigation_json
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄextractDeepLinksDebug
+³   ³   ³   ³               navigation.json
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄnavigation_json_for_aar
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄextractDeepLinksForAarDebug
+³   ³   ³   ÃÄÄÄnested_resources_validation_report
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄgenerateDebugResources
+³   ³   ³   ³               nestedResourcesValidationReport.txt
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄpackaged_res
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄpackageDebugResources
+³   ³   ³   ÃÄÄÄpublic_res
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄpackageDebugResources
+³   ³   ³   ÃÄÄÄruntime_library_classes_jar
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄbundleLibRuntimeToJarDebug
+³   ³   ³   ³               classes.jar
+³   ³   ³   ³               
+³   ³   ³   ÀÄÄÄsymbol_list_with_package_name
+³   ³   ³       ÀÄÄÄdebug
+³   ³   ³           ÀÄÄÄgenerateDebugRFile
+³   ³   ³                   package-aware-r.txt
+³   ³   ³                   
+³   ³   ÃÄÄÄoutputs
+³   ³   ³   ÃÄÄÄaar
+³   ³   ³   ³       geolocator_android-debug.aar
+³   ³   ³   ³       
+³   ³   ³   ÀÄÄÄlogs
+³   ³   ³           manifest-merger-debug-report.txt
+³   ³   ³           
+³   ³   ÀÄÄÄtmp
+³   ³       ÀÄÄÄcompileDebugJavaWithJavac
+³   ³               previous-compilation-data.bin
+³   ³               
+³   ÃÄÄÄimage_picker_android
+³   ³   ÃÄÄÄ.transforms
+³   ³   ³   ÃÄÄÄa1fcf3af81373598c83d9641095e01a3
+³   ³   ³   ³   ³   results.bin
+³   ³   ³   ³   ³   
+³   ³   ³   ³   ÀÄÄÄtransformed
+³   ³   ³   ³       ÀÄÄÄclasses
+³   ³   ³   ³               classes.dex
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄc2cee137ab5f1a9b0162efd61601aec2
+³   ³   ³   ³   ³   results.bin
+³   ³   ³   ³   ³   
+³   ³   ³   ³   ÀÄÄÄtransformed
+³   ³   ³   ³       ÀÄÄÄclasses
+³   ³   ³   ³               classes.dex
+³   ³   ³   ³               
+³   ³   ³   ÀÄÄÄf015d7c7c7bb53c67902af152d9dcb48
+³   ³   ³       ³   results.bin
+³   ³   ³       ³   
+³   ³   ³       ÀÄÄÄtransformed
+³   ³   ³           ÀÄÄÄclasses
+³   ³   ³                   classes.dex
+³   ³   ³                   
+³   ³   ÃÄÄÄgenerated
+³   ³   ³   ÃÄÄÄap_generated_sources
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄout
+³   ³   ³   ÀÄÄÄres
+³   ³   ³       ÃÄÄÄpngs
+³   ³   ³       ³   ÀÄÄÄdebug
+³   ³   ³       ÀÄÄÄresValues
+³   ³   ³           ÀÄÄÄdebug
+³   ³   ÃÄÄÄintermediates
+³   ³   ³   ÃÄÄÄaapt_friendly_merged_manifests
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄprocessDebugManifest
+³   ³   ³   ³           ÀÄÄÄaapt
+³   ³   ³   ³                   AndroidManifest.xml
+³   ³   ³   ³                   output-metadata.json
+³   ³   ³   ³                   
+³   ³   ³   ÃÄÄÄaar_libs_directory
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄsyncDebugLibJars
+³   ³   ³   ³           ÀÄÄÄlibs
+³   ³   ³   ÃÄÄÄaar_main_jar
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄsyncDebugLibJars
+³   ³   ³   ³               classes.jar
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄaar_metadata
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄwriteDebugAarMetadata
+³   ³   ³   ³               aar-metadata.properties
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄannotations_typedef_file
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄextractDebugAnnotations
+³   ³   ³   ³               typedefs.txt
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄannotations_zip
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄextractDebugAnnotations
+³   ³   ³   ÃÄÄÄannotation_processor_list
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄjavaPreCompileDebug
+³   ³   ³   ³               annotationProcessors.json
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄcompiled_local_resources
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄcompileDebugLibraryResources
+³   ³   ³   ³           ÀÄÄÄout
+³   ³   ³   ³                   xml_flutter_image_picker_file_paths.xml.flat
+³   ³   ³   ³                   
+³   ³   ³   ÃÄÄÄcompile_library_classes_jar
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄbundleLibCompileToJarDebug
+³   ³   ³   ³               classes.jar
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄcompile_r_class_jar
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄgenerateDebugRFile
+³   ³   ³   ³               R.jar
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄcompile_symbol_list
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄgenerateDebugRFile
+³   ³   ³   ³               R.txt
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄdata_binding_layout_info_type_package
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄpackageDebugResources
+³   ³   ³   ³           ÀÄÄÄout
+³   ³   ³   ÃÄÄÄgenerated_proguard_file
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄmergeDebugGeneratedProguardFiles
+³   ³   ³   ÃÄÄÄincremental
+³   ³   ³   ³   ÃÄÄÄdebug
+³   ³   ³   ³   ³   ÀÄÄÄpackageDebugResources
+³   ³   ³   ³   ³       ³   compile-file-map.properties
+³   ³   ³   ³   ³       ³   merger.xml
+³   ³   ³   ³   ³       ³   
+³   ³   ³   ³   ³       ÃÄÄÄmerged.dir
+³   ³   ³   ³   ³       ÀÄÄÄstripped.dir
+³   ³   ³   ³   ÃÄÄÄdebug-mergeJavaRes
+³   ³   ³   ³   ³   ³   merge-state
+³   ³   ³   ³   ³   ³   
+³   ³   ³   ³   ³   ÀÄÄÄzip-cache
+³   ³   ³   ³   ÃÄÄÄmergeDebugJniLibFolders
+³   ³   ³   ³   ³       merger.xml
+³   ³   ³   ³   ³       
+³   ³   ³   ³   ÃÄÄÄmergeDebugShaders
+³   ³   ³   ³   ³       merger.xml
+³   ³   ³   ³   ³       
+³   ³   ³   ³   ÀÄÄÄpackageDebugAssets
+³   ³   ³   ³           merger.xml
+³   ³   ³   ³           
+³   ³   ³   ÃÄÄÄjavac
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄcompileDebugJavaWithJavac
+³   ³   ³   ³           ÀÄÄÄclasses
+³   ³   ³   ³               ÀÄÄÄio
+³   ³   ³   ³                   ÀÄÄÄflutter
+³   ³   ³   ³                       ÀÄÄÄplugins
+³   ³   ³   ³                           ÀÄÄÄimagepicker
+³   ³   ³   ³                                   ExifDataCopier.class
+³   ³   ³   ³                                   FileUtils.class
+³   ³   ³   ³                                   ImagePickerCache$1.class
+³   ³   ³   ³                                   ImagePickerCache$CacheType.class
+³   ³   ³   ³                                   ImagePickerCache.class
+³   ³   ³   ³                                   ImagePickerDelegate$1.class
+³   ³   ³   ³                                   ImagePickerDelegate$2.class
+³   ³   ³   ³                                   ImagePickerDelegate$CameraDevice.class
+³   ³   ³   ³                                   ImagePickerDelegate$FileUriResolver.class
+³   ³   ³   ³                                   ImagePickerDelegate$MediaPath.class
+³   ³   ³   ³                                   ImagePickerDelegate$OnPathReadyListener.class
+³   ³   ³   ³                                   ImagePickerDelegate$PendingCallState.class
+³   ³   ³   ³                                   ImagePickerDelegate$PermissionManager.class
+³   ³   ³   ³                                   ImagePickerDelegate.class
+³   ³   ³   ³                                   ImagePickerFileProvider.class
+³   ³   ³   ³                                   ImagePickerPlugin$1.class
+³   ³   ³   ³                                   ImagePickerPlugin$ActivityState.class
+³   ³   ³   ³                                   ImagePickerPlugin$LifeCycleObserver.class
+³   ³   ³   ³                                   ImagePickerPlugin.class
+³   ³   ³   ³                                   ImagePickerUtils.class
+³   ³   ³   ³                                   ImageResizer.class
+³   ³   ³   ³                                   Messages$CacheRetrievalError$Builder.class
+³   ³   ³   ³                                   Messages$CacheRetrievalError.class
+³   ³   ³   ³                                   Messages$CacheRetrievalResult$Builder.class
+³   ³   ³   ³                                   Messages$CacheRetrievalResult.class
+³   ³   ³   ³                                   Messages$CacheRetrievalType.class
+³   ³   ³   ³                                   Messages$CanIgnoreReturnValue.class
+³   ³   ³   ³                                   Messages$FlutterError.class
+³   ³   ³   ³                                   Messages$GeneralOptions$Builder.class
+³   ³   ³   ³                                   Messages$GeneralOptions.class
+³   ³   ³   ³                                   Messages$ImagePickerApi$1.class
+³   ³   ³   ³                                   Messages$ImagePickerApi$2.class
+³   ³   ³   ³                                   Messages$ImagePickerApi$3.class
+³   ³   ³   ³                                   Messages$ImagePickerApi.class
+³   ³   ³   ³                                   Messages$ImageSelectionOptions$Builder.class
+³   ³   ³   ³                                   Messages$ImageSelectionOptions.class
+³   ³   ³   ³                                   Messages$MediaSelectionOptions$Builder.class
+³   ³   ³   ³                                   Messages$MediaSelectionOptions.class
+³   ³   ³   ³                                   Messages$NullableResult.class
+³   ³   ³   ³                                   Messages$PigeonCodec.class
+³   ³   ³   ³                                   Messages$Result.class
+³   ³   ³   ³                                   Messages$SourceCamera.class
+³   ³   ³   ³                                   Messages$SourceSpecification$Builder.class
+³   ³   ³   ³                                   Messages$SourceSpecification.class
+³   ³   ³   ³                                   Messages$SourceType.class
+³   ³   ³   ³                                   Messages$VideoSelectionOptions$Builder.class
+³   ³   ³   ³                                   Messages$VideoSelectionOptions.class
+³   ³   ³   ³                                   Messages$VoidResult.class
+³   ³   ³   ³                                   Messages.class
+³   ³   ³   ³                                   
+³   ³   ³   ÃÄÄÄlibrary_and_local_jars_jni
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄcopyDebugJniLibsProjectAndLocalJars
+³   ³   ³   ³           ÀÄÄÄjni
+³   ³   ³   ÃÄÄÄlibrary_art_profile
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄprepareDebugArtProfile
+³   ³   ³   ÃÄÄÄlibrary_assets
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄpackageDebugAssets
+³   ³   ³   ³           ÀÄÄÄout
+³   ³   ³   ÃÄÄÄlibrary_jni
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄcopyDebugJniLibsProjectOnly
+³   ³   ³   ³           ÀÄÄÄjni
+³   ³   ³   ÃÄÄÄlint_publish_jar
+³   ³   ³   ³   ÀÄÄÄglobal
+³   ³   ³   ³       ÀÄÄÄprepareLintJarForPublish
+³   ³   ³   ÃÄÄÄlocal_only_symbol_list
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄparseDebugLocalResources
+³   ³   ³   ³               R-def.txt
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄmanifest_merge_blame_file
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄprocessDebugManifest
+³   ³   ³   ³               manifest-merger-blame-debug-report.txt
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄmerged_consumer_proguard_file
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄmergeDebugConsumerProguardFiles
+³   ³   ³   ÃÄÄÄmerged_java_res
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄmergeDebugJavaResource
+³   ³   ³   ³               feature-image_picker_android.jar
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄmerged_jni_libs
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄmergeDebugJniLibFolders
+³   ³   ³   ³           ÀÄÄÄout
+³   ³   ³   ÃÄÄÄmerged_manifest
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄprocessDebugManifest
+³   ³   ³   ³               AndroidManifest.xml
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄmerged_shaders
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄmergeDebugShaders
+³   ³   ³   ³           ÀÄÄÄout
+³   ³   ³   ÃÄÄÄnavigation_json
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄextractDeepLinksDebug
+³   ³   ³   ³               navigation.json
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄnavigation_json_for_aar
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄextractDeepLinksForAarDebug
+³   ³   ³   ÃÄÄÄnested_resources_validation_report
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄgenerateDebugResources
+³   ³   ³   ³               nestedResourcesValidationReport.txt
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄpackaged_res
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄpackageDebugResources
+³   ³   ³   ³           ÀÄÄÄxml
+³   ³   ³   ³                   flutter_image_picker_file_paths.xml
+³   ³   ³   ³                   
+³   ³   ³   ÃÄÄÄpublic_res
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄpackageDebugResources
+³   ³   ³   ÃÄÄÄruntime_library_classes_jar
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄbundleLibRuntimeToJarDebug
+³   ³   ³   ³               classes.jar
+³   ³   ³   ³               
+³   ³   ³   ÀÄÄÄsymbol_list_with_package_name
+³   ³   ³       ÀÄÄÄdebug
+³   ³   ³           ÀÄÄÄgenerateDebugRFile
+³   ³   ³                   package-aware-r.txt
+³   ³   ³                   
+³   ³   ÃÄÄÄoutputs
+³   ³   ³   ÃÄÄÄaar
+³   ³   ³   ³       image_picker_android-debug.aar
+³   ³   ³   ³       
+³   ³   ³   ÀÄÄÄlogs
+³   ³   ³           manifest-merger-debug-report.txt
+³   ³   ³           
+³   ³   ÀÄÄÄtmp
+³   ³       ÀÄÄÄcompileDebugJavaWithJavac
+³   ³           ³   previous-compilation-data.bin
+³   ³           ³   
+³   ³           ÀÄÄÄcompileTransaction
+³   ³               ÃÄÄÄbackup-dir
+³   ³               ÀÄÄÄstash-dir
+³   ³                       ImagePickerDelegate$1.class.uniqueId1
+³   ³                       ImagePickerDelegate$2.class.uniqueId2
+³   ³                       ImagePickerDelegate$CameraDevice.class.uniqueId9
+³   ³                       ImagePickerDelegate$FileUriResolver.class.uniqueId4
+³   ³                       ImagePickerDelegate$MediaPath.class.uniqueId10
+³   ³                       ImagePickerDelegate$OnPathReadyListener.class.uniqueId7
+³   ³                       ImagePickerDelegate$PendingCallState.class.uniqueId0
+³   ³                       ImagePickerDelegate$PermissionManager.class.uniqueId12
+³   ³                       ImagePickerDelegate.class.uniqueId13
+³   ³                       ImagePickerPlugin$1.class.uniqueId3
+³   ³                       ImagePickerPlugin$ActivityState.class.uniqueId6
+³   ³                       ImagePickerPlugin$LifeCycleObserver.class.uniqueId11
+³   ³                       ImagePickerPlugin.class.uniqueId5
+³   ³                       ImagePickerUtils.class.uniqueId8
+³   ³                       
+³   ÃÄÄÄnative_assets
+³   ³   ÀÄÄÄandroid
+³   ÃÄÄÄpath_provider_android
+³   ³   ÃÄÄÄ.transforms
+³   ³   ³   ÃÄÄÄb7aaf02ca9f8aa6b5fc976c4c9265ac5
+³   ³   ³   ³   ³   results.bin
+³   ³   ³   ³   ³   
+³   ³   ³   ³   ÀÄÄÄtransformed
+³   ³   ³   ³       ÀÄÄÄclasses
+³   ³   ³   ³               classes.dex
+³   ³   ³   ³               
+³   ³   ³   ÀÄÄÄe49def28cb4e7b21613f9dfa15c1aa4b
+³   ³   ³       ³   results.bin
+³   ³   ³       ³   
+³   ³   ³       ÀÄÄÄtransformed
+³   ³   ³           ÀÄÄÄclasses
+³   ³   ³                   classes.dex
+³   ³   ³                   
+³   ³   ÃÄÄÄgenerated
+³   ³   ³   ÃÄÄÄap_generated_sources
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄout
+³   ³   ³   ÀÄÄÄres
+³   ³   ³       ÃÄÄÄpngs
+³   ³   ³       ³   ÀÄÄÄdebug
+³   ³   ³       ÀÄÄÄresValues
+³   ³   ³           ÀÄÄÄdebug
+³   ³   ÃÄÄÄintermediates
+³   ³   ³   ÃÄÄÄaapt_friendly_merged_manifests
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄprocessDebugManifest
+³   ³   ³   ³           ÀÄÄÄaapt
+³   ³   ³   ³                   AndroidManifest.xml
+³   ³   ³   ³                   output-metadata.json
+³   ³   ³   ³                   
+³   ³   ³   ÃÄÄÄaar_libs_directory
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄsyncDebugLibJars
+³   ³   ³   ³           ÀÄÄÄlibs
+³   ³   ³   ÃÄÄÄaar_main_jar
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄsyncDebugLibJars
+³   ³   ³   ³               classes.jar
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄaar_metadata
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄwriteDebugAarMetadata
+³   ³   ³   ³               aar-metadata.properties
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄannotations_typedef_file
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄextractDebugAnnotations
+³   ³   ³   ³               typedefs.txt
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄannotations_zip
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄextractDebugAnnotations
+³   ³   ³   ÃÄÄÄannotation_processor_list
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄjavaPreCompileDebug
+³   ³   ³   ³               annotationProcessors.json
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄcompiled_local_resources
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄcompileDebugLibraryResources
+³   ³   ³   ³           ÀÄÄÄout
+³   ³   ³   ÃÄÄÄcompile_library_classes_jar
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄbundleLibCompileToJarDebug
+³   ³   ³   ³               classes.jar
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄcompile_r_class_jar
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄgenerateDebugRFile
+³   ³   ³   ³               R.jar
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄcompile_symbol_list
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄgenerateDebugRFile
+³   ³   ³   ³               R.txt
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄdata_binding_layout_info_type_package
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄpackageDebugResources
+³   ³   ³   ³           ÀÄÄÄout
+³   ³   ³   ÃÄÄÄgenerated_proguard_file
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄmergeDebugGeneratedProguardFiles
+³   ³   ³   ÃÄÄÄincremental
+³   ³   ³   ³   ÃÄÄÄdebug
+³   ³   ³   ³   ³   ÀÄÄÄpackageDebugResources
+³   ³   ³   ³   ³       ³   compile-file-map.properties
+³   ³   ³   ³   ³       ³   merger.xml
+³   ³   ³   ³   ³       ³   
+³   ³   ³   ³   ³       ÃÄÄÄmerged.dir
+³   ³   ³   ³   ³       ÀÄÄÄstripped.dir
+³   ³   ³   ³   ÃÄÄÄdebug-mergeJavaRes
+³   ³   ³   ³   ³   ³   merge-state
+³   ³   ³   ³   ³   ³   
+³   ³   ³   ³   ³   ÀÄÄÄzip-cache
+³   ³   ³   ³   ÃÄÄÄmergeDebugJniLibFolders
+³   ³   ³   ³   ³       merger.xml
+³   ³   ³   ³   ³       
+³   ³   ³   ³   ÃÄÄÄmergeDebugShaders
+³   ³   ³   ³   ³       merger.xml
+³   ³   ³   ³   ³       
+³   ³   ³   ³   ÀÄÄÄpackageDebugAssets
+³   ³   ³   ³           merger.xml
+³   ³   ³   ³           
+³   ³   ³   ÃÄÄÄjavac
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄcompileDebugJavaWithJavac
+³   ³   ³   ³           ÀÄÄÄclasses
+³   ³   ³   ³               ÀÄÄÄio
+³   ³   ³   ³                   ÀÄÄÄflutter
+³   ³   ³   ³                       ÀÄÄÄplugins
+³   ³   ³   ³                           ÀÄÄÄpathprovider
+³   ³   ³   ³                                   Messages$FlutterError.class
+³   ³   ³   ³                                   Messages$PathProviderApi.class
+³   ³   ³   ³                                   Messages$PigeonCodec.class
+³   ³   ³   ³                                   Messages$StorageDirectory.class
+³   ³   ³   ³                                   Messages.class
+³   ³   ³   ³                                   PathProviderPlugin$1.class
+³   ³   ³   ³                                   PathProviderPlugin.class
+³   ³   ³   ³                                   
+³   ³   ³   ÃÄÄÄlibrary_and_local_jars_jni
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄcopyDebugJniLibsProjectAndLocalJars
+³   ³   ³   ³           ÀÄÄÄjni
+³   ³   ³   ÃÄÄÄlibrary_art_profile
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄprepareDebugArtProfile
+³   ³   ³   ÃÄÄÄlibrary_assets
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄpackageDebugAssets
+³   ³   ³   ³           ÀÄÄÄout
+³   ³   ³   ÃÄÄÄlibrary_jni
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄcopyDebugJniLibsProjectOnly
+³   ³   ³   ³           ÀÄÄÄjni
+³   ³   ³   ÃÄÄÄlint_publish_jar
+³   ³   ³   ³   ÀÄÄÄglobal
+³   ³   ³   ³       ÀÄÄÄprepareLintJarForPublish
+³   ³   ³   ÃÄÄÄlocal_only_symbol_list
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄparseDebugLocalResources
+³   ³   ³   ³               R-def.txt
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄmanifest_merge_blame_file
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄprocessDebugManifest
+³   ³   ³   ³               manifest-merger-blame-debug-report.txt
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄmerged_consumer_proguard_file
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄmergeDebugConsumerProguardFiles
+³   ³   ³   ÃÄÄÄmerged_java_res
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄmergeDebugJavaResource
+³   ³   ³   ³               feature-path_provider_android.jar
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄmerged_jni_libs
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄmergeDebugJniLibFolders
+³   ³   ³   ³           ÀÄÄÄout
+³   ³   ³   ÃÄÄÄmerged_manifest
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄprocessDebugManifest
+³   ³   ³   ³               AndroidManifest.xml
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄmerged_shaders
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄmergeDebugShaders
+³   ³   ³   ³           ÀÄÄÄout
+³   ³   ³   ÃÄÄÄnavigation_json
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄextractDeepLinksDebug
+³   ³   ³   ³               navigation.json
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄnavigation_json_for_aar
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄextractDeepLinksForAarDebug
+³   ³   ³   ÃÄÄÄnested_resources_validation_report
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄgenerateDebugResources
+³   ³   ³   ³               nestedResourcesValidationReport.txt
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄpackaged_res
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄpackageDebugResources
+³   ³   ³   ÃÄÄÄpublic_res
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄpackageDebugResources
+³   ³   ³   ÃÄÄÄruntime_library_classes_jar
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄbundleLibRuntimeToJarDebug
+³   ³   ³   ³               classes.jar
+³   ³   ³   ³               
+³   ³   ³   ÀÄÄÄsymbol_list_with_package_name
+³   ³   ³       ÀÄÄÄdebug
+³   ³   ³           ÀÄÄÄgenerateDebugRFile
+³   ³   ³                   package-aware-r.txt
+³   ³   ³                   
+³   ³   ÃÄÄÄoutputs
+³   ³   ³   ÃÄÄÄaar
+³   ³   ³   ³       path_provider_android-debug.aar
+³   ³   ³   ³       
+³   ³   ³   ÀÄÄÄlogs
+³   ³   ³           manifest-merger-debug-report.txt
+³   ³   ³           
+³   ³   ÀÄÄÄtmp
+³   ³       ÀÄÄÄcompileDebugJavaWithJavac
+³   ³               previous-compilation-data.bin
+³   ³               
+³   ÀÄÄÄreports
+³       ÀÄÄÄproblems
+³               problems-report.html
+³               
+ÃÄÄÄios
+³   ³   .gitignore
+³   ³   
+³   ÃÄÄÄFlutter
+³   ³   ³   AppFrameworkInfo.plist
+³   ³   ³   Debug.xcconfig
+³   ³   ³   flutter_export_environment.sh
+³   ³   ³   Generated.xcconfig
+³   ³   ³   Release.xcconfig
+³   ³   ³   
+³   ³   ÀÄÄÄephemeral
+³   ³           flutter_lldbinit
+³   ³           flutter_lldb_helper.py
+³   ³           
+³   ÃÄÄÄRunner
+³   ³   ³   AppDelegate.swift
+³   ³   ³   GeneratedPluginRegistrant.h
+³   ³   ³   GeneratedPluginRegistrant.m
+³   ³   ³   Info.plist
+³   ³   ³   Runner-Bridging-Header.h
+³   ³   ³   
+³   ³   ÃÄÄÄAssets.xcassets
+³   ³   ³   ÃÄÄÄAppIcon.appiconset
+³   ³   ³   ³       Contents.json
+³   ³   ³   ³       Icon-App-1024x1024@1x.png
+³   ³   ³   ³       Icon-App-20x20@1x.png
+³   ³   ³   ³       Icon-App-20x20@2x.png
+³   ³   ³   ³       Icon-App-20x20@3x.png
+³   ³   ³   ³       Icon-App-29x29@1x.png
+³   ³   ³   ³       Icon-App-29x29@2x.png
+³   ³   ³   ³       Icon-App-29x29@3x.png
+³   ³   ³   ³       Icon-App-40x40@1x.png
+³   ³   ³   ³       Icon-App-40x40@2x.png
+³   ³   ³   ³       Icon-App-40x40@3x.png
+³   ³   ³   ³       Icon-App-60x60@2x.png
+³   ³   ³   ³       Icon-App-60x60@3x.png
+³   ³   ³   ³       Icon-App-76x76@1x.png
+³   ³   ³   ³       Icon-App-76x76@2x.png
+³   ³   ³   ³       Icon-App-83.5x83.5@2x.png
+³   ³   ³   ³       
+³   ³   ³   ÀÄÄÄLaunchImage.imageset
+³   ³   ³           Contents.json
+³   ³   ³           LaunchImage.png
+³   ³   ³           LaunchImage@2x.png
+³   ³   ³           LaunchImage@3x.png
+³   ³   ³           README.md
+³   ³   ³           
+³   ³   ÀÄÄÄBase.lproj
+³   ³           LaunchScreen.storyboard
+³   ³           Main.storyboard
+³   ³           
+³   ÃÄÄÄRunner.xcodeproj
+³   ³   ³   project.pbxproj
+³   ³   ³   
+³   ³   ÃÄÄÄproject.xcworkspace
+³   ³   ³   ³   contents.xcworkspacedata
+³   ³   ³   ³   
+³   ³   ³   ÀÄÄÄxcshareddata
+³   ³   ³           IDEWorkspaceChecks.plist
+³   ³   ³           WorkspaceSettings.xcsettings
+³   ³   ³           
+³   ³   ÀÄÄÄxcshareddata
+³   ³       ÀÄÄÄxcschemes
+³   ³               Runner.xcscheme
+³   ³               
+³   ÃÄÄÄRunner.xcworkspace
+³   ³   ³   contents.xcworkspacedata
+³   ³   ³   
+³   ³   ÀÄÄÄxcshareddata
+³   ³           IDEWorkspaceChecks.plist
+³   ³           WorkspaceSettings.xcsettings
+³   ³           
+³   ÀÄÄÄRunnerTests
+³           RunnerTests.swift
+³           
+ÃÄÄÄlib
+³   ³   main.dart
+³   ³   
+³   ÃÄÄÄmodels
+³   ³       check_in_response.dart
+³   ³       check_out_response.dart
+³   ³       employee_status.dart
+³   ³       late_request_response.dart
+³   ³       upload_photo_response.dart
+³   ³       
+³   ÃÄÄÄscreens
+³   ³       attendance_screen.dart
+³   ³       
+³   ÃÄÄÄservices
+³   ³       api_service.dart
+³   ³       camera_service.dart
+³   ³       image_service.dart
+³   ³       location_service.dart
+³   ³       
+³   ÃÄÄÄutils
+³   ³       constants.dart
+³   ³       helpers.dart
+³   ³       image_helper.dart
+³   ³       validators.dart
+³   ³       
+³   ÀÄÄÄwidgets
+³           action_buttons.dart
+³           employee_id_input.dart
+³           loading_indicator.dart
+³           status_display.dart
+³           upload_reference_photo.dart
+³           
+ÃÄÄÄlinux
+³   ³   .gitignore
+³   ³   CMakeLists.txt
+³   ³   
+³   ÃÄÄÄflutter
+³   ³       CMakeLists.txt
+³   ³       generated_plugins.cmake
+³   ³       generated_plugin_registrant.cc
+³   ³       generated_plugin_registrant.h
+³   ³       
+³   ÀÄÄÄrunner
+³           CMakeLists.txt
+³           main.cc
+³           my_application.cc
+³           my_application.h
+³           
+ÃÄÄÄmacos
+³   ³   .gitignore
+³   ³   
+³   ÃÄÄÄFlutter
+³   ³   ³   Flutter-Debug.xcconfig
+³   ³   ³   Flutter-Release.xcconfig
+³   ³   ³   GeneratedPluginRegistrant.swift
+³   ³   ³   
+³   ³   ÀÄÄÄephemeral
+³   ³           Flutter-Generated.xcconfig
+³   ³           flutter_export_environment.sh
+³   ³           
+³   ÃÄÄÄRunner
+³   ³   ³   AppDelegate.swift
+³   ³   ³   DebugProfile.entitlements
+³   ³   ³   Info.plist
+³   ³   ³   MainFlutterWindow.swift
+³   ³   ³   Release.entitlements
+³   ³   ³   
+³   ³   ÃÄÄÄAssets.xcassets
+³   ³   ³   ÀÄÄÄAppIcon.appiconset
+³   ³   ³           app_icon_1024.png
+³   ³   ³           app_icon_128.png
+³   ³   ³           app_icon_16.png
+³   ³   ³           app_icon_256.png
+³   ³   ³           app_icon_32.png
+³   ³   ³           app_icon_512.png
+³   ³   ³           app_icon_64.png
+³   ³   ³           Contents.json
+³   ³   ³           
+³   ³   ÃÄÄÄBase.lproj
+³   ³   ³       MainMenu.xib
+³   ³   ³       
+³   ³   ÀÄÄÄConfigs
+³   ³           AppInfo.xcconfig
+³   ³           Debug.xcconfig
+³   ³           Release.xcconfig
+³   ³           Warnings.xcconfig
+³   ³           
+³   ÃÄÄÄRunner.xcodeproj
+³   ³   ³   project.pbxproj
+³   ³   ³   
+³   ³   ÃÄÄÄproject.xcworkspace
+³   ³   ³   ÀÄÄÄxcshareddata
+³   ³   ³           IDEWorkspaceChecks.plist
+³   ³   ³           
+³   ³   ÀÄÄÄxcshareddata
+³   ³       ÀÄÄÄxcschemes
+³   ³               Runner.xcscheme
+³   ³               
+³   ÃÄÄÄRunner.xcworkspace
+³   ³   ³   contents.xcworkspacedata
+³   ³   ³   
+³   ³   ÀÄÄÄxcshareddata
+³   ³           IDEWorkspaceChecks.plist
+³   ³           
+³   ÀÄÄÄRunnerTests
+³           RunnerTests.swift
+³           
+ÃÄÄÄweb
+³   ³   favicon.png
+³   ³   index.html
+³   ³   manifest.json
+³   ³   
+³   ÀÄÄÄicons
+³           Icon-192.png
+³           Icon-512.png
+³           Icon-maskable-192.png
+³           Icon-maskable-512.png
+³           
+ÀÄÄÄwindows
+    ³   .gitignore
+    ³   CMakeLists.txt
+    ³   
+    ÃÄÄÄflutter
+    ³   ³   CMakeLists.txt
+    ³   ³   generated_plugins.cmake
+    ³   ³   generated_plugin_registrant.cc
+    ³   ³   generated_plugin_registrant.h
+    ³   ³   
+    ³   ÀÄÄÄephemeral
+    ³       ÀÄÄÄ.plugin_symlinks
+    ÀÄÄÄrunner
+        ³   CMakeLists.txt
+        ³   flutter_window.cpp
+        ³   flutter_window.h
+        ³   main.cpp
+        ³   resource.h
+        ³   runner.exe.manifest
+        ³   Runner.rc
+        ³   utils.cpp
+        ³   utils.h
+        ³   win32_window.cpp
+        ³   win32_window.h
+        ³   
+        ÀÄÄÄresources
+                app_icon.ico
+                
