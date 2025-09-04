@@ -912,5 +912,197 @@ def view_employees():
         print(f"Error fetching employees: {e}")
         return jsonify({"success": False, "message": "Failed to fetch employees"}), 500
 
+@app.route('/api/monthlyrecords/dynamic', methods=['POST'])
+def get_dynamic_monthly_records():
+    try:
+        data = request.get_json()
+        start_date = data.get('start_date')
+        end_date = data.get('end_date')
+       
+        if not start_date or not end_date:
+            return jsonify({'error': 'Both start_date and end_date are required'}), 400
+       
+        # Use connection pool with context managers
+        with get_db_connection() as conn:
+            with get_db_cursor(conn) as cursor:
+                cursor.execute("""
+                    SELECT
+                        e.employee_id,
+                        e.name,
+                        e.permanent_location,
+                        COUNT(CASE WHEN a.status = 'Present' THEN 1 END) as days_present,
+                        COUNT(CASE WHEN a.status = 'Late' THEN 1 END) as late_days,
+                        COUNT(CASE WHEN a.status = 'Absent' THEN 1 END) as absent_days,
+                        COUNT(a.attendance_id) as total_recorded_days
+                    FROM Employees e
+                    LEFT JOIN Attendance a ON e.employee_id = a.employee_id
+                        AND a.date BETWEEN %s AND %s
+                    GROUP BY e.employee_id, e.name, e.permanent_location
+                    ORDER BY e.employee_id
+                """, (start_date, end_date))
+               
+                records = []
+               
+                # Calculate dates once, outside the loop
+                from datetime import datetime, timedelta
+                start = datetime.strptime(start_date, '%Y-%m-%d')
+                end = datetime.strptime(end_date, '%Y-%m-%d')
+                today = datetime.now().date()
+               
+                effective_end_date = min(end.date(), today)
+               
+                # Total working days
+                total_working_days = sum(1 for d in (start + timedelta(days=i) for i in range((end-start).days+1)) if d.weekday() < 5)
+               
+                # Working days elapsed until today
+                working_days_elapsed = sum(1 for d in (start + timedelta(days=i) for i in range((effective_end_date-start.date()).days+1)) if d.weekday() < 5)
+               
+                for row in cursor:
+                    days_present = row['days_present'] or 0
+                    late_days = row['late_days'] or 0
+                    absent_days = row['absent_days'] or 0
+                   
+                    days_worked = days_present + late_days
+                    leaves_taken = max(0, working_days_elapsed - days_worked)
+                    overtime_days = max(0, days_worked - working_days_elapsed)
+                   
+                    records.append({
+                        'id': row['employee_id'],
+                        'name': row['name'],
+                        'branch': row['permanent_location'],
+                        'daysWorked': days_worked,
+                        'daysPresent': days_present,
+                        'lateDays': late_days,
+                        'leavesTaken': leaves_taken,
+                        'overtime': overtime_days,
+                        'totalWorkingDays': total_working_days,
+                        'workingDaysElapsed': working_days_elapsed,
+                        'attendanceRate': round((days_worked / working_days_elapsed * 100), 1) if working_days_elapsed > 0 else 0
+                    })
+               
+                return jsonify({
+                    'success': True,
+                    'records': records,
+                    'period': {
+                        'start_date': start_date,
+                        'end_date': end_date,
+                        'effective_end_date': effective_end_date.strftime('%Y-%m-%d'),
+                        'total_working_days': total_working_days,
+                        'working_days_elapsed': working_days_elapsed
+                    }
+                }), 200
+       
+    except Exception as e:
+        print("Error calculating dynamic monthly records:", e)
+        return jsonify({'error': 'Failed to calculate monthly records', 'details': str(e)}), 500
+
+# Optional: Add endpoint for getting current month records
+@app.route('/api/monthlyrecords/current', methods=['GET'])
+def get_current_month_records():
+    try:
+        from datetime import datetime
+        now = datetime.now()
+        start_date = now.replace(day=1).strftime('%Y-%m-%d')
+        end_date = now.strftime('%Y-%m-%d')
+        
+        return jsonify({
+            'success': True,
+            'message': 'Use /api/monthlyrecords/dynamic with current month dates',
+            'suggested_dates': {
+                'start_date': start_date,
+                'end_date': end_date
+            }
+        }), 200
+        
+    except Exception as e:
+        print("Error:", e)
+        return jsonify({'error': 'Failed to get current month data'}), 500
+
+
+
+@app.route('/api/leave-requests', methods=['GET'])
+def get_leave_requests():
+    try:
+        # Use connection pool with context managers
+        with get_db_connection() as conn:
+            with get_db_cursor(conn) as cursor:
+                cursor.execute("""
+                    SELECT
+                        l.leave_id,
+                        l.employee_id,
+                        e.name AS employee_name,
+                        l.start_date,
+                        l.end_date,
+                        l.reason,
+                        l.status,
+                        l.request_date
+                    FROM LeaveRequests l
+                    JOIN Employees e ON l.employee_id = e.employee_id
+                    ORDER BY l.start_date DESC
+                """)
+                
+                requests = []
+                for row in cursor:
+                    requests.append({
+                        'request_id': row['leave_id'],
+                        'employee_id': row['employee_id'],
+                        'name': row['employee_name'],
+                        'start_date': row['start_date'].strftime('%Y-%m-%d'),
+                        'end_date': row['end_date'].strftime('%Y-%m-%d'),
+                        'reason': row['reason'],
+                        'status': row['status'],
+                        'request_date': row['request_date'].strftime('%Y-%m-%d %H:%M:%S')
+                    })
+                
+                return jsonify(requests), 200
+                
+    except Exception as e:
+        print("Error fetching leave requests:", e)
+        return jsonify({'error': 'Failed to fetch leave requests'}), 500
+    
+@app.route('/api/leave-requests/<int:leave_id>/status', methods=['PUT'])
+def update_leave_status(leave_id):
+    data = request.get_json()
+    if not data:
+        return jsonify({'error': 'No JSON data provided'}), 400
+        
+    new_status = data.get('status')
+    if new_status not in ['Approved', 'Rejected']:
+        return jsonify({'error': 'Invalid status. Must be "Approved" or "Rejected"'}), 400
+
+    try:
+        with get_db_connection() as conn:
+            with get_db_cursor(conn) as cursor:
+                # First check if the leave request exists
+                cursor.execute("SELECT leave_id, status FROM LeaveRequests WHERE leave_id = %s", (leave_id,))
+                leave_request = cursor.fetchone()
+                
+                if not leave_request:
+                    return jsonify({'error': 'Leave request not found'}), 404
+                
+                # Check if already processed (optional - remove if you want to allow status changes)
+                if leave_request['status'] in ['Approved', 'Rejected']:
+                    return jsonify({'error': f'Leave request already {leave_request["status"].lower()}'}), 400
+
+                # Update the status
+                cursor.execute("UPDATE LeaveRequests SET status = %s WHERE leave_id = %s", (new_status, leave_id))
+                
+                # Since autocommit is True in your config, no need for conn.commit()
+                # If you changed autocommit to False, uncomment the next line:
+                # conn.commit()
+
+                return jsonify({
+                    'message': 'Leave request status updated successfully',
+                    'leave_id': leave_id,
+                    'new_status': new_status
+                }), 200
+
+    except mysql.connector.Error as e:
+        print(f"Database error updating leave request {leave_id}: {e}")
+        return jsonify({'error': 'Database error occurred'}), 500
+    except Exception as e:
+        print(f"Error updating leave request {leave_id}: {e}")
+        return jsonify({'error': 'Failed to update leave status'}), 500
+
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000, debug=True)
