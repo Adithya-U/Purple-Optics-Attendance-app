@@ -11,6 +11,11 @@ import random
 from datetime import datetime, date, time, timedelta
 import math
 from contextlib import contextmanager
+from apscheduler.schedulers.background import BackgroundScheduler
+from apscheduler.triggers.cron import CronTrigger
+import atexit
+import logging
+import pytz
 
 COMPRE_FACE_API_KEY = '1023b58b-60c7-4bc9-9376-fb28da83f4fa'
 COMPRE_FACE_URL = 'http://localhost:8000/api/v1/verification/verify'
@@ -76,6 +81,7 @@ def get_db_cursor(connection):
     finally:
         if cursor:
             cursor.close()
+
 
 def to_base64(path):
     with open(path, 'rb') as img:
@@ -143,6 +149,192 @@ def find_nearest_store(user_lat, user_lon):
     except Exception as e:
         print(f"Error finding nearest store: {e}")
         return None
+
+def mark_absent_employees():
+    """
+    Check for employees with no attendance record for today and mark them absent
+    """
+    try:
+        with get_db_connection() as conn:
+            with get_db_cursor(conn) as cursor:
+                # Get today's date
+                today = datetime.now().date()
+                
+                # Find all employees who don't have an attendance record for today
+                query = """
+                    SELECT e.employee_id, e.name 
+                    FROM Employees e 
+                    LEFT JOIN Attendance a ON e.employee_id = a.employee_id 
+                        AND a.date = %s
+                    WHERE a.employee_id IS NULL
+                """
+                
+                cursor.execute(query, (today,))
+                absent_employees = cursor.fetchall()
+                
+                if not absent_employees:
+                    print(f"No employees to mark absent for {today}")
+                    return
+                
+                print(f"Found {len(absent_employees)} employees to mark absent for {today}")
+                
+                # Insert absent records for these employees
+                insert_query = """
+                    INSERT INTO Attendance (employee_id, date, status, check_in, check_out, current_location)
+                    VALUES (%s, %s, 'Absent', NULL, NULL, NULL)
+                """
+                
+                absent_count = 0
+                for employee in absent_employees:
+                    try:
+                        cursor.execute(insert_query, (employee['employee_id'], today))
+                        conn.commit()
+                        absent_count += 1
+                        print(f"Marked employee {employee['name']} (ID: {employee['employee_id']}) as absent")
+                    except Exception as e:
+                        print(f"Error marking employee {employee['employee_id']} as absent: {e}")
+                        conn.rollback()
+                
+                print(f"Successfully marked {absent_count} employees as absent for {today}")
+                
+    except Exception as e:
+        print(f"Error in mark_absent_employees: {e}")
+        logging.error(f"Error in mark_absent_employees: {e}")
+
+def init_absent_scheduler(hour=21, minute=0):
+    """
+    Initialize scheduler for marking absent employees
+    Args:
+        hour: Hour in 24-hour format (0-23)
+        minute: Minute (0-59)
+    """
+    ist = pytz.timezone('Asia/Kolkata')
+    
+    scheduler = BackgroundScheduler(timezone=ist)
+    
+    scheduler.add_job(
+        func=mark_absent_employees,
+        trigger=CronTrigger(hour=hour, minute=minute, timezone=ist),
+        id='absent_check',
+        name=f'Mark absent employees daily at {hour:02d}:{minute:02d} IST',
+        replace_existing=True
+    )
+    
+    print(f"Absent employee scheduler set for {hour:02d}:{minute:02d} IST")
+    return scheduler
+
+def init_late_request_scheduler(hour=21, minute=0):
+    """
+    Initialize scheduler for rejecting late arrival requests
+    Args:
+        hour: Hour in 24-hour format (0-23)
+        minute: Minute (0-59)
+    """
+    ist = pytz.timezone('Asia/Kolkata')
+    
+    scheduler = BackgroundScheduler(timezone=ist)
+    
+    scheduler.add_job(
+        func=reject_pending_late_requests,
+        trigger=CronTrigger(hour=hour, minute=minute, timezone=ist),
+        id='late_request_rejection',
+        name=f'Reject pending late requests daily at {hour:02d}:{minute:02d} IST',
+        replace_existing=True
+    )
+    
+    print(f"Late request rejection scheduler set for {hour:02d}:{minute:02d} IST")
+    return scheduler
+
+def init_all_schedulers(absent_hour=21, absent_minute=0, late_request_hour=21, late_request_minute=5):
+    """
+    Initialize both schedulers with custom timing
+    Args:
+        absent_hour: Hour for absent check (default: 21 = 9 PM)
+        absent_minute: Minute for absent check (default: 0)
+        late_request_hour: Hour for late request rejection (default: 21 = 9 PM)
+        late_request_minute: Minute for late request rejection (default: 5 = 5 minutes after)
+    """
+    ist = pytz.timezone('Asia/Kolkata')
+    
+    scheduler = BackgroundScheduler(timezone=ist)
+    
+    # Add absent employee check job
+    scheduler.add_job(
+        func=mark_absent_employees,
+        trigger=CronTrigger(hour=absent_hour, minute=absent_minute, timezone=ist),
+        id='absent_check',
+        name=f'Mark absent employees daily at {absent_hour:02d}:{absent_minute:02d} IST',
+        replace_existing=True
+    )
+    
+    # Add late request rejection job
+    scheduler.add_job(
+        func=reject_pending_late_requests,
+        trigger=CronTrigger(hour=late_request_hour, minute=late_request_minute, timezone=ist),
+        id='late_request_rejection',
+        name=f'Reject pending late requests daily at {late_request_hour:02d}:{late_request_minute:02d} IST',
+        replace_existing=True
+    )
+    
+    scheduler.start()
+    print(f"Both schedulers started:")
+    print(f"  - Absent check: {absent_hour:02d}:{absent_minute:02d} IST")
+    print(f"  - Late request rejection: {late_request_hour:02d}:{late_request_minute:02d} IST")
+    
+    # Shut down the scheduler when exiting the app
+    atexit.register(lambda: scheduler.shutdown())
+    
+    return scheduler
+
+def reject_pending_late_requests():
+    """
+    Check for pending late arrival requests and mark them as rejected
+    """
+    try:
+        with get_db_connection() as conn:
+            with get_db_cursor(conn) as cursor:
+                # Find all pending late arrival requests
+                select_query = """
+                    SELECT lar.request_id, lar.employee_id, e.name, lar.requested_at
+                    FROM LateArrivalRequests lar
+                    JOIN Employees e ON lar.employee_id = e.employee_id
+                    WHERE lar.status = 'Pending'
+                """
+                
+                cursor.execute(select_query)
+                pending_requests = cursor.fetchall()
+                
+                if not pending_requests:
+                    print("No pending late arrival requests to reject")
+                    return
+                
+                print(f"Found {len(pending_requests)} pending late arrival requests to reject")
+                
+                # Update all pending requests to rejected
+                update_query = """
+                    UPDATE LateArrivalRequests 
+                    SET status = 'Rejected' 
+                    WHERE status = 'Pending'
+                """
+                
+                cursor.execute(update_query)
+                rejected_count = cursor.rowcount
+                conn.commit()
+                
+                # Log each rejected request
+                for request in pending_requests:
+                    print(f"Rejected late arrival request ID: {request['request_id']} for employee {request['name']} (ID: {request['employee_id']}) requested at {request['requested_at']}")
+                
+                print(f"Successfully rejected {rejected_count} pending late arrival requests")
+                
+    except Exception as e:
+        print(f"Error in reject_pending_late_requests: {e}")
+        logging.error(f"Error in reject_pending_late_requests: {e}")
+
+scheduler = init_all_schedulers(
+    absent_hour=21, absent_minute=10,           # 9:00 PM for absent check
+    late_request_hour=21, late_request_minute=0  # 9:05 PM for late request rejection
+)
 
 @app.route('/upload_photo', methods=['POST'])
 def upload_photo():
@@ -1103,6 +1295,54 @@ def update_leave_status(leave_id):
     except Exception as e:
         print(f"Error updating leave request {leave_id}: {e}")
         return jsonify({'error': 'Failed to update leave status'}), 500
+    
+# Optional: Add a manual trigger endpoint for testing
+@app.route('/api/trigger-absent-check', methods=['POST'])
+def trigger_absent_check():
+    """
+    Manual trigger for testing the absent employee check
+    """
+    try:
+        mark_absent_employees()
+        return jsonify({"status": "success", "message": "Absent employee check completed"}), 200
+    except Exception as e:
+        return jsonify({"status": "error", "message": str(e)}), 500
+
+@app.route('/api/trigger-late-request-rejection', methods=['POST'])
+def trigger_late_request_rejection():
+    """
+    Manual trigger for testing the late request rejection
+    """
+    try:
+        reject_pending_late_requests()
+        return jsonify({"status": "success", "message": "Late request rejection completed"}), 200
+    except Exception as e:
+        return jsonify({"status": "error", "message": str(e)}), 500
+
+
+@app.route('/api/scheduler-status', methods=['GET'])
+def scheduler_status():
+    """
+    Check if both schedulers are running and show next run times
+    """
+    try:
+        absent_job = scheduler.get_job('absent_check')
+        late_job = scheduler.get_job('late_request_rejection')
+        
+        result = {
+            "absent_check": {
+                "status": "running" if absent_job else "not_found",
+                "next_run": absent_job.next_run_time.isoformat() if absent_job and absent_job.next_run_time else "Not scheduled"
+            },
+            "late_request_rejection": {
+                "status": "running" if late_job else "not_found", 
+                "next_run": late_job.next_run_time.isoformat() if late_job and late_job.next_run_time else "Not scheduled"
+            }
+        }
+        
+        return jsonify(result), 200
+    except Exception as e:
+        return jsonify({"status": "error", "message": str(e)}), 500
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000, debug=True)
