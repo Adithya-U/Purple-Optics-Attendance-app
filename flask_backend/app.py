@@ -703,42 +703,52 @@ def update_late_arrival_status(request_id):
         print(f"Error updating late arrival status: {e}")
         return jsonify({'error': 'Failed to process request'}), 500
 
+
 @app.route('/api/employees', methods=['POST'])
 def add_employee():
     try:
         data = request.get_json(force=True)
         
-        required = ["name", "email"]
+        # Basic validation
+        required = ["name", "employee_id"]
         missing = [k for k in required if not data.get(k)]
         if missing:
             return jsonify({"success": False, "message": f"Missing fields: {', '.join(missing)}"}), 400
         
+        # Extract data
+        employee_id = data.get('employee_id')
+        name = data.get('name')
+        email = data.get('email')
+        permanent_location = data.get('permanent_location')
+        position = data.get('position')
+        phone_no = data.get('phone_no')
+        photo_url = None
+        date_joined = date.today()
+        
+        # Use connection pool and context managers
         with get_db_connection() as conn:
             with get_db_cursor(conn) as cursor:
-                employee_id = generate_employee_id()
-                
                 cursor.execute("""
                     INSERT INTO Employees
                       (employee_id, name, email, permanent_location, position, date_joined, phone_no, photo_url)
                     VALUES
                       (%s, %s, %s, %s, %s, %s, %s, %s)
-                """, (
-                    employee_id, data.get('name'), data.get('email'),
-                    data.get('permanent_location'), data.get('position'),
-                    date.today(), data.get('phone_no'), None
-                ))
+                """, (employee_id, name, email, permanent_location, position, date_joined, phone_no, photo_url))
                 
-                conn.commit()
+                # Note: No need for conn.commit() since autocommit=True in your DB_CONFIG
                 
-                return jsonify({
-                    "success": True,
-                    "message": "Employee added successfully",
-                    "employee_id": employee_id,
-                    "date_joined": str(date.today())
-                }), 201
+        return jsonify({
+            "success": True,
+            "message": "Employee added successfully",
+            "employee_id": employee_id,
+            "date_joined": str(date_joined)
+        }), 201
         
+    except mysql.connector.Error as db_error:
+        app.logger.exception("Database error in add_employee")
+        return jsonify({"success": False, "message": f"Database error: {str(db_error)}"}), 500
     except Exception as e:
-        print(f"Error adding employee: {e}")
+        app.logger.exception("Add employee failed")
         return jsonify({"success": False, "message": str(e)}), 500
 
 @app.route('/api/employees/<int:employee_id>', methods=['DELETE'])
