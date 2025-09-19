@@ -21,7 +21,7 @@ COMPRE_FACE_API_KEY = '1023b58b-60c7-4bc9-9376-fb28da83f4fa'
 COMPRE_FACE_URL = 'http://localhost:8000/api/v1/verification/verify'
 
 app = Flask(__name__)
-CORS(app, resources={r"/api/*": {"origins": "http://localhost:5173"}})
+CORS(app, resources={r"/api/*": {"origins": ["http://localhost:5173", "https://attendance-registration.vercel.app"]}})
 
 UPLOAD_FOLDER = 'uploads'
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
