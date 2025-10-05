@@ -483,7 +483,7 @@ def compare_photo():
                 else:
                     check_time = datetime.now()
                 
-                is_on_time = check_time.time() <= time(9, 0)
+                is_on_time = check_time.time() <= time(9, 35)
                 
                 # Check for approved late arrival request if after 9 AM
                 has_approved_late_request = False
@@ -504,7 +504,7 @@ def compare_photo():
                     response_data['time_check'] = 'late_with_approval'
                 else:
                     response_data['time_check'] = 'late_without_approval'
-                    response_data['message'] = 'Check-in after 9 AM without approved late arrival request - attendance not recorded'
+                    response_data['message'] = 'Check-in after 9:30 AM without approved late arrival request - attendance not recorded'
                     return jsonify(response_data)
                 
                 # Record attendance

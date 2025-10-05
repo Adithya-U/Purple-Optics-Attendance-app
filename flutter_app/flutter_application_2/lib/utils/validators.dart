@@ -57,8 +57,8 @@ class Validators {
 
       // Additional validation: time should be reasonable for late arrival
       // (typically between 9 AM and 2 PM for late requests)
-      if (hours < 9 || hours > 14) {
-        return 'Late arrival time should be between 9:00 AM and 2:00 PM';
+      if (hours < 9 && minutes < 35 || hours > 14) {
+        return 'Late arrival time should be between 9:30 AM and 2:00 PM';
       }
     } catch (e) {
       return 'Invalid time format';
