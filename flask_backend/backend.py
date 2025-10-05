@@ -16,9 +16,16 @@ from apscheduler.triggers.cron import CronTrigger
 import atexit
 import logging
 import pytz
+from dotenv import load_dotenv
 
-COMPRE_FACE_API_KEY = '1023b58b-60c7-4bc9-9376-fb28da83f4fa'
-COMPRE_FACE_URL = 'http://localhost:8000/api/v1/verification/verify'
+
+load_dotenv()
+
+COMPRE_FACE_API_KEY = os.getenv("COMPRE_FACE_API_KEY")
+COMPRE_FACE_URL = os.getenv("COMPRE_FACE_URL")
+
+COMPRE_FACE_DETECT_API_KEY = os.getenv("COMPRE_FACE_DETECT_API_KEY")
+COMPRE_FACE_DETECT_URL = os.getenv("COMPRE_FACE_DETECT_URL")
 
 app = Flask(__name__)
 CORS(app, resources={r"/api/*": {"origins": ["http://localhost:5173", "https://attendance-registration.vercel.app"]}})
@@ -88,8 +95,8 @@ def to_base64(path):
         return base64.b64encode(img.read()).decode('utf-8')
     
 def is_face_detected(image_file):
-    detect_url = 'http://localhost:8000/api/v1/detection/detect'
-    headers = {'x-api-key': '21bebb56-600e-481a-a03a-97e130101543'}
+    detect_url = COMPRE_FACE_DETECT_URL
+    headers = {"x-api-key": COMPRE_FACE_DETECT_API_KEY}
     files = {'file': ('image.jpg', image_file, 'image/jpeg')}
 
     response = requests.post(detect_url, files=files, headers=headers)
@@ -98,6 +105,7 @@ def is_face_detected(image_file):
 
     data = response.json()
     return bool(data.get('result'))
+
 
 def generate_employee_id():
     """Generate a unique 5-digit employee ID"""

@@ -9,7 +9,7 @@ import '../models/upload_photo_response.dart';
 
 class ApiService {
   static const String baseUrl =
-      'http://10.250.118.172:5000'; // Replace with your actual base URL
+      'https://attendancebackend.duckdns.org/'; // Replace with your actual base URL
   static const int timeoutSeconds = 30;
 
   static final Dio _dio = Dio(
