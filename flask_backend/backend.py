@@ -604,6 +604,7 @@ def get_attendance():
                         CASE WHEN a.check_out = 'RUNE' THEN NULL ELSE TIME_FORMAT(a.check_out, '%H:%i:%s') END as check_out
                     FROM Attendance a
                     JOIN Employees e ON a.employee_id = e.employee_id
+                    WHERE DATE(a.date) = CURDATE()
                     ORDER BY a.date DESC
                     LIMIT 50
                 """)
@@ -627,12 +628,15 @@ def get_attendance():
     except Exception as e:
         print(f"Error fetching attendance data: {e}")
         return jsonify({'error': 'Failed to fetch attendance data', 'details': str(e)}), 500
-
+    
 @app.route('/api/late-arrival-requests', methods=['GET'])
 def get_late_arrival_requests():
     try:
         with get_db_connection() as conn:
             with get_db_cursor(conn) as cursor:
+                # Get today's date
+                today = date.today()
+
                 cursor.execute("""
                     SELECT
                         r.request_id,
@@ -645,9 +649,10 @@ def get_late_arrival_requests():
                         r.status
                     FROM LateArrivalRequests r
                     JOIN Employees e ON r.employee_id = e.employee_id
+                    WHERE DATE(r.requested_at) = %s
                     ORDER BY r.requested_at DESC
-                """)
-                
+                """, (today,))
+
                 requests = []
                 for row in cursor:
                     requests.append({
@@ -660,9 +665,9 @@ def get_late_arrival_requests():
                         'requested_at': row['requested_at'].strftime('%H:%M:%S'),
                         'status': row['status']
                     })
-                
+
                 return jsonify(requests), 200
-                
+
     except Exception as e:
         print(f"Error fetching late arrival requests: {e}")
         return jsonify({'error': 'Failed to fetch late arrival requests'}), 500
