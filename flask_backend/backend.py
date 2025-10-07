@@ -590,24 +590,48 @@ def login():
 @app.route('/api/attendance', methods=['GET'])
 def get_attendance():
     try:
+        # Get date from query parameter, default to today
+        date_param = request.args.get('date')
+        
         with get_db_connection() as conn:
             with get_db_cursor(conn) as cursor:
-                cursor.execute("""
-                    SELECT 
-                        a.attendance_id,
-                        a.employee_id,
-                        e.name AS emp_name,
-                        a.current_location,
-                        DATE(a.date) as date,
-                        a.status,
-                        CASE WHEN a.check_in = 'RUNE' THEN NULL ELSE TIME_FORMAT(a.check_in, '%H:%i:%s') END as check_in,
-                        CASE WHEN a.check_out = 'RUNE' THEN NULL ELSE TIME_FORMAT(a.check_out, '%H:%i:%s') END as check_out
-                    FROM Attendance a
-                    JOIN Employees e ON a.employee_id = e.employee_id
-                    WHERE DATE(a.date) = CURDATE()
-                    ORDER BY a.date DESC
-                    LIMIT 50
-                """)
+                if date_param:
+                    # Use the provided date - directly in query
+                    query = f"""
+                        SELECT 
+                            a.attendance_id,
+                            a.employee_id,
+                            e.name AS emp_name,
+                            a.current_location,
+                            DATE(a.date) as date,
+                            a.status,
+                            CASE WHEN a.check_in = 'RUNE' THEN NULL ELSE TIME_FORMAT(a.check_in, '%H:%i:%s') END as check_in,
+                            CASE WHEN a.check_out = 'RUNE' THEN NULL ELSE TIME_FORMAT(a.check_out, '%H:%i:%s') END as check_out
+                        FROM Attendance a
+                        JOIN Employees e ON a.employee_id = e.employee_id
+                        WHERE DATE(a.date) = '{date_param}'
+                        ORDER BY a.date DESC
+                        LIMIT 50
+                    """
+                    cursor.execute(query)
+                else:
+                    # Default to current date
+                    cursor.execute("""
+                        SELECT 
+                            a.attendance_id,
+                            a.employee_id,
+                            e.name AS emp_name,
+                            a.current_location,
+                            DATE(a.date) as date,
+                            a.status,
+                            CASE WHEN a.check_in = 'RUNE' THEN NULL ELSE TIME_FORMAT(a.check_in, '%H:%i:%s') END as check_in,
+                            CASE WHEN a.check_out = 'RUNE' THEN NULL ELSE TIME_FORMAT(a.check_out, '%H:%i:%s') END as check_out
+                        FROM Attendance a
+                        JOIN Employees e ON a.employee_id = e.employee_id
+                        WHERE DATE(a.date) = CURDATE()
+                        ORDER BY a.date DESC
+                        LIMIT 50
+                    """)
                
                 attendance_data = []
                 for row in cursor:
