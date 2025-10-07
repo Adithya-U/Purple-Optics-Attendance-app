@@ -1391,5 +1391,49 @@ def scheduler_status():
     except Exception as e:
         return jsonify({"status": "error", "message": str(e)}), 500
 
+@app.route('/api/update_attendance', methods=['PUT'])
+def update_attendance():
+    try:
+        data = request.get_json()
+        attendance_id = data.get('attendance_id')
+        current_location = data.get('current_location')
+        status = data.get('status')
+        check_in = data.get('check_in')
+        check_out = data.get('check_out')
+
+        print(f"Received update request: {data}")  # Debug log
+
+        if not attendance_id:
+            return jsonify({'success': False, 'message': 'attendance_id is required'}), 400
+
+        # If status is Absent or On Leave, nullify check-in/out
+        if status and status.lower() in ['absent', 'on leave', 'time off']:
+            check_in = None
+            check_out = None
+            current_location = None
+
+        with get_db_connection() as conn:
+            with get_db_cursor(conn) as cursor:
+                update_query = """
+                    UPDATE Attendance
+                    SET current_location = %s,
+                        status = %s,
+                        check_in = %s,
+                        check_out = %s
+                    WHERE attendance_id = %s
+                """
+                cursor.execute(update_query, (current_location, status, check_in, check_out, attendance_id))
+                conn.commit()
+
+                print(f"Updated {cursor.rowcount} rows")  # Debug log
+
+        return jsonify({'success': True, 'message': 'Attendance updated successfully'})
+
+    except Exception as e:
+        print(f"Error updating attendance: {e}")
+        import traceback
+        traceback.print_exc()
+        return jsonify({'success': False, 'message': str(e)}), 500
+    
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000, debug=True)
