@@ -1435,5 +1435,94 @@ def update_attendance():
         traceback.print_exc()
         return jsonify({'success': False, 'message': str(e)}), 500
     
+@app.route('/api/employees/<employee_id>', methods=['GET'])
+def get_employee(employee_id):
+    try:
+        with get_db_connection() as conn:
+            with get_db_cursor(conn) as cursor:
+                cursor.execute("""
+                    SELECT employee_id, name, email, phone_no, position, 
+                           permanent_location, date_joined
+                    FROM Employees
+                    WHERE employee_id = %s
+                """, (employee_id,))
+                
+                employee = cursor.fetchone()
+                
+                if not employee:
+                    return jsonify({"success": False, "message": "Employee not found"}), 404
+                
+                # Access by column name instead of index
+                return jsonify({
+                    "success": True,
+                    "employee": {
+                        "employee_id": employee['employee_id'],
+                        "name": employee['name'],
+                        "email": employee['email'],
+                        "phone_no": employee['phone_no'],
+                        "position": employee['position'],
+                        "permanent_location": employee['permanent_location'],
+                        "date_joined": str(employee['date_joined']) if employee['date_joined'] else None
+                    }
+                }), 200
+                
+    except Exception as e:
+        app.logger.exception("Get employee failed")
+        return jsonify({"success": False, "message": str(e)}), 500
+
+
+# UPDATE employee
+@app.route('/api/editemployees', methods=['PUT'])
+def update_employee():
+    try:
+        data = request.get_json(force=True)
+        
+        if not data.get('employee_id'):
+            return jsonify({"success": False, "message": "Employee ID is required"}), 400
+        
+        employee_id = data.get('employee_id')
+        
+        # Build dynamic update query for only provided fields
+        update_fields = []
+        values = []
+        
+        if data.get('name') is not None:
+            update_fields.append("name = %s")
+            values.append(data.get('name'))
+        if data.get('email') is not None:
+            update_fields.append("email = %s")
+            values.append(data.get('email'))
+        if data.get('phone_no') is not None:
+            update_fields.append("phone_no = %s")
+            values.append(data.get('phone_no'))
+        if data.get('position') is not None:
+            update_fields.append("position = %s")
+            values.append(data.get('position'))
+        if data.get('permanent_location') is not None:
+            update_fields.append("permanent_location = %s")
+            values.append(data.get('permanent_location'))
+        
+        if not update_fields:
+            return jsonify({"success": False, "message": "No fields to update"}), 400
+        
+        values.append(employee_id)
+        
+        with get_db_connection() as conn:
+            with get_db_cursor(conn) as cursor:
+                query = f"UPDATE Employees SET {', '.join(update_fields)} WHERE employee_id = %s"
+                cursor.execute(query, values)
+                
+                if cursor.rowcount == 0:
+                    return jsonify({"success": False, "message": "Employee not found"}), 404
+                
+        return jsonify({
+            "success": True,
+            "message": "Employee updated successfully"
+        }), 200
+        
+    except Exception as e:
+        app.logger.exception("Update employee failed")
+        return jsonify({"success": False, "message": str(e)}), 500
+    
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000, debug=True)
