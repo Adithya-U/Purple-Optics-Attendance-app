@@ -922,34 +922,109 @@ def get_employee_status():
         print(f"Error in employee status check: {e}")
         return jsonify({'success': False, 'error': 'Internal server error', 'action': None}), 500
 
+
 @app.route('/api/submit-late-request', methods=['POST'])
 def submit_late_request():
-    """Submit a late arrival request for an employee"""
-    data = request.get_json()
-    employee_id = data.get('employee_id')
-    requested_time = data.get('time')
+    """Submit a late arrival request for an employee with face and location verification"""
+    if 'photo' not in request.files or 'employee_id' not in request.form:
+        return jsonify({'error': 'Missing photo or employee_id'}), 400
     
-    if not employee_id or not requested_time:
-        return jsonify({'success': False, 'error': 'Employee ID and time are required'}), 400
+    photo = request.files['photo']
+    employee_id = request.form['employee_id']
+    user_lat = request.form.get('latitude')
+    user_lon = request.form.get('longitude')
+    requested_time = request.form.get('time')
+    
+    if photo.filename == '':
+        return jsonify({'error': 'No selected file'}), 400
+    
+    if not requested_time:
+        return jsonify({'error': 'Requested time is required'}), 400
     
     try:
         with get_db_connection() as conn:
             with get_db_cursor(conn) as cursor:
                 # Check if employee exists
-                cursor.execute("SELECT name FROM Employees WHERE employee_id = %s", (employee_id,))
-                employee = cursor.fetchone()
+                cursor.execute("SELECT photo_url, name FROM Employees WHERE employee_id = %s", (employee_id,))
+                result = cursor.fetchone()
+                if result is None:
+                    return jsonify({'error': 'Employee not found'}), 404
                 
-                if not employee:
-                    return jsonify({'success': False, 'error': 'Employee not found'}), 404
+                stored_photo_path = result['photo_url']
+                emp_name = result['name']
+                
+                if not os.path.exists(stored_photo_path):
+                    return jsonify({'error': 'Stored photo not found'}), 404
+                
+                # Check face in uploaded image
+                photo.stream.seek(0)
+                if not is_face_detected(photo.stream):
+                    return jsonify({'error': 'No face detected in uploaded photo'}), 400
+                photo.stream.seek(0)
+                
+                # Compare photos
+                with open(stored_photo_path, 'rb') as stored_image:
+                    files = {
+                        'source_image': ('stored.jpg', stored_image, 'image/jpeg'),
+                        'target_image': ('uploaded.jpg', photo, 'image/jpeg')
+                    }
+                    headers = {'x-api-key': COMPRE_FACE_API_KEY}
+                    response = requests.post(COMPRE_FACE_URL, files=files, headers=headers)
+                
+                if response.status_code != 200:
+                    return jsonify({'error': 'CompreFace verification failed', 'details': response.text}), 500
+                
+                result = response.json()
+                similarity = result['result'][0]['face_matches'][0]['similarity']
+                is_match = similarity >= 0.9
+                
+                response_data = {
+                    'success': False,
+                    'match': is_match,
+                    'similarity': similarity,
+                    'face_verification': 'success' if is_match else 'failed',
+                    'location_check': None,
+                    'request_submitted': False,
+                    'message': None
+                }
+                
+                if not is_match:
+                    response_data['message'] = 'Face verification failed - late arrival request not submitted'
+                    return jsonify(response_data)
+                
+                # Location validation
+                if not user_lat or not user_lon:
+                    response_data['location_check'] = 'missing_coordinates'
+                    response_data['message'] = 'Location coordinates missing - late arrival request not submitted'
+                    return jsonify(response_data)
+                
+                try:
+                    user_lat = float(user_lat)
+                    user_lon = float(user_lon)
+                except (ValueError, TypeError):
+                    response_data['location_check'] = 'invalid_coordinates'
+                    response_data['message'] = 'Invalid location coordinates - late arrival request not submitted'
+                    return jsonify(response_data)
+                
+                store_location = find_nearest_store(user_lat, user_lon)
+                
+                if not store_location:
+                    response_data['location_check'] = 'too_far_from_store'
+                    response_data['message'] = 'You are not within 50m of any store location - late arrival request not submitted'
+                    return jsonify(response_data)
+                
+                response_data['location_check'] = 'success'
+                response_data['store_location'] = store_location
                 
                 # Check existing request for today
                 cursor.execute("""
-                    SELECT request_id FROM LateArrivalRequests 
+                    SELECT request_id FROM LateArrivalRequests
                     WHERE employee_id = %s AND DATE(requested_at) = CURDATE()
                 """, (employee_id,))
                 
                 if cursor.fetchone():
-                    return jsonify({'success': False, 'error': 'Late arrival request already submitted for today'}), 400
+                    response_data['message'] = 'Late arrival request already submitted for today'
+                    return jsonify(response_data), 400
                 
                 # Parse time
                 try:
@@ -961,7 +1036,8 @@ def submit_late_request():
                     requested_datetime = datetime.combine(today, time_obj)
                     
                 except ValueError:
-                    return jsonify({'success': False, 'error': 'Invalid time format. Use HH:MM or HH:MM:SS'}), 400
+                    response_data['message'] = 'Invalid time format. Use HH:MM or HH:MM:SS'
+                    return jsonify(response_data), 400
                 
                 # Insert request
                 cursor.execute("""
@@ -972,15 +1048,18 @@ def submit_late_request():
                 conn.commit()
                 request_id = cursor.lastrowid
                 
-                return jsonify({
+                response_data.update({
                     'success': True,
-                    'message': f'Late arrival request submitted successfully for {employee["name"]}',
+                    'request_submitted': True,
+                    'message': f'Late arrival request submitted successfully for {emp_name}',
                     'request_id': request_id,
-                    'employee_name': employee['name'],
+                    'employee_name': emp_name,
                     'requested_time': requested_time,
                     'status': 'Pending',
                     'requested_at': requested_datetime.strftime('%Y-%m-%d %H:%M:%S')
-                }), 201
+                })
+                
+                return jsonify(response_data), 201
                 
     except Exception as e:
         print(f"Error submitting late arrival request: {e}")

@@ -8,6 +8,14 @@ class LateRequestResponse {
   final String? requestedAt;
   final String? error;
 
+  // New fields for verification
+  final bool? match;
+  final double? similarity;
+  final String? faceVerification;
+  final String? locationCheck;
+  final String? storeLocation;
+  final bool? requestSubmitted;
+
   LateRequestResponse({
     this.success,
     required this.message,
@@ -17,6 +25,12 @@ class LateRequestResponse {
     this.status,
     this.requestedAt,
     this.error,
+    this.match,
+    this.similarity,
+    this.faceVerification,
+    this.locationCheck,
+    this.storeLocation,
+    this.requestSubmitted,
   });
 
   factory LateRequestResponse.fromJson(Map<String, dynamic> json) {
@@ -29,6 +43,12 @@ class LateRequestResponse {
       status: json['status'] as String?,
       requestedAt: json['requested_at'] as String?,
       error: json['error'] as String?,
+      match: json['match'] as bool?,
+      similarity: (json['similarity'] as num?)?.toDouble(),
+      faceVerification: json['face_verification'] as String?,
+      locationCheck: json['location_check'] as String?,
+      storeLocation: json['store_location'] as String?,
+      requestSubmitted: json['request_submitted'] as bool?,
     );
   }
 
@@ -42,6 +62,12 @@ class LateRequestResponse {
       'status': status,
       'requested_at': requestedAt,
       'error': error,
+      'match': match,
+      'similarity': similarity,
+      'face_verification': faceVerification,
+      'location_check': locationCheck,
+      'store_location': storeLocation,
+      'request_submitted': requestSubmitted,
     };
   }
 
@@ -51,6 +77,11 @@ class LateRequestResponse {
   bool get isPending => status?.toLowerCase() == 'pending';
   bool get isAccepted => status?.toLowerCase() == 'accepted';
   bool get isRejected => status?.toLowerCase() == 'rejected';
+
+  // New helper methods for verification
+  bool get isFaceVerified => faceVerification == 'success';
+  bool get isLocationVerified => locationCheck == 'success';
+  bool get isFullyVerified => isFaceVerified && isLocationVerified;
 
   // Helper method to get user-friendly error message
   String get displayMessage {

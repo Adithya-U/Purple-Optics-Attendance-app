@@ -406,19 +406,45 @@ class _ActionButtonsState extends State<ActionButtons> {
     setState(() => _isProcessing = true);
 
     try {
+      // Get current location
+      await _getCurrentLocation();
+
+      if (_currentLocation == null) {
+        widget.onError("Failed to get location. Please try again.");
+        return;
+      }
+
+      // Capture photo
+      final CameraResult cameraResult = await CameraService.selectPhoto(
+        PhotoSource.camera,
+      );
+
+      if (!cameraResult.isSuccess) {
+        widget.onError("Failed to capture photo. Please try again.");
+        return;
+      }
+
+      // Fix photo orientation/compression
+      File processedPhoto = await fixPhoto(cameraResult.imageFile!);
+
+      // Get current time
       final now = DateTime.now();
       final currentTime =
           "${now.hour.toString().padLeft(2, '0')}:${now.minute.toString().padLeft(2, '0')}";
 
+      // Submit late request with photo and location
       final LateRequestResponse response = await ApiService.submitLateRequest(
         employeeId: widget.employeeId,
         time: currentTime,
+        photo: processedPhoto,
+        latitude: _currentLocation!.latitude!,
+        longitude: _currentLocation!.longitude!,
       );
 
-      if (response.success == true) {
+      if (response.success == true && response.requestSubmitted == true) {
         widget.onSuccess();
       } else {
-        widget.onError(response.message ?? "Failed to submit late request");
+        widget.onError(response.displayMessage);
       }
     } catch (e) {
       widget.onError(e.toString().replaceAll('Exception: ', ''));

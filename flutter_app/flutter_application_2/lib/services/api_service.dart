@@ -145,16 +145,28 @@ class ApiService {
     }
   }
 
-  /// 4. Submit Late Arrival Request
-  /// POST /api/submit-late-request
   static Future<LateRequestResponse> submitLateRequest({
     required String employeeId,
     required String time,
+    required File photo,
+    required double latitude,
+    required double longitude,
   }) async {
     try {
+      FormData formData = FormData.fromMap({
+        'employee_id': employeeId,
+        'time': time,
+        'latitude': latitude.toString(),
+        'longitude': longitude.toString(),
+        'photo': await MultipartFile.fromFile(
+          photo.path,
+          filename: 'late_request_${DateTime.now().millisecondsSinceEpoch}.jpg',
+        ),
+      });
+
       final response = await _dio.post(
         '/api/submit-late-request',
-        data: {'employee_id': employeeId, 'time': time},
+        data: formData,
       );
 
       if (response.statusCode == 201) {
