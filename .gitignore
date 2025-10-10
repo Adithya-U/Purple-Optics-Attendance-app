@@ -1,0 +1,4 @@
+flask_backend/uploads/*
+!flask_backend/uploads/.gitkeep
+flask_backend/.env
+flask_backend/__pycache__/
