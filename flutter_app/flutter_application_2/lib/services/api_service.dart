@@ -169,7 +169,7 @@ class ApiService {
         data: formData,
       );
 
-      if (response.statusCode == 201) {
+      if (response.statusCode! >= 200 && response.statusCode! < 300) {
         return LateRequestResponse.fromJson(response.data);
       } else {
         throw Exception(
