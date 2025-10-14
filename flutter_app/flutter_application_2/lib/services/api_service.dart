@@ -8,8 +8,8 @@ import '../models/late_request_response.dart';
 import '../models/upload_photo_response.dart';
 
 class ApiService {
-  static const String baseUrl =
-      'https://attendancebackend.duckdns.org/'; // Replace with your actual base URL
+  static const String baseUrl = 'http://192.168.29.47:5000';
+  // 'https://attendancebackend.duckdns.org/'; // Replace with your actual base URL
   static const int timeoutSeconds = 30;
 
   static final Dio _dio = Dio(

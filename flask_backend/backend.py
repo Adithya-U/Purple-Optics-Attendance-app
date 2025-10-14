@@ -862,7 +862,7 @@ def get_employee_status():
                 
                 # No attendance - check time and late requests
                 current_time_only = current_time.time()
-                cutoff_time = time(9, 0)
+                cutoff_time = time(9, 45)
                 
                 if current_time_only <= cutoff_time:
                     return jsonify({
@@ -915,7 +915,7 @@ def get_employee_status():
                             'employee_name': employee['name'],
                             'action': 'late_arrival_request',
                             'current_time': current_time.strftime('%H:%M'),
-                            'message': f"Hi {employee['name']}, it's past 9 AM. You need to submit a late arrival request."
+                            'message': f"Hi {employee['name']}, it's past 9:30 AM. You need to submit a late arrival request."
                         })
                         
     except Exception as e:
