@@ -150,7 +150,7 @@ def find_nearest_store(user_lat, user_lon):
                         float(store['latitude']), float(store['longitude'])
                     )
                     
-                    if distance <= 50:
+                    if distance <= 500:
                         return store['area_name']
                 
                 return None
@@ -468,7 +468,7 @@ def compare_photo():
                 
                 if not store_location:
                     response_data['location_check'] = 'too_far_from_store'
-                    response_data['message'] = 'You are not within 50m of any store location - attendance not recorded'
+                    response_data['message'] = 'You are not within 500m of any store location - attendance not recorded'
                     return jsonify(response_data)
                 
                 response_data['location_check'] = 'success'
